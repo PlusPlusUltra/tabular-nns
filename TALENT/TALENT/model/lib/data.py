@@ -18,19 +18,19 @@ from sklearn.svm import OneClassSVM
 import numpy as np
 import os
 
-def detect_and_log_outliers(split_name, data, dataset_name, method, log_dir="outlier_logs", contamination=0.05):
+def detect_and_log_outliers(split_name, data, dataset_name, method, log_dir="outlier_logs"):
     if method == "IsolationForest":
-        clf = IsolationForest(contamination=contamination, random_state=42)
+        clf = IsolationForest(random_state=42)
         y_pred = clf.fit_predict(data)
         mask = y_pred == 1
 
     elif method == "LocalOutlierFactor":
-        clf = LocalOutlierFactor(n_neighbors=20, contamination=contamination)
+        clf = LocalOutlierFactor(n_neighbors=20)
         y_pred = clf.fit_predict(data)
         mask = y_pred == 1
 
     elif method == "OneClassSVM":
-        clf = OneClassSVM(nu=contamination, kernel="rbf", gamma='scale')
+        clf = OneClassSVM(kernel="rbf", gamma='scale')
         y_pred = clf.fit_predict(data)
         mask = y_pred == 1
 

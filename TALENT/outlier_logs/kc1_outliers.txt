@@ -286,3 +286,291 @@ kc1 - test (IQR):
   Outliers detected: 143
   Total samples:     422
 
+kc1 - train (IsolationForest):
+  Outliers detected: 168
+  Total samples:     1349
+
+kc1 - val (IsolationForest):
+  Outliers detected: 46
+  Total samples:     338
+
+kc1 - test (IsolationForest):
+  Outliers detected: 55
+  Total samples:     422
+
+kc1 - train (LocalOutlierFactor):
+  Outliers detected: 152
+  Total samples:     1349
+
+kc1 - val (LocalOutlierFactor):
+  Outliers detected: 69
+  Total samples:     338
+
+kc1 - test (LocalOutlierFactor):
+  Outliers detected: 80
+  Total samples:     422
+
+kc1 - train (OneClassSVM):
+  Outliers detected: 675
+  Total samples:     1349
+
+kc1 - val (OneClassSVM):
+  Outliers detected: 171
+  Total samples:     338
+
+kc1 - test (OneClassSVM):
+  Outliers detected: 203
+  Total samples:     422
+
+kc1 - train (ZScore):
+  Outliers detected: 113
+  Total samples:     1349
+
+kc1 - val (ZScore):
+  Outliers detected: 25
+  Total samples:     338
+
+kc1 - test (ZScore):
+  Outliers detected: 44
+  Total samples:     422
+
+kc1 - train (ModifiedZScore):
+  Outliers detected: 790
+  Total samples:     1349
+
+kc1 - val (ModifiedZScore):
+  Outliers detected: 185
+  Total samples:     338
+
+kc1 - test (ModifiedZScore):
+  Outliers detected: 225
+  Total samples:     422
+
+kc1 - train (IQR):
+  Outliers detected: 451
+  Total samples:     1349
+
+kc1 - val (IQR):
+  Outliers detected: 102
+  Total samples:     338
+
+kc1 - test (IQR):
+  Outliers detected: 143
+  Total samples:     422
+
+kc1 - train (IsolationForest):
+  Outliers detected: 168
+  Total samples:     1349
+
+kc1 - val (IsolationForest):
+  Outliers detected: 46
+  Total samples:     338
+
+kc1 - test (IsolationForest):
+  Outliers detected: 55
+  Total samples:     422
+
+kc1 - train (LocalOutlierFactor):
+  Outliers detected: 152
+  Total samples:     1349
+
+kc1 - val (LocalOutlierFactor):
+  Outliers detected: 69
+  Total samples:     338
+
+kc1 - test (LocalOutlierFactor):
+  Outliers detected: 80
+  Total samples:     422
+
+kc1 - train (OneClassSVM):
+  Outliers detected: 675
+  Total samples:     1349
+
+kc1 - val (OneClassSVM):
+  Outliers detected: 171
+  Total samples:     338
+
+kc1 - test (OneClassSVM):
+  Outliers detected: 203
+  Total samples:     422
+
+kc1 - train (ZScore):
+  Outliers detected: 113
+  Total samples:     1349
+
+kc1 - val (ZScore):
+  Outliers detected: 25
+  Total samples:     338
+
+kc1 - test (ZScore):
+  Outliers detected: 44
+  Total samples:     422
+
+kc1 - train (ModifiedZScore):
+  Outliers detected: 790
+  Total samples:     1349
+
+kc1 - val (ModifiedZScore):
+  Outliers detected: 185
+  Total samples:     338
+
+kc1 - test (ModifiedZScore):
+  Outliers detected: 225
+  Total samples:     422
+
+kc1 - train (IQR):
+  Outliers detected: 451
+  Total samples:     1349
+
+kc1 - val (IQR):
+  Outliers detected: 102
+  Total samples:     338
+
+kc1 - test (IQR):
+  Outliers detected: 143
+  Total samples:     422
+
+kc1 - train (IsolationForest):
+  Outliers detected: 168
+  Total samples:     1349
+
+kc1 - val (IsolationForest):
+  Outliers detected: 46
+  Total samples:     338
+
+kc1 - test (IsolationForest):
+  Outliers detected: 55
+  Total samples:     422
+
+kc1 - train (LocalOutlierFactor):
+  Outliers detected: 152
+  Total samples:     1349
+
+kc1 - val (LocalOutlierFactor):
+  Outliers detected: 69
+  Total samples:     338
+
+kc1 - test (LocalOutlierFactor):
+  Outliers detected: 80
+  Total samples:     422
+
+kc1 - train (OneClassSVM):
+  Outliers detected: 675
+  Total samples:     1349
+
+kc1 - val (OneClassSVM):
+  Outliers detected: 171
+  Total samples:     338
+
+kc1 - test (OneClassSVM):
+  Outliers detected: 203
+  Total samples:     422
+
+kc1 - train (ZScore):
+  Outliers detected: 113
+  Total samples:     1349
+
+kc1 - val (ZScore):
+  Outliers detected: 25
+  Total samples:     338
+
+kc1 - test (ZScore):
+  Outliers detected: 44
+  Total samples:     422
+
+kc1 - train (ModifiedZScore):
+  Outliers detected: 790
+  Total samples:     1349
+
+kc1 - val (ModifiedZScore):
+  Outliers detected: 185
+  Total samples:     338
+
+kc1 - test (ModifiedZScore):
+  Outliers detected: 225
+  Total samples:     422
+
+kc1 - train (IQR):
+  Outliers detected: 451
+  Total samples:     1349
+
+kc1 - val (IQR):
+  Outliers detected: 102
+  Total samples:     338
+
+kc1 - test (IQR):
+  Outliers detected: 143
+  Total samples:     422
+
+kc1 - train (IsolationForest):
+  Outliers detected: 168
+  Total samples:     1349
+
+kc1 - val (IsolationForest):
+  Outliers detected: 46
+  Total samples:     338
+
+kc1 - test (IsolationForest):
+  Outliers detected: 55
+  Total samples:     422
+
+kc1 - train (LocalOutlierFactor):
+  Outliers detected: 152
+  Total samples:     1349
+
+kc1 - val (LocalOutlierFactor):
+  Outliers detected: 69
+  Total samples:     338
+
+kc1 - test (LocalOutlierFactor):
+  Outliers detected: 80
+  Total samples:     422
+
+kc1 - train (OneClassSVM):
+  Outliers detected: 675
+  Total samples:     1349
+
+kc1 - val (OneClassSVM):
+  Outliers detected: 171
+  Total samples:     338
+
+kc1 - test (OneClassSVM):
+  Outliers detected: 203
+  Total samples:     422
+
+kc1 - train (ZScore):
+  Outliers detected: 113
+  Total samples:     1349
+
+kc1 - val (ZScore):
+  Outliers detected: 25
+  Total samples:     338
+
+kc1 - test (ZScore):
+  Outliers detected: 44
+  Total samples:     422
+
+kc1 - train (ModifiedZScore):
+  Outliers detected: 790
+  Total samples:     1349
+
+kc1 - val (ModifiedZScore):
+  Outliers detected: 185
+  Total samples:     338
+
+kc1 - test (ModifiedZScore):
+  Outliers detected: 225
+  Total samples:     422
+
+kc1 - train (IQR):
+  Outliers detected: 451
+  Total samples:     1349
+
+kc1 - val (IQR):
+  Outliers detected: 102
+  Total samples:     338
+
+kc1 - test (IQR):
+  Outliers detected: 143
+  Total samples:     422
+

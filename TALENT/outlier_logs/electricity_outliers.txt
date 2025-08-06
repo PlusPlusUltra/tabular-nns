@@ -194,3 +194,303 @@ electricity - test (IsolationForest):
   Outliers detected: 454
   Total samples:     9063
 
+electricity - train (IsolationForest):
+  Outliers detected: 5596
+  Total samples:     28999
+
+electricity - val (IsolationForest):
+  Outliers detected: 1420
+  Total samples:     7250
+
+electricity - test (IsolationForest):
+  Outliers detected: 1710
+  Total samples:     9063
+
+electricity - train (IsolationForest):
+  Outliers detected: 5596
+  Total samples:     28999
+
+electricity - val (IsolationForest):
+  Outliers detected: 1420
+  Total samples:     7250
+
+electricity - test (IsolationForest):
+  Outliers detected: 1710
+  Total samples:     9063
+
+electricity - train (LocalOutlierFactor):
+  Outliers detected: 836
+  Total samples:     28999
+
+electricity - val (LocalOutlierFactor):
+  Outliers detected: 177
+  Total samples:     7250
+
+electricity - test (LocalOutlierFactor):
+  Outliers detected: 220
+  Total samples:     9063
+
+electricity - train (OneClassSVM):
+  Outliers detected: 14500
+  Total samples:     28999
+
+electricity - val (OneClassSVM):
+  Outliers detected: 3625
+  Total samples:     7250
+
+electricity - test (OneClassSVM):
+  Outliers detected: 4532
+  Total samples:     9063
+
+electricity - train (ZScore):
+  Outliers detected: 349
+  Total samples:     28999
+
+electricity - val (ZScore):
+  Outliers detected: 115
+  Total samples:     7250
+
+electricity - test (ZScore):
+  Outliers detected: 116
+  Total samples:     9063
+
+electricity - train (ModifiedZScore):
+  Outliers detected: 5522
+  Total samples:     28999
+
+electricity - val (ModifiedZScore):
+  Outliers detected: 1459
+  Total samples:     7250
+
+electricity - test (ModifiedZScore):
+  Outliers detected: 1571
+  Total samples:     9063
+
+electricity - train (IQR):
+  Outliers detected: 5864
+  Total samples:     28999
+
+electricity - val (IQR):
+  Outliers detected: 1484
+  Total samples:     7250
+
+electricity - test (IQR):
+  Outliers detected: 1606
+  Total samples:     9063
+
+electricity - train (IsolationForest):
+  Outliers detected: 5596
+  Total samples:     28999
+
+electricity - val (IsolationForest):
+  Outliers detected: 1420
+  Total samples:     7250
+
+electricity - test (IsolationForest):
+  Outliers detected: 1710
+  Total samples:     9063
+
+electricity - train (LocalOutlierFactor):
+  Outliers detected: 836
+  Total samples:     28999
+
+electricity - val (LocalOutlierFactor):
+  Outliers detected: 177
+  Total samples:     7250
+
+electricity - test (LocalOutlierFactor):
+  Outliers detected: 220
+  Total samples:     9063
+
+electricity - train (OneClassSVM):
+  Outliers detected: 14500
+  Total samples:     28999
+
+electricity - val (OneClassSVM):
+  Outliers detected: 3625
+  Total samples:     7250
+
+electricity - test (OneClassSVM):
+  Outliers detected: 4532
+  Total samples:     9063
+
+electricity - train (ZScore):
+  Outliers detected: 349
+  Total samples:     28999
+
+electricity - val (ZScore):
+  Outliers detected: 115
+  Total samples:     7250
+
+electricity - test (ZScore):
+  Outliers detected: 116
+  Total samples:     9063
+
+electricity - train (ModifiedZScore):
+  Outliers detected: 5522
+  Total samples:     28999
+
+electricity - val (ModifiedZScore):
+  Outliers detected: 1459
+  Total samples:     7250
+
+electricity - test (ModifiedZScore):
+  Outliers detected: 1571
+  Total samples:     9063
+
+electricity - train (IQR):
+  Outliers detected: 5864
+  Total samples:     28999
+
+electricity - val (IQR):
+  Outliers detected: 1484
+  Total samples:     7250
+
+electricity - test (IQR):
+  Outliers detected: 1606
+  Total samples:     9063
+
+electricity - train (IsolationForest):
+  Outliers detected: 5596
+  Total samples:     28999
+
+electricity - val (IsolationForest):
+  Outliers detected: 1420
+  Total samples:     7250
+
+electricity - test (IsolationForest):
+  Outliers detected: 1710
+  Total samples:     9063
+
+electricity - train (LocalOutlierFactor):
+  Outliers detected: 836
+  Total samples:     28999
+
+electricity - val (LocalOutlierFactor):
+  Outliers detected: 177
+  Total samples:     7250
+
+electricity - test (LocalOutlierFactor):
+  Outliers detected: 220
+  Total samples:     9063
+
+electricity - train (OneClassSVM):
+  Outliers detected: 14500
+  Total samples:     28999
+
+electricity - val (OneClassSVM):
+  Outliers detected: 3625
+  Total samples:     7250
+
+electricity - test (OneClassSVM):
+  Outliers detected: 4532
+  Total samples:     9063
+
+electricity - train (ZScore):
+  Outliers detected: 349
+  Total samples:     28999
+
+electricity - val (ZScore):
+  Outliers detected: 115
+  Total samples:     7250
+
+electricity - test (ZScore):
+  Outliers detected: 116
+  Total samples:     9063
+
+electricity - train (ModifiedZScore):
+  Outliers detected: 5522
+  Total samples:     28999
+
+electricity - val (ModifiedZScore):
+  Outliers detected: 1459
+  Total samples:     7250
+
+electricity - test (ModifiedZScore):
+  Outliers detected: 1571
+  Total samples:     9063
+
+electricity - train (IQR):
+  Outliers detected: 5864
+  Total samples:     28999
+
+electricity - val (IQR):
+  Outliers detected: 1484
+  Total samples:     7250
+
+electricity - test (IQR):
+  Outliers detected: 1606
+  Total samples:     9063
+
+electricity - train (IsolationForest):
+  Outliers detected: 5596
+  Total samples:     28999
+
+electricity - val (IsolationForest):
+  Outliers detected: 1420
+  Total samples:     7250
+
+electricity - test (IsolationForest):
+  Outliers detected: 1710
+  Total samples:     9063
+
+electricity - train (LocalOutlierFactor):
+  Outliers detected: 836
+  Total samples:     28999
+
+electricity - val (LocalOutlierFactor):
+  Outliers detected: 177
+  Total samples:     7250
+
+electricity - test (LocalOutlierFactor):
+  Outliers detected: 220
+  Total samples:     9063
+
+electricity - train (OneClassSVM):
+  Outliers detected: 14500
+  Total samples:     28999
+
+electricity - val (OneClassSVM):
+  Outliers detected: 3625
+  Total samples:     7250
+
+electricity - test (OneClassSVM):
+  Outliers detected: 4532
+  Total samples:     9063
+
+electricity - train (ZScore):
+  Outliers detected: 349
+  Total samples:     28999
+
+electricity - val (ZScore):
+  Outliers detected: 115
+  Total samples:     7250
+
+electricity - test (ZScore):
+  Outliers detected: 116
+  Total samples:     9063
+
+electricity - train (ModifiedZScore):
+  Outliers detected: 5522
+  Total samples:     28999
+
+electricity - val (ModifiedZScore):
+  Outliers detected: 1459
+  Total samples:     7250
+
+electricity - test (ModifiedZScore):
+  Outliers detected: 1571
+  Total samples:     9063
+
+electricity - train (IQR):
+  Outliers detected: 5864
+  Total samples:     28999
+
+electricity - val (IQR):
+  Outliers detected: 1484
+  Total samples:     7250
+
+electricity - test (IQR):
+  Outliers detected: 1606
+  Total samples:     9063
+

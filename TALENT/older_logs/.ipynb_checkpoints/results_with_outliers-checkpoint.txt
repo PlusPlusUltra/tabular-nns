@@ -1,0 +1,6 @@
+credit-g,mlp,IsolationForest,ERROR
+credit-g,mlp,LocalOutlierFactor,ERROR
+credit-g,mlp,OneClassSVM,ERROR
+credit-g,mlp,ZScore,ERROR
+credit-g,mlp,ModifiedZScore,ERROR
+credit-g,mlp,IQR,ERROR

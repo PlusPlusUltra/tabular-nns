@@ -298,3 +298,291 @@ eye_movements - test (IsolationForest):
   Outliers detected: 110
   Total samples:     2188
 
+eye_movements - train (IsolationForest):
+  Outliers detected: 589
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 160
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 193
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 287
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 128
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 159
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 3499
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 876
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 1093
+  Total samples:     2188
+
+eye_movements - train (ZScore):
+  Outliers detected: 1334
+  Total samples:     6998
+
+eye_movements - val (ZScore):
+  Outliers detected: 325
+  Total samples:     1750
+
+eye_movements - test (ZScore):
+  Outliers detected: 431
+  Total samples:     2188
+
+eye_movements - train (ModifiedZScore):
+  Outliers detected: 5117
+  Total samples:     6998
+
+eye_movements - val (ModifiedZScore):
+  Outliers detected: 1299
+  Total samples:     1750
+
+eye_movements - test (ModifiedZScore):
+  Outliers detected: 1614
+  Total samples:     2188
+
+eye_movements - train (IQR):
+  Outliers detected: 3988
+  Total samples:     6998
+
+eye_movements - val (IQR):
+  Outliers detected: 1037
+  Total samples:     1750
+
+eye_movements - test (IQR):
+  Outliers detected: 1266
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 589
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 160
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 193
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 287
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 128
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 159
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 3499
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 876
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 1093
+  Total samples:     2188
+
+eye_movements - train (ZScore):
+  Outliers detected: 1334
+  Total samples:     6998
+
+eye_movements - val (ZScore):
+  Outliers detected: 325
+  Total samples:     1750
+
+eye_movements - test (ZScore):
+  Outliers detected: 431
+  Total samples:     2188
+
+eye_movements - train (ModifiedZScore):
+  Outliers detected: 5117
+  Total samples:     6998
+
+eye_movements - val (ModifiedZScore):
+  Outliers detected: 1299
+  Total samples:     1750
+
+eye_movements - test (ModifiedZScore):
+  Outliers detected: 1614
+  Total samples:     2188
+
+eye_movements - train (IQR):
+  Outliers detected: 3988
+  Total samples:     6998
+
+eye_movements - val (IQR):
+  Outliers detected: 1037
+  Total samples:     1750
+
+eye_movements - test (IQR):
+  Outliers detected: 1266
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 589
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 160
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 193
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 287
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 128
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 159
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 3499
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 876
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 1093
+  Total samples:     2188
+
+eye_movements - train (ZScore):
+  Outliers detected: 1334
+  Total samples:     6998
+
+eye_movements - val (ZScore):
+  Outliers detected: 325
+  Total samples:     1750
+
+eye_movements - test (ZScore):
+  Outliers detected: 431
+  Total samples:     2188
+
+eye_movements - train (ModifiedZScore):
+  Outliers detected: 5117
+  Total samples:     6998
+
+eye_movements - val (ModifiedZScore):
+  Outliers detected: 1299
+  Total samples:     1750
+
+eye_movements - test (ModifiedZScore):
+  Outliers detected: 1614
+  Total samples:     2188
+
+eye_movements - train (IQR):
+  Outliers detected: 3988
+  Total samples:     6998
+
+eye_movements - val (IQR):
+  Outliers detected: 1037
+  Total samples:     1750
+
+eye_movements - test (IQR):
+  Outliers detected: 1266
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 589
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 160
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 193
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 287
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 128
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 159
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 3499
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 876
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 1093
+  Total samples:     2188
+
+eye_movements - train (ZScore):
+  Outliers detected: 1334
+  Total samples:     6998
+
+eye_movements - val (ZScore):
+  Outliers detected: 325
+  Total samples:     1750
+
+eye_movements - test (ZScore):
+  Outliers detected: 431
+  Total samples:     2188
+
+eye_movements - train (ModifiedZScore):
+  Outliers detected: 5117
+  Total samples:     6998
+
+eye_movements - val (ModifiedZScore):
+  Outliers detected: 1299
+  Total samples:     1750
+
+eye_movements - test (ModifiedZScore):
+  Outliers detected: 1614
+  Total samples:     2188
+
+eye_movements - train (IQR):
+  Outliers detected: 3988
+  Total samples:     6998
+
+eye_movements - val (IQR):
+  Outliers detected: 1037
+  Total samples:     1750
+
+eye_movements - test (IQR):
+  Outliers detected: 1266
+  Total samples:     2188
+
