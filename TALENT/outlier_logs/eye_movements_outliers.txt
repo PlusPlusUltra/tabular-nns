@@ -1,0 +1,300 @@
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 349
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 109
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 349
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 109
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 349
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 109
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (LocalOutlierFactor):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (LocalOutlierFactor):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (LocalOutlierFactor):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (OneClassSVM):
+  Outliers detected: 349
+  Total samples:     6998
+
+eye_movements - val (OneClassSVM):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (OneClassSVM):
+  Outliers detected: 109
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+

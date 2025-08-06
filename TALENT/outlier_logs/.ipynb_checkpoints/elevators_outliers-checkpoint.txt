@@ -1,0 +1,12 @@
+elevators - train (ModifiedZScore):
+  Outliers detected: 4143
+  Total samples:     10623
+
+elevators - val (ModifiedZScore):
+  Outliers detected: 1055
+  Total samples:     2656
+
+elevators - test (ModifiedZScore):
+  Outliers detected: 1324
+  Total samples:     3320
+

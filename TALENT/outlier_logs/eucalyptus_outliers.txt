@@ -1,0 +1,96 @@
+eucalyptus - train (ModifiedZScore):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (ModifiedZScore):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (ModifiedZScore):
+  Outliers detected: 59
+  Total samples:     148
+
+eucalyptus - train (IQR):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (IQR):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (IQR):
+  Outliers detected: 148
+  Total samples:     148
+
+eucalyptus - train (ModifiedZScore):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (ModifiedZScore):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (ModifiedZScore):
+  Outliers detected: 59
+  Total samples:     148
+
+eucalyptus - train (IQR):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (IQR):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (IQR):
+  Outliers detected: 148
+  Total samples:     148
+
+eucalyptus - train (ModifiedZScore):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (ModifiedZScore):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (ModifiedZScore):
+  Outliers detected: 59
+  Total samples:     148
+
+eucalyptus - train (IQR):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (IQR):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (IQR):
+  Outliers detected: 148
+  Total samples:     148
+
+eucalyptus - train (ModifiedZScore):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (ModifiedZScore):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (ModifiedZScore):
+  Outliers detected: 59
+  Total samples:     148
+
+eucalyptus - train (IQR):
+  Outliers detected: 470
+  Total samples:     470
+
+eucalyptus - val (IQR):
+  Outliers detected: 118
+  Total samples:     118
+
+eucalyptus - test (IQR):
+  Outliers detected: 148
+  Total samples:     148
+

@@ -42,7 +42,6 @@ What's New
 ==========================
 
 Here are the recent updates to **TALENT**:
-
 - [2025-06]🌟 Add `TabAutoPNPNet <https://www.mdpi.com/2079-9292/14/6/1165>`_ (Electronics 2025)
 
 - [2025-06]🌟 Add `TabICL <https://arxiv.org/abs/2502.05564>`_ (ICML 2025). The current code is based on TabICL v0.1.2.

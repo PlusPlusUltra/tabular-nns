@@ -1,0 +1,288 @@
+phoneme - train (IsolationForest):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (IsolationForest):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (IsolationForest):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (LocalOutlierFactor):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (LocalOutlierFactor):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (LocalOutlierFactor):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (OneClassSVM):
+  Outliers detected: 170
+  Total samples:     3458
+
+phoneme - val (OneClassSVM):
+  Outliers detected: 45
+  Total samples:     865
+
+phoneme - test (OneClassSVM):
+  Outliers detected: 60
+  Total samples:     1081
+
+phoneme - train (ZScore):
+  Outliers detected: 87
+  Total samples:     3458
+
+phoneme - val (ZScore):
+  Outliers detected: 24
+  Total samples:     865
+
+phoneme - test (ZScore):
+  Outliers detected: 35
+  Total samples:     1081
+
+phoneme - train (ModifiedZScore):
+  Outliers detected: 730
+  Total samples:     3458
+
+phoneme - val (ModifiedZScore):
+  Outliers detected: 168
+  Total samples:     865
+
+phoneme - test (ModifiedZScore):
+  Outliers detected: 227
+  Total samples:     1081
+
+phoneme - train (IQR):
+  Outliers detected: 784
+  Total samples:     3458
+
+phoneme - val (IQR):
+  Outliers detected: 193
+  Total samples:     865
+
+phoneme - test (IQR):
+  Outliers detected: 249
+  Total samples:     1081
+
+phoneme - train (IsolationForest):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (IsolationForest):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (IsolationForest):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (LocalOutlierFactor):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (LocalOutlierFactor):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (LocalOutlierFactor):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (OneClassSVM):
+  Outliers detected: 170
+  Total samples:     3458
+
+phoneme - val (OneClassSVM):
+  Outliers detected: 45
+  Total samples:     865
+
+phoneme - test (OneClassSVM):
+  Outliers detected: 60
+  Total samples:     1081
+
+phoneme - train (ZScore):
+  Outliers detected: 87
+  Total samples:     3458
+
+phoneme - val (ZScore):
+  Outliers detected: 24
+  Total samples:     865
+
+phoneme - test (ZScore):
+  Outliers detected: 35
+  Total samples:     1081
+
+phoneme - train (ModifiedZScore):
+  Outliers detected: 730
+  Total samples:     3458
+
+phoneme - val (ModifiedZScore):
+  Outliers detected: 168
+  Total samples:     865
+
+phoneme - test (ModifiedZScore):
+  Outliers detected: 227
+  Total samples:     1081
+
+phoneme - train (IQR):
+  Outliers detected: 784
+  Total samples:     3458
+
+phoneme - val (IQR):
+  Outliers detected: 193
+  Total samples:     865
+
+phoneme - test (IQR):
+  Outliers detected: 249
+  Total samples:     1081
+
+phoneme - train (IsolationForest):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (IsolationForest):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (IsolationForest):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (LocalOutlierFactor):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (LocalOutlierFactor):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (LocalOutlierFactor):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (OneClassSVM):
+  Outliers detected: 170
+  Total samples:     3458
+
+phoneme - val (OneClassSVM):
+  Outliers detected: 45
+  Total samples:     865
+
+phoneme - test (OneClassSVM):
+  Outliers detected: 60
+  Total samples:     1081
+
+phoneme - train (ZScore):
+  Outliers detected: 87
+  Total samples:     3458
+
+phoneme - val (ZScore):
+  Outliers detected: 24
+  Total samples:     865
+
+phoneme - test (ZScore):
+  Outliers detected: 35
+  Total samples:     1081
+
+phoneme - train (ModifiedZScore):
+  Outliers detected: 730
+  Total samples:     3458
+
+phoneme - val (ModifiedZScore):
+  Outliers detected: 168
+  Total samples:     865
+
+phoneme - test (ModifiedZScore):
+  Outliers detected: 227
+  Total samples:     1081
+
+phoneme - train (IQR):
+  Outliers detected: 784
+  Total samples:     3458
+
+phoneme - val (IQR):
+  Outliers detected: 193
+  Total samples:     865
+
+phoneme - test (IQR):
+  Outliers detected: 249
+  Total samples:     1081
+
+phoneme - train (IsolationForest):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (IsolationForest):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (IsolationForest):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (LocalOutlierFactor):
+  Outliers detected: 173
+  Total samples:     3458
+
+phoneme - val (LocalOutlierFactor):
+  Outliers detected: 44
+  Total samples:     865
+
+phoneme - test (LocalOutlierFactor):
+  Outliers detected: 54
+  Total samples:     1081
+
+phoneme - train (OneClassSVM):
+  Outliers detected: 170
+  Total samples:     3458
+
+phoneme - val (OneClassSVM):
+  Outliers detected: 45
+  Total samples:     865
+
+phoneme - test (OneClassSVM):
+  Outliers detected: 60
+  Total samples:     1081
+
+phoneme - train (ZScore):
+  Outliers detected: 87
+  Total samples:     3458
+
+phoneme - val (ZScore):
+  Outliers detected: 24
+  Total samples:     865
+
+phoneme - test (ZScore):
+  Outliers detected: 35
+  Total samples:     1081
+
+phoneme - train (ModifiedZScore):
+  Outliers detected: 730
+  Total samples:     3458
+
+phoneme - val (ModifiedZScore):
+  Outliers detected: 168
+  Total samples:     865
+
+phoneme - test (ModifiedZScore):
+  Outliers detected: 227
+  Total samples:     1081
+
+phoneme - train (IQR):
+  Outliers detected: 784
+  Total samples:     3458
+
+phoneme - val (IQR):
+  Outliers detected: 193
+  Total samples:     865
+
+phoneme - test (IQR):
+  Outliers detected: 249
+  Total samples:     1081
+

@@ -1,0 +1,60 @@
+credit-g - train (IsolationForest):
+  Outliers detected: 32
+  Total samples:     640
+
+credit-g - val (IsolationForest):
+  Outliers detected: 8
+  Total samples:     160
+
+credit-g - test (IsolationForest):
+  Outliers detected: 10
+  Total samples:     200
+
+credit-g - train (LocalOutlierFactor):
+  Outliers detected: 32
+  Total samples:     640
+
+credit-g - val (LocalOutlierFactor):
+  Outliers detected: 8
+  Total samples:     160
+
+credit-g - test (LocalOutlierFactor):
+  Outliers detected: 10
+  Total samples:     200
+
+credit-g - train (OneClassSVM):
+  Outliers detected: 34
+  Total samples:     640
+
+credit-g - val (OneClassSVM):
+  Outliers detected: 5
+  Total samples:     160
+
+credit-g - test (OneClassSVM):
+  Outliers detected: 12
+  Total samples:     200
+
+credit-g - train (ModifiedZScore):
+  Outliers detected: 621
+  Total samples:     640
+
+credit-g - val (ModifiedZScore):
+  Outliers detected: 155
+  Total samples:     160
+
+credit-g - test (ModifiedZScore):
+  Outliers detected: 197
+  Total samples:     200
+
+credit-g - train (IQR):
+  Outliers detected: 553
+  Total samples:     640
+
+credit-g - val (IQR):
+  Outliers detected: 131
+  Total samples:     160
+
+credit-g - test (IQR):
+  Outliers detected: 167
+  Total samples:     200
+

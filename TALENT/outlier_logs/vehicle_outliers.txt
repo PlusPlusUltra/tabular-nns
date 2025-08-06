@@ -1,0 +1,288 @@
+vehicle - train (IsolationForest):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (IsolationForest):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (IsolationForest):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (LocalOutlierFactor):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (LocalOutlierFactor):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (LocalOutlierFactor):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (OneClassSVM):
+  Outliers detected: 26
+  Total samples:     540
+
+vehicle - val (OneClassSVM):
+  Outliers detected: 6
+  Total samples:     136
+
+vehicle - test (OneClassSVM):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (ZScore):
+  Outliers detected: 18
+  Total samples:     540
+
+vehicle - val (ZScore):
+  Outliers detected: 2
+  Total samples:     136
+
+vehicle - test (ZScore):
+  Outliers detected: 2
+  Total samples:     170
+
+vehicle - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     540
+
+vehicle - val (ModifiedZScore):
+  Outliers detected: 15
+  Total samples:     136
+
+vehicle - test (ModifiedZScore):
+  Outliers detected: 6
+  Total samples:     170
+
+vehicle - train (IQR):
+  Outliers detected: 28
+  Total samples:     540
+
+vehicle - val (IQR):
+  Outliers detected: 4
+  Total samples:     136
+
+vehicle - test (IQR):
+  Outliers detected: 4
+  Total samples:     170
+
+vehicle - train (IsolationForest):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (IsolationForest):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (IsolationForest):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (LocalOutlierFactor):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (LocalOutlierFactor):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (LocalOutlierFactor):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (OneClassSVM):
+  Outliers detected: 26
+  Total samples:     540
+
+vehicle - val (OneClassSVM):
+  Outliers detected: 6
+  Total samples:     136
+
+vehicle - test (OneClassSVM):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (ZScore):
+  Outliers detected: 18
+  Total samples:     540
+
+vehicle - val (ZScore):
+  Outliers detected: 2
+  Total samples:     136
+
+vehicle - test (ZScore):
+  Outliers detected: 2
+  Total samples:     170
+
+vehicle - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     540
+
+vehicle - val (ModifiedZScore):
+  Outliers detected: 15
+  Total samples:     136
+
+vehicle - test (ModifiedZScore):
+  Outliers detected: 6
+  Total samples:     170
+
+vehicle - train (IQR):
+  Outliers detected: 28
+  Total samples:     540
+
+vehicle - val (IQR):
+  Outliers detected: 4
+  Total samples:     136
+
+vehicle - test (IQR):
+  Outliers detected: 4
+  Total samples:     170
+
+vehicle - train (IsolationForest):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (IsolationForest):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (IsolationForest):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (LocalOutlierFactor):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (LocalOutlierFactor):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (LocalOutlierFactor):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (OneClassSVM):
+  Outliers detected: 26
+  Total samples:     540
+
+vehicle - val (OneClassSVM):
+  Outliers detected: 6
+  Total samples:     136
+
+vehicle - test (OneClassSVM):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (ZScore):
+  Outliers detected: 18
+  Total samples:     540
+
+vehicle - val (ZScore):
+  Outliers detected: 2
+  Total samples:     136
+
+vehicle - test (ZScore):
+  Outliers detected: 2
+  Total samples:     170
+
+vehicle - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     540
+
+vehicle - val (ModifiedZScore):
+  Outliers detected: 15
+  Total samples:     136
+
+vehicle - test (ModifiedZScore):
+  Outliers detected: 6
+  Total samples:     170
+
+vehicle - train (IQR):
+  Outliers detected: 28
+  Total samples:     540
+
+vehicle - val (IQR):
+  Outliers detected: 4
+  Total samples:     136
+
+vehicle - test (IQR):
+  Outliers detected: 4
+  Total samples:     170
+
+vehicle - train (IsolationForest):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (IsolationForest):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (IsolationForest):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (LocalOutlierFactor):
+  Outliers detected: 27
+  Total samples:     540
+
+vehicle - val (LocalOutlierFactor):
+  Outliers detected: 7
+  Total samples:     136
+
+vehicle - test (LocalOutlierFactor):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (OneClassSVM):
+  Outliers detected: 26
+  Total samples:     540
+
+vehicle - val (OneClassSVM):
+  Outliers detected: 6
+  Total samples:     136
+
+vehicle - test (OneClassSVM):
+  Outliers detected: 9
+  Total samples:     170
+
+vehicle - train (ZScore):
+  Outliers detected: 18
+  Total samples:     540
+
+vehicle - val (ZScore):
+  Outliers detected: 2
+  Total samples:     136
+
+vehicle - test (ZScore):
+  Outliers detected: 2
+  Total samples:     170
+
+vehicle - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     540
+
+vehicle - val (ModifiedZScore):
+  Outliers detected: 15
+  Total samples:     136
+
+vehicle - test (ModifiedZScore):
+  Outliers detected: 6
+  Total samples:     170
+
+vehicle - train (IQR):
+  Outliers detected: 28
+  Total samples:     540
+
+vehicle - val (IQR):
+  Outliers detected: 4
+  Total samples:     136
+
+vehicle - test (IQR):
+  Outliers detected: 4
+  Total samples:     170
+

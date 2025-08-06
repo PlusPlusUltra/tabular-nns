@@ -222,8 +222,6 @@ For methods like the MLP class that only need to design the model, you only need
 
 For other methods that require changing the training process, partially override functions based on `model/methods/base.py`. For details, refer to the implementation of other methods in `model/methods/`.
 
-See our [Contribution Guide](CONTRIBUTING.md) for more details.
-
 ### 📦 Dependencies
 
 ```bash

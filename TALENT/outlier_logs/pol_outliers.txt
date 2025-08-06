@@ -1,0 +1,288 @@
+pol - train (IsolationForest):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (IsolationForest):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (IsolationForest):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (LocalOutlierFactor):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (LocalOutlierFactor):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (LocalOutlierFactor):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (OneClassSVM):
+  Outliers detected: 319
+  Total samples:     6452
+
+pol - val (OneClassSVM):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (OneClassSVM):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (ZScore):
+  Outliers detected: 2310
+  Total samples:     6452
+
+pol - val (ZScore):
+  Outliers detected: 564
+  Total samples:     1613
+
+pol - test (ZScore):
+  Outliers detected: 714
+  Total samples:     2017
+
+pol - train (ModifiedZScore):
+  Outliers detected: 6452
+  Total samples:     6452
+
+pol - val (ModifiedZScore):
+  Outliers detected: 1613
+  Total samples:     1613
+
+pol - test (ModifiedZScore):
+  Outliers detected: 2017
+  Total samples:     2017
+
+pol - train (IQR):
+  Outliers detected: 5671
+  Total samples:     6452
+
+pol - val (IQR):
+  Outliers detected: 1403
+  Total samples:     1613
+
+pol - test (IQR):
+  Outliers detected: 1808
+  Total samples:     2017
+
+pol - train (IsolationForest):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (IsolationForest):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (IsolationForest):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (LocalOutlierFactor):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (LocalOutlierFactor):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (LocalOutlierFactor):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (OneClassSVM):
+  Outliers detected: 319
+  Total samples:     6452
+
+pol - val (OneClassSVM):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (OneClassSVM):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (ZScore):
+  Outliers detected: 2310
+  Total samples:     6452
+
+pol - val (ZScore):
+  Outliers detected: 564
+  Total samples:     1613
+
+pol - test (ZScore):
+  Outliers detected: 714
+  Total samples:     2017
+
+pol - train (ModifiedZScore):
+  Outliers detected: 6452
+  Total samples:     6452
+
+pol - val (ModifiedZScore):
+  Outliers detected: 1613
+  Total samples:     1613
+
+pol - test (ModifiedZScore):
+  Outliers detected: 2017
+  Total samples:     2017
+
+pol - train (IQR):
+  Outliers detected: 5671
+  Total samples:     6452
+
+pol - val (IQR):
+  Outliers detected: 1403
+  Total samples:     1613
+
+pol - test (IQR):
+  Outliers detected: 1808
+  Total samples:     2017
+
+pol - train (IsolationForest):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (IsolationForest):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (IsolationForest):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (LocalOutlierFactor):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (LocalOutlierFactor):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (LocalOutlierFactor):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (OneClassSVM):
+  Outliers detected: 319
+  Total samples:     6452
+
+pol - val (OneClassSVM):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (OneClassSVM):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (ZScore):
+  Outliers detected: 2310
+  Total samples:     6452
+
+pol - val (ZScore):
+  Outliers detected: 564
+  Total samples:     1613
+
+pol - test (ZScore):
+  Outliers detected: 714
+  Total samples:     2017
+
+pol - train (ModifiedZScore):
+  Outliers detected: 6452
+  Total samples:     6452
+
+pol - val (ModifiedZScore):
+  Outliers detected: 1613
+  Total samples:     1613
+
+pol - test (ModifiedZScore):
+  Outliers detected: 2017
+  Total samples:     2017
+
+pol - train (IQR):
+  Outliers detected: 5671
+  Total samples:     6452
+
+pol - val (IQR):
+  Outliers detected: 1403
+  Total samples:     1613
+
+pol - test (IQR):
+  Outliers detected: 1808
+  Total samples:     2017
+
+pol - train (IsolationForest):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (IsolationForest):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (IsolationForest):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (LocalOutlierFactor):
+  Outliers detected: 323
+  Total samples:     6452
+
+pol - val (LocalOutlierFactor):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (LocalOutlierFactor):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (OneClassSVM):
+  Outliers detected: 319
+  Total samples:     6452
+
+pol - val (OneClassSVM):
+  Outliers detected: 81
+  Total samples:     1613
+
+pol - test (OneClassSVM):
+  Outliers detected: 101
+  Total samples:     2017
+
+pol - train (ZScore):
+  Outliers detected: 2310
+  Total samples:     6452
+
+pol - val (ZScore):
+  Outliers detected: 564
+  Total samples:     1613
+
+pol - test (ZScore):
+  Outliers detected: 714
+  Total samples:     2017
+
+pol - train (ModifiedZScore):
+  Outliers detected: 6452
+  Total samples:     6452
+
+pol - val (ModifiedZScore):
+  Outliers detected: 1613
+  Total samples:     1613
+
+pol - test (ModifiedZScore):
+  Outliers detected: 2017
+  Total samples:     2017
+
+pol - train (IQR):
+  Outliers detected: 5671
+  Total samples:     6452
+
+pol - val (IQR):
+  Outliers detected: 1403
+  Total samples:     1613
+
+pol - test (IQR):
+  Outliers detected: 1808
+  Total samples:     2017
+

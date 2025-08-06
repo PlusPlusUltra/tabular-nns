@@ -1,0 +1,12 @@
+eye_movements - train (IsolationForest):
+  Outliers detected: 350
+  Total samples:     6998
+
+eye_movements - val (IsolationForest):
+  Outliers detected: 88
+  Total samples:     1750
+
+eye_movements - test (IsolationForest):
+  Outliers detected: 110
+  Total samples:     2188
+

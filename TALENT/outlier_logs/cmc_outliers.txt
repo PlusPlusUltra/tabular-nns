@@ -1,0 +1,156 @@
+cmc - train (IsolationForest):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (IsolationForest):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (IsolationForest):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (LocalOutlierFactor):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (LocalOutlierFactor):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (LocalOutlierFactor):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (OneClassSVM):
+  Outliers detected: 47
+  Total samples:     942
+
+cmc - val (OneClassSVM):
+  Outliers detected: 13
+  Total samples:     236
+
+cmc - test (OneClassSVM):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (IsolationForest):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (IsolationForest):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (IsolationForest):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (LocalOutlierFactor):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (LocalOutlierFactor):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (LocalOutlierFactor):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (OneClassSVM):
+  Outliers detected: 47
+  Total samples:     942
+
+cmc - val (OneClassSVM):
+  Outliers detected: 13
+  Total samples:     236
+
+cmc - test (OneClassSVM):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (IsolationForest):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (IsolationForest):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (IsolationForest):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (LocalOutlierFactor):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (LocalOutlierFactor):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (LocalOutlierFactor):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (OneClassSVM):
+  Outliers detected: 47
+  Total samples:     942
+
+cmc - val (OneClassSVM):
+  Outliers detected: 13
+  Total samples:     236
+
+cmc - test (OneClassSVM):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (IsolationForest):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (IsolationForest):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (IsolationForest):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (LocalOutlierFactor):
+  Outliers detected: 48
+  Total samples:     942
+
+cmc - val (LocalOutlierFactor):
+  Outliers detected: 12
+  Total samples:     236
+
+cmc - test (LocalOutlierFactor):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (OneClassSVM):
+  Outliers detected: 47
+  Total samples:     942
+
+cmc - val (OneClassSVM):
+  Outliers detected: 13
+  Total samples:     236
+
+cmc - test (OneClassSVM):
+  Outliers detected: 15
+  Total samples:     295
+
+cmc - train (ZScore):
+  Outliers detected: 14
+  Total samples:     942
+
+cmc - val (ZScore):
+  Outliers detected: 3
+  Total samples:     236
+
+cmc - test (ZScore):
+  Outliers detected: 2
+  Total samples:     295
+
