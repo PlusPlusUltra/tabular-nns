@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define models and datasets
-models=("mlp" "RandomForest" "xgboost" "LinearRegression")
-datasets=("credit-g" "electricity" "elevators" "socmob" "splice" "vehicle" "kc1" "phoneme" "pol" "house_16h" "eye_movements" "cmc" "connect-4" "eucalyptus")
+models=("mlp" "xgboost")
+datasets=("Diamonds" "2dplanes" "1000-Cameras-Dataset" "Abalone_reg" "Brazillian_houses_reproduced" "Data_Science_Salaries")
 
 # Output file
 output_file="results.txt"

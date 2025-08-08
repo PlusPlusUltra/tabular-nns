@@ -1,0 +1,216 @@
+2dplanes - train (IsolationForest):
+  Outliers detected: 26091
+  Total samples:     26091
+
+2dplanes - val (IsolationForest):
+  Outliers detected: 6523
+  Total samples:     6523
+
+2dplanes - test (IsolationForest):
+  Outliers detected: 8154
+  Total samples:     8154
+
+2dplanes - train (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (OneClassSVM):
+  Outliers detected: 13119
+  Total samples:     26091
+
+2dplanes - val (OneClassSVM):
+  Outliers detected: 3267
+  Total samples:     6523
+
+2dplanes - test (OneClassSVM):
+  Outliers detected: 4070
+  Total samples:     8154
+
+2dplanes - train (ZScore):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (ZScore):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (ZScore):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (ModifiedZScore):
+  Outliers detected: 12975
+  Total samples:     26091
+
+2dplanes - val (ModifiedZScore):
+  Outliers detected: 3207
+  Total samples:     6523
+
+2dplanes - test (ModifiedZScore):
+  Outliers detected: 4037
+  Total samples:     8154
+
+2dplanes - train (IQR):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (IQR):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (IQR):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (IsolationForest):
+  Outliers detected: 26091
+  Total samples:     26091
+
+2dplanes - val (IsolationForest):
+  Outliers detected: 6523
+  Total samples:     6523
+
+2dplanes - test (IsolationForest):
+  Outliers detected: 8154
+  Total samples:     8154
+
+2dplanes - train (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (OneClassSVM):
+  Outliers detected: 13119
+  Total samples:     26091
+
+2dplanes - val (OneClassSVM):
+  Outliers detected: 3267
+  Total samples:     6523
+
+2dplanes - test (OneClassSVM):
+  Outliers detected: 4070
+  Total samples:     8154
+
+2dplanes - train (ZScore):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (ZScore):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (ZScore):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (ModifiedZScore):
+  Outliers detected: 12975
+  Total samples:     26091
+
+2dplanes - val (ModifiedZScore):
+  Outliers detected: 3207
+  Total samples:     6523
+
+2dplanes - test (ModifiedZScore):
+  Outliers detected: 4037
+  Total samples:     8154
+
+2dplanes - train (IQR):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (IQR):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (IQR):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (IsolationForest):
+  Outliers detected: 26091
+  Total samples:     26091
+
+2dplanes - val (IsolationForest):
+  Outliers detected: 6523
+  Total samples:     6523
+
+2dplanes - test (IsolationForest):
+  Outliers detected: 8154
+  Total samples:     8154
+
+2dplanes - train (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (LocalOutlierFactor):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (OneClassSVM):
+  Outliers detected: 13119
+  Total samples:     26091
+
+2dplanes - val (OneClassSVM):
+  Outliers detected: 3267
+  Total samples:     6523
+
+2dplanes - test (OneClassSVM):
+  Outliers detected: 4070
+  Total samples:     8154
+
+2dplanes - train (ZScore):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (ZScore):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (ZScore):
+  Outliers detected: 0
+  Total samples:     8154
+
+2dplanes - train (ModifiedZScore):
+  Outliers detected: 12975
+  Total samples:     26091
+
+2dplanes - val (ModifiedZScore):
+  Outliers detected: 3207
+  Total samples:     6523
+
+2dplanes - test (ModifiedZScore):
+  Outliers detected: 4037
+  Total samples:     8154
+
+2dplanes - train (IQR):
+  Outliers detected: 0
+  Total samples:     26091
+
+2dplanes - val (IQR):
+  Outliers detected: 0
+  Total samples:     6523
+
+2dplanes - test (IQR):
+  Outliers detected: 0
+  Total samples:     8154
+

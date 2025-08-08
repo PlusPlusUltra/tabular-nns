@@ -1,0 +1,1 @@
+dataset,Baseline,IsolationForest,LocalOutlierFactor,OneClassSVM,ZScore,ModifiedZScore,IQR

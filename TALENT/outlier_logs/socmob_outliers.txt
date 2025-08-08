@@ -1,0 +1,36 @@
+socmob - train (ZScore):
+  Outliers detected: 10
+  Total samples:     739
+
+socmob - val (ZScore):
+  Outliers detected: 6
+  Total samples:     185
+
+socmob - test (ZScore):
+  Outliers detected: 8
+  Total samples:     232
+
+socmob - train (ModifiedZScore):
+  Outliers detected: 149
+  Total samples:     739
+
+socmob - val (ModifiedZScore):
+  Outliers detected: 42
+  Total samples:     185
+
+socmob - test (ModifiedZScore):
+  Outliers detected: 45
+  Total samples:     232
+
+socmob - train (IQR):
+  Outliers detected: 104
+  Total samples:     739
+
+socmob - val (IQR):
+  Outliers detected: 27
+  Total samples:     185
+
+socmob - test (IQR):
+  Outliers detected: 36
+  Total samples:     232
+

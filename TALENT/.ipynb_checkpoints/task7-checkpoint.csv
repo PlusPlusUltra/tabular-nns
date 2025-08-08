@@ -1,0 +1,7 @@
+Dataset,LinearRegression,IsolationForest,LocalOutlierFactor,OneClassSVM,ZScore,ModifiedZScore,IQR
+Diamonds,1659.61678,,,,1772.20404,1676.88016,1703.20026
+2dplanes,2.37828071,,2.37828071,2.37925231,2.37828071,5.21739696,2.37828071
+1000-Cameras-Dataset,632.109454,,,,,,
+Abalone_reg,2.23554098,,,,2.22103811,2.22006832,2.22263585
+Brazillian_houses_reproduced,,,,,,,
+Data_science_Salaries,,,,,,,

@@ -1,265 +1,37 @@
-elevators - train (ModifiedZScore):
-  Outliers detected: 4143
-  Total samples:     10623
-
-elevators - val (ModifiedZScore):
-  Outliers detected: 1055
-  Total samples:     2656
-
-elevators - test (ModifiedZScore):
-  Outliers detected: 1324
-  Total samples:     3320
-
 elevators - train (IsolationForest):
-  Outliers detected: 532
+  Outliers detected: 880
   Total samples:     10623
 
 elevators - val (IsolationForest):
-  Outliers detected: 133
+  Outliers detected: 231
   Total samples:     2656
 
 elevators - test (IsolationForest):
-  Outliers detected: 166
+  Outliers detected: 317
   Total samples:     3320
 
 elevators - train (LocalOutlierFactor):
-  Outliers detected: 532
+  Outliers detected: 114
   Total samples:     10623
 
 elevators - val (LocalOutlierFactor):
-  Outliers detected: 133
+  Outliers detected: 57
   Total samples:     2656
 
 elevators - test (LocalOutlierFactor):
-  Outliers detected: 166
+  Outliers detected: 46
   Total samples:     3320
 
 elevators - train (OneClassSVM):
-  Outliers detected: 529
+  Outliers detected: 5311
   Total samples:     10623
 
 elevators - val (OneClassSVM):
-  Outliers detected: 132
+  Outliers detected: 1327
   Total samples:     2656
 
 elevators - test (OneClassSVM):
-  Outliers detected: 168
-  Total samples:     3320
-
-elevators - train (ZScore):
-  Outliers detected: 1362
-  Total samples:     10623
-
-elevators - val (ZScore):
-  Outliers detected: 2656
-  Total samples:     2656
-
-elevators - test (ZScore):
-  Outliers detected: 3320
-  Total samples:     3320
-
-elevators - train (ModifiedZScore):
-  Outliers detected: 4143
-  Total samples:     10623
-
-elevators - val (ModifiedZScore):
-  Outliers detected: 1055
-  Total samples:     2656
-
-elevators - test (ModifiedZScore):
-  Outliers detected: 1324
-  Total samples:     3320
-
-elevators - train (IQR):
-  Outliers detected: 5023
-  Total samples:     10623
-
-elevators - val (IQR):
-  Outliers detected: 1281
-  Total samples:     2656
-
-elevators - test (IQR):
-  Outliers detected: 1615
-  Total samples:     3320
-
-elevators - train (IsolationForest):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (IsolationForest):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (IsolationForest):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (LocalOutlierFactor):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (LocalOutlierFactor):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (LocalOutlierFactor):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (OneClassSVM):
-  Outliers detected: 529
-  Total samples:     10623
-
-elevators - val (OneClassSVM):
-  Outliers detected: 132
-  Total samples:     2656
-
-elevators - test (OneClassSVM):
-  Outliers detected: 168
-  Total samples:     3320
-
-elevators - train (ZScore):
-  Outliers detected: 1362
-  Total samples:     10623
-
-elevators - val (ZScore):
-  Outliers detected: 2656
-  Total samples:     2656
-
-elevators - test (ZScore):
-  Outliers detected: 3320
-  Total samples:     3320
-
-elevators - train (ModifiedZScore):
-  Outliers detected: 4143
-  Total samples:     10623
-
-elevators - val (ModifiedZScore):
-  Outliers detected: 1055
-  Total samples:     2656
-
-elevators - test (ModifiedZScore):
-  Outliers detected: 1324
-  Total samples:     3320
-
-elevators - train (IQR):
-  Outliers detected: 5023
-  Total samples:     10623
-
-elevators - val (IQR):
-  Outliers detected: 1281
-  Total samples:     2656
-
-elevators - test (IQR):
-  Outliers detected: 1615
-  Total samples:     3320
-
-elevators - train (IsolationForest):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (IsolationForest):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (IsolationForest):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (LocalOutlierFactor):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (LocalOutlierFactor):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (LocalOutlierFactor):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (OneClassSVM):
-  Outliers detected: 529
-  Total samples:     10623
-
-elevators - val (OneClassSVM):
-  Outliers detected: 132
-  Total samples:     2656
-
-elevators - test (OneClassSVM):
-  Outliers detected: 168
-  Total samples:     3320
-
-elevators - train (ZScore):
-  Outliers detected: 1362
-  Total samples:     10623
-
-elevators - val (ZScore):
-  Outliers detected: 2656
-  Total samples:     2656
-
-elevators - test (ZScore):
-  Outliers detected: 3320
-  Total samples:     3320
-
-elevators - train (ModifiedZScore):
-  Outliers detected: 4143
-  Total samples:     10623
-
-elevators - val (ModifiedZScore):
-  Outliers detected: 1055
-  Total samples:     2656
-
-elevators - test (ModifiedZScore):
-  Outliers detected: 1324
-  Total samples:     3320
-
-elevators - train (IQR):
-  Outliers detected: 5023
-  Total samples:     10623
-
-elevators - val (IQR):
-  Outliers detected: 1281
-  Total samples:     2656
-
-elevators - test (IQR):
-  Outliers detected: 1615
-  Total samples:     3320
-
-elevators - train (IsolationForest):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (IsolationForest):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (IsolationForest):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (LocalOutlierFactor):
-  Outliers detected: 532
-  Total samples:     10623
-
-elevators - val (LocalOutlierFactor):
-  Outliers detected: 133
-  Total samples:     2656
-
-elevators - test (LocalOutlierFactor):
-  Outliers detected: 166
-  Total samples:     3320
-
-elevators - train (OneClassSVM):
-  Outliers detected: 529
-  Total samples:     10623
-
-elevators - val (OneClassSVM):
-  Outliers detected: 132
-  Total samples:     2656
-
-elevators - test (OneClassSVM):
-  Outliers detected: 168
+  Outliers detected: 1658
   Total samples:     3320
 
 elevators - train (ZScore):

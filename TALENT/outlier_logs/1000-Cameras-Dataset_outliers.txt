@@ -1,0 +1,108 @@
+1000-Cameras-Dataset - train (ZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ZScore):
+  Outliers detected: 18
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (ModifiedZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ModifiedZScore):
+  Outliers detected: 65
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ModifiedZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (IQR):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (IQR):
+  Outliers detected: 56
+  Total samples:     166
+
+1000-Cameras-Dataset - test (IQR):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (ZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ZScore):
+  Outliers detected: 18
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (ModifiedZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ModifiedZScore):
+  Outliers detected: 65
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ModifiedZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (IQR):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (IQR):
+  Outliers detected: 56
+  Total samples:     166
+
+1000-Cameras-Dataset - test (IQR):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (ZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ZScore):
+  Outliers detected: 18
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (ModifiedZScore):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (ModifiedZScore):
+  Outliers detected: 65
+  Total samples:     166
+
+1000-Cameras-Dataset - test (ModifiedZScore):
+  Outliers detected: 208
+  Total samples:     208
+
+1000-Cameras-Dataset - train (IQR):
+  Outliers detected: 664
+  Total samples:     664
+
+1000-Cameras-Dataset - val (IQR):
+  Outliers detected: 56
+  Total samples:     166
+
+1000-Cameras-Dataset - test (IQR):
+  Outliers detected: 208
+  Total samples:     208
+

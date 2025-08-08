@@ -1,0 +1,108 @@
+Data_Science_Salaries - train (ZScore):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (ZScore):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (ZScore):
+  Outliers detected: 0
+  Total samples:     751
+
+Data_Science_Salaries - train (ModifiedZScore):
+  Outliers detected: 1200
+  Total samples:     2403
+
+Data_Science_Salaries - val (ModifiedZScore):
+  Outliers detected: 281
+  Total samples:     601
+
+Data_Science_Salaries - test (ModifiedZScore):
+  Outliers detected: 351
+  Total samples:     751
+
+Data_Science_Salaries - train (IQR):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (IQR):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (IQR):
+  Outliers detected: 0
+  Total samples:     751
+
+Data_Science_Salaries - train (ZScore):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (ZScore):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (ZScore):
+  Outliers detected: 0
+  Total samples:     751
+
+Data_Science_Salaries - train (ModifiedZScore):
+  Outliers detected: 1200
+  Total samples:     2403
+
+Data_Science_Salaries - val (ModifiedZScore):
+  Outliers detected: 281
+  Total samples:     601
+
+Data_Science_Salaries - test (ModifiedZScore):
+  Outliers detected: 351
+  Total samples:     751
+
+Data_Science_Salaries - train (IQR):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (IQR):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (IQR):
+  Outliers detected: 0
+  Total samples:     751
+
+Data_Science_Salaries - train (ZScore):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (ZScore):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (ZScore):
+  Outliers detected: 0
+  Total samples:     751
+
+Data_Science_Salaries - train (ModifiedZScore):
+  Outliers detected: 1200
+  Total samples:     2403
+
+Data_Science_Salaries - val (ModifiedZScore):
+  Outliers detected: 281
+  Total samples:     601
+
+Data_Science_Salaries - test (ModifiedZScore):
+  Outliers detected: 351
+  Total samples:     751
+
+Data_Science_Salaries - train (IQR):
+  Outliers detected: 0
+  Total samples:     2403
+
+Data_Science_Salaries - val (IQR):
+  Outliers detected: 0
+  Total samples:     601
+
+Data_Science_Salaries - test (IQR):
+  Outliers detected: 0
+  Total samples:     751
+

@@ -1,0 +1,108 @@
+Abalone_reg - train (ZScore):
+  Outliers detected: 58
+  Total samples:     2672
+
+Abalone_reg - val (ZScore):
+  Outliers detected: 9
+  Total samples:     669
+
+Abalone_reg - test (ZScore):
+  Outliers detected: 18
+  Total samples:     836
+
+Abalone_reg - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     2672
+
+Abalone_reg - val (ModifiedZScore):
+  Outliers detected: 2
+  Total samples:     669
+
+Abalone_reg - test (ModifiedZScore):
+  Outliers detected: 5
+  Total samples:     836
+
+Abalone_reg - train (IQR):
+  Outliers detected: 99
+  Total samples:     2672
+
+Abalone_reg - val (IQR):
+  Outliers detected: 20
+  Total samples:     669
+
+Abalone_reg - test (IQR):
+  Outliers detected: 23
+  Total samples:     836
+
+Abalone_reg - train (ZScore):
+  Outliers detected: 58
+  Total samples:     2672
+
+Abalone_reg - val (ZScore):
+  Outliers detected: 9
+  Total samples:     669
+
+Abalone_reg - test (ZScore):
+  Outliers detected: 18
+  Total samples:     836
+
+Abalone_reg - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     2672
+
+Abalone_reg - val (ModifiedZScore):
+  Outliers detected: 2
+  Total samples:     669
+
+Abalone_reg - test (ModifiedZScore):
+  Outliers detected: 5
+  Total samples:     836
+
+Abalone_reg - train (IQR):
+  Outliers detected: 99
+  Total samples:     2672
+
+Abalone_reg - val (IQR):
+  Outliers detected: 20
+  Total samples:     669
+
+Abalone_reg - test (IQR):
+  Outliers detected: 23
+  Total samples:     836
+
+Abalone_reg - train (ZScore):
+  Outliers detected: 58
+  Total samples:     2672
+
+Abalone_reg - val (ZScore):
+  Outliers detected: 9
+  Total samples:     669
+
+Abalone_reg - test (ZScore):
+  Outliers detected: 18
+  Total samples:     836
+
+Abalone_reg - train (ModifiedZScore):
+  Outliers detected: 22
+  Total samples:     2672
+
+Abalone_reg - val (ModifiedZScore):
+  Outliers detected: 2
+  Total samples:     669
+
+Abalone_reg - test (ModifiedZScore):
+  Outliers detected: 5
+  Total samples:     836
+
+Abalone_reg - train (IQR):
+  Outliers detected: 99
+  Total samples:     2672
+
+Abalone_reg - val (IQR):
+  Outliers detected: 20
+  Total samples:     669
+
+Abalone_reg - test (IQR):
+  Outliers detected: 23
+  Total samples:     836
+

@@ -1,0 +1,108 @@
+Diamonds - train (ZScore):
+  Outliers detected: 870
+  Total samples:     34521
+
+Diamonds - val (ZScore):
+  Outliers detected: 226
+  Total samples:     8631
+
+Diamonds - test (ZScore):
+  Outliers detected: 262
+  Total samples:     10788
+
+Diamonds - train (ModifiedZScore):
+  Outliers detected: 1634
+  Total samples:     34521
+
+Diamonds - val (ModifiedZScore):
+  Outliers detected: 429
+  Total samples:     8631
+
+Diamonds - test (ModifiedZScore):
+  Outliers detected: 486
+  Total samples:     10788
+
+Diamonds - train (IQR):
+  Outliers detected: 3006
+  Total samples:     34521
+
+Diamonds - val (IQR):
+  Outliers detected: 684
+  Total samples:     8631
+
+Diamonds - test (IQR):
+  Outliers detected: 929
+  Total samples:     10788
+
+Diamonds - train (ZScore):
+  Outliers detected: 870
+  Total samples:     34521
+
+Diamonds - val (ZScore):
+  Outliers detected: 226
+  Total samples:     8631
+
+Diamonds - test (ZScore):
+  Outliers detected: 262
+  Total samples:     10788
+
+Diamonds - train (ModifiedZScore):
+  Outliers detected: 1634
+  Total samples:     34521
+
+Diamonds - val (ModifiedZScore):
+  Outliers detected: 429
+  Total samples:     8631
+
+Diamonds - test (ModifiedZScore):
+  Outliers detected: 486
+  Total samples:     10788
+
+Diamonds - train (IQR):
+  Outliers detected: 3006
+  Total samples:     34521
+
+Diamonds - val (IQR):
+  Outliers detected: 684
+  Total samples:     8631
+
+Diamonds - test (IQR):
+  Outliers detected: 929
+  Total samples:     10788
+
+Diamonds - train (ZScore):
+  Outliers detected: 870
+  Total samples:     34521
+
+Diamonds - val (ZScore):
+  Outliers detected: 226
+  Total samples:     8631
+
+Diamonds - test (ZScore):
+  Outliers detected: 262
+  Total samples:     10788
+
+Diamonds - train (ModifiedZScore):
+  Outliers detected: 1634
+  Total samples:     34521
+
+Diamonds - val (ModifiedZScore):
+  Outliers detected: 429
+  Total samples:     8631
+
+Diamonds - test (ModifiedZScore):
+  Outliers detected: 486
+  Total samples:     10788
+
+Diamonds - train (IQR):
+  Outliers detected: 3006
+  Total samples:     34521
+
+Diamonds - val (IQR):
+  Outliers detected: 684
+  Total samples:     8631
+
+Diamonds - test (IQR):
+  Outliers detected: 929
+  Total samples:     10788
+
