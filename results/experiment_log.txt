@@ -1,55 +1,32 @@
-
-====================
-START 2026-03-19 15:32:19
-[2026-03-19 15:32:19] Experiment started
-[2026-03-19 15:32:19] ===== EXPERIMENT SETUP =====
-[2026-03-19 15:32:19] Datasets: ['Bank_Customer_Churn_Dataset', 'cmc', 'connect-4', 'credit-g', 'electricity', 'elevators', 'eucalyptus', 'eye_movements', 'house_16H', 'kc1', 'phoneme', 'pol', 'socmob', 'splice', 'vehicle']
-[2026-03-19 15:32:19] Models: ['mlp', 'xgboost', 'randomforest']
-[2026-03-19 15:32:19] Outliers: [None, 'ZScore', 'IsolationForest', 'IQR']
-[2026-03-19 15:32:19] Runs per experiment: 5
-[2026-03-19 15:32:19] Total experiments: 180
-[2026-03-19 15:32:19] Total model trainings: 900
-[2026-03-19 15:32:19] ============================
-[2026-03-19 15:32:19] ==== DATASET Bank_Customer_Churn_Dataset ====
-[2026-03-19 15:32:19] RUN 1/180 (0.6%) Bank_Customer_Churn_Dataset mlp None
-[2026-03-19 15:32:22] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp None
-[2026-03-19 15:32:22] Classification metrics can't handle a mix of binary and continuous targets
-[2026-03-19 15:32:22] RUN 2/180 (1.1%) Bank_Customer_Churn_Dataset mlp ZScore
-[2026-03-19 15:32:26] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp ZScore
-[2026-03-19 15:32:26] Classification metrics can't handle a mix of binary and continuous targets
-[2026-03-19 15:32:26] RUN 3/180 (1.7%) Bank_Customer_Churn_Dataset mlp IsolationForest
-[2026-03-19 15:32:30] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IsolationForest
-[2026-03-19 15:32:30] Classification metrics can't handle a mix of binary and continuous targets
-[2026-03-19 15:32:30] RUN 4/180 (2.2%) Bank_Customer_Churn_Dataset mlp IQR
-[2026-03-19 15:32:34] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IQR
-[2026-03-19 15:32:34] Classification metrics can't handle a mix of binary and continuous targets
-[2026-03-19 15:32:34] RUN 5/180 (2.8%) Bank_Customer_Churn_Dataset xgboost None
-[2026-03-19 15:32:36] Bank_Customer_Churn_Dataset xgboost None run=0 score=0.84200 removed=0 (0.000)
-[2026-03-19 15:32:38] Bank_Customer_Churn_Dataset xgboost None run=1 score=0.83650 removed=0 (0.000)
-[2026-03-19 15:32:40] Bank_Customer_Churn_Dataset xgboost None run=2 score=0.82750 removed=0 (0.000)
-[2026-03-19 15:32:42] Bank_Customer_Churn_Dataset xgboost None run=3 score=0.83100 removed=0 (0.000)
-[2026-03-19 15:32:45] Bank_Customer_Churn_Dataset xgboost None run=4 score=0.77350 removed=0 (0.000)
-[2026-03-19 15:32:45] RESULT Bank_Customer_Churn_Dataset xgboost None mean=0.82210 std=0.02479 removed=0.0 (0.000)
-[2026-03-19 15:32:45] RUN 6/180 (3.3%) Bank_Customer_Churn_Dataset xgboost ZScore
-
-====================
-START 2026-03-19 15:40:26
-[2026-03-19 15:40:26] Experiment started
-[2026-03-19 15:40:26] ===== EXPERIMENT SETUP =====
-[2026-03-19 15:40:26] Datasets: ['Bank_Customer_Churn_Dataset', 'cmc', 'connect-4', 'credit-g', 'electricity', 'elevators', 'eucalyptus', 'eye_movements', 'house_16H', 'kc1', 'phoneme', 'pol', 'socmob', 'splice', 'vehicle']
-[2026-03-19 15:40:26] Models: ['mlp', 'xgboost', 'randomforest']
-[2026-03-19 15:40:26] Outliers: [None, 'ZScore', 'IsolationForest', 'IQR']
-[2026-03-19 15:40:26] Runs per experiment: 5
-[2026-03-19 15:40:26] Total experiments: 180
-[2026-03-19 15:40:26] Total model trainings: 900
-[2026-03-19 15:40:26] ============================
-[2026-03-19 15:40:26] ==== DATASET Bank_Customer_Churn_Dataset ====
-[2026-03-19 15:40:26] RUN 1/180 (0.6%) Bank_Customer_Churn_Dataset mlp None
-[2026-03-19 15:40:33] Bank_Customer_Churn_Dataset mlp None run=0 score=0.83950 removed=0 (0.000)
-[2026-03-19 15:40:40] Bank_Customer_Churn_Dataset mlp None run=1 score=0.82900 removed=0 (0.000)
-[2026-03-19 15:40:48] Bank_Customer_Churn_Dataset mlp None run=2 score=0.80750 removed=0 (0.000)
-[2026-03-19 15:40:55] Bank_Customer_Churn_Dataset mlp None run=3 score=0.83250 removed=0 (0.000)
-[2026-03-19 15:41:02] Bank_Customer_Churn_Dataset mlp None run=4 score=0.82500 removed=0 (0.000)
-[2026-03-19 15:41:02] RESULT Bank_Customer_Churn_Dataset mlp None mean=0.82670 std=0.01072 removed=0.0 (0.000)
-[2026-03-19 15:41:02] RUN 2/180 (1.1%) Bank_Customer_Churn_Dataset mlp ZScore
-[2026-03-19 15:41:09] Bank_Customer_Churn_Dataset mlp ZScore run=0 score=0.84350 removed=129 (0.020)
+[2026-03-19 20:17:46] Experiment started
+[2026-03-19 20:17:46] RUN 1/360 Bank_Customer_Churn_Dataset mlp None remove
+[2026-03-19 20:17:52] Bank_Customer_Churn_Dataset mlp None remove run=0 score=0.84050 outliers=0.0000
+[2026-03-19 20:18:01] Bank_Customer_Churn_Dataset mlp None remove run=1 score=0.83400 outliers=0.0000
+[2026-03-19 20:18:07] Bank_Customer_Churn_Dataset mlp None remove run=2 score=0.80900 outliers=0.0000
+[2026-03-19 20:18:13] Bank_Customer_Churn_Dataset mlp None remove run=3 score=0.82950 outliers=0.0000
+[2026-03-19 20:18:20] Bank_Customer_Churn_Dataset mlp None remove run=4 score=0.82100 outliers=0.0000
+[2026-03-19 20:18:20] RESULT Bank_Customer_Churn_Dataset mlp None remove 0.8268 outliers=0.0000
+[2026-03-19 20:18:20] RUN 2/360 Bank_Customer_Churn_Dataset mlp ZScore remove
+[2026-03-19 20:18:26] Bank_Customer_Churn_Dataset mlp ZScore remove run=0 score=0.83800 outliers=0.0202
+[2026-03-19 20:18:34] Bank_Customer_Churn_Dataset mlp ZScore remove run=1 score=0.82650 outliers=0.0230
+[2026-03-19 20:18:40] Bank_Customer_Churn_Dataset mlp ZScore remove run=2 score=0.81900 outliers=0.0214
+[2026-03-19 20:18:46] Bank_Customer_Churn_Dataset mlp ZScore remove run=3 score=0.83450 outliers=0.0241
+[2026-03-19 20:18:53] Bank_Customer_Churn_Dataset mlp ZScore remove run=4 score=0.82200 outliers=0.0213
+[2026-03-19 20:18:53] RESULT Bank_Customer_Churn_Dataset mlp ZScore remove 0.8280 outliers=0.0220
+[2026-03-19 20:18:53] RUN 3/360 Bank_Customer_Churn_Dataset mlp ZScore clip
+[2026-03-19 20:18:59] Bank_Customer_Churn_Dataset mlp ZScore clip run=0 score=0.84450 outliers=0.0202
+[2026-03-19 20:19:07] Bank_Customer_Churn_Dataset mlp ZScore clip run=1 score=0.82450 outliers=0.0230
+[2026-03-19 20:19:14] Bank_Customer_Churn_Dataset mlp ZScore clip run=2 score=0.80050 outliers=0.0214
+[2026-03-19 20:19:20] Bank_Customer_Churn_Dataset mlp ZScore clip run=3 score=0.82550 outliers=0.0241
+[2026-03-19 20:19:26] Bank_Customer_Churn_Dataset mlp ZScore clip run=4 score=0.81650 outliers=0.0213
+[2026-03-19 20:19:26] RESULT Bank_Customer_Churn_Dataset mlp ZScore clip 0.8223 outliers=0.0220
+[2026-03-19 20:19:26] RUN 4/360 Bank_Customer_Churn_Dataset mlp Percentile remove
+[2026-03-19 20:19:30] Bank_Customer_Churn_Dataset mlp Percentile remove run=0 score=0.82450 outliers=0.3894
+[2026-03-19 20:19:35] Bank_Customer_Churn_Dataset mlp Percentile remove run=1 score=0.81000 outliers=0.3870
+[2026-03-19 20:19:39] Bank_Customer_Churn_Dataset mlp Percentile remove run=2 score=0.80750 outliers=0.3591
+[2026-03-19 20:19:45] Bank_Customer_Churn_Dataset mlp Percentile remove run=3 score=0.81800 outliers=0.3873
+[2026-03-19 20:19:49] Bank_Customer_Churn_Dataset mlp Percentile remove run=4 score=0.81550 outliers=0.3847
+[2026-03-19 20:19:49] RESULT Bank_Customer_Churn_Dataset mlp Percentile remove 0.8151 outliers=0.3815
+[2026-03-19 20:19:49] RUN 5/360 Bank_Customer_Churn_Dataset mlp Percentile clip
+[2026-03-19 20:19:55] Bank_Customer_Churn_Dataset mlp Percentile clip run=0 score=0.82000 outliers=0.3894
+[2026-03-19 20:20:01] Bank_Customer_Churn_Dataset mlp Percentile clip run=1 score=0.80450 outliers=0.3870

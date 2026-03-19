@@ -1,3 +1,5 @@
-dataset,model,outlier,mean,std,min,max,train_size,removed,removed_pct,time
-Bank_Customer_Churn_Dataset,xgboost,None,0.82210,0.02479,0.77350,0.84200,6400,0.00,0.0000,0.199
-Bank_Customer_Churn_Dataset,mlp,None,0.82670,0.01072,0.80750,0.83950,6400,0.00,0.0000,4.878
+dataset,model,detector,treatment,mean,std,train_size,removed,removed_pct,clipped_values,clipped_rows,clipped_pct,outlier_pct,time
+Bank_Customer_Churn_Dataset,mlp,None,remove,0.826800,0.010930,6400,0.00,0.000000,0.00,0.00,0.000000,0.000000,4.779
+Bank_Customer_Churn_Dataset,mlp,ZScore,remove,0.828000,0.007232,6259,140.60,0.021969,0.00,0.00,0.000000,0.021969,4.672
+Bank_Customer_Churn_Dataset,mlp,ZScore,clip,0.822300,0.014260,6400,0.00,0.000000,140.60,140.60,0.021969,0.021969,4.694
+Bank_Customer_Churn_Dataset,mlp,Percentile,remove,0.815100,0.006012,3958,2441.60,0.381500,0.00,0.00,0.000000,0.381500,2.701
