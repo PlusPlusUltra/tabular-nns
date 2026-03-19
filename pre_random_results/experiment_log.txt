@@ -1,0 +1,2302 @@
+
+====================
+START 2026-03-19 00:40:12
+[2026-03-19 00:40:12] Experiment started
+[2026-03-19 00:40:12] RUN cmc mlp None
+[2026-03-19 00:40:12] cmc mlp None run=0 score=0.57627 removed=0 (0.000)
+[2026-03-19 00:40:13] cmc mlp None run=1 score=0.58644 removed=0 (0.000)
+[2026-03-19 00:40:13] cmc mlp None run=2 score=0.59661 removed=0 (0.000)
+[2026-03-19 00:40:13] cmc mlp None run=3 score=0.58983 removed=0 (0.000)
+[2026-03-19 00:40:13] cmc mlp None run=4 score=0.57627 removed=0 (0.000)
+[2026-03-19 00:40:13] RESULT cmc mlp None mean=0.58508 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 00:40:13] RUN cmc mlp ZScore
+[2026-03-19 00:40:14] cmc mlp ZScore run=0 score=0.58983 removed=14 (0.015)
+[2026-03-19 00:40:14] cmc mlp ZScore run=1 score=0.59322 removed=14 (0.015)
+[2026-03-19 00:40:14] cmc mlp ZScore run=2 score=0.58983 removed=14 (0.015)
+[2026-03-19 00:40:14] cmc mlp ZScore run=3 score=0.58644 removed=14 (0.015)
+[2026-03-19 00:40:15] cmc mlp ZScore run=4 score=0.58305 removed=14 (0.015)
+[2026-03-19 00:40:15] RESULT cmc mlp ZScore mean=0.58847 std=0.00346 removed=14.0 (0.015)
+[2026-03-19 00:40:15] RUN cmc mlp IsolationForest
+[2026-03-19 00:40:15] cmc mlp IsolationForest run=0 score=0.58305 removed=47 (0.050)
+[2026-03-19 00:40:15] cmc mlp IsolationForest run=1 score=0.57966 removed=48 (0.051)
+[2026-03-19 00:40:16] cmc mlp IsolationForest run=2 score=0.57288 removed=47 (0.050)
+[2026-03-19 00:40:16] cmc mlp IsolationForest run=3 score=0.58644 removed=48 (0.051)
+[2026-03-19 00:40:17] cmc mlp IsolationForest run=4 score=0.57966 removed=46 (0.049)
+[2026-03-19 00:40:17] RESULT cmc mlp IsolationForest mean=0.58034 std=0.00450 removed=47.2 (0.050)
+[2026-03-19 00:40:17] RUN cmc mlp IQR
+[2026-03-19 00:40:17] cmc mlp IQR run=0 score=0.57288 removed=58 (0.062)
+[2026-03-19 00:40:17] cmc mlp IQR run=1 score=0.57288 removed=58 (0.062)
+[2026-03-19 00:40:17] cmc mlp IQR run=2 score=0.59661 removed=58 (0.062)
+[2026-03-19 00:40:18] cmc mlp IQR run=3 score=0.57966 removed=58 (0.062)
+[2026-03-19 00:40:18] cmc mlp IQR run=4 score=0.59322 removed=58 (0.062)
+[2026-03-19 00:40:18] RESULT cmc mlp IQR mean=0.58305 std=0.01006 removed=58.0 (0.062)
+[2026-03-19 00:40:18] RUN cmc xgboost None
+[2026-03-19 00:40:18] cmc xgboost None run=0 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:40:19] cmc xgboost None run=1 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:40:19] cmc xgboost None run=2 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:40:20] cmc xgboost None run=3 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:40:20] cmc xgboost None run=4 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:40:20] RESULT cmc xgboost None mean=0.51186 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:40:20] RUN cmc xgboost ZScore
+[2026-03-19 00:40:20] cmc xgboost ZScore run=0 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:20] cmc xgboost ZScore run=1 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:20] cmc xgboost ZScore run=2 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:20] cmc xgboost ZScore run=3 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:20] cmc xgboost ZScore run=4 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:20] RESULT cmc xgboost ZScore mean=0.51186 std=0.00000 removed=14.0 (0.015)
+[2026-03-19 00:40:20] RUN cmc xgboost IsolationForest
+[2026-03-19 00:40:20] cmc xgboost IsolationForest run=0 score=0.51525 removed=47 (0.050)
+[2026-03-19 00:40:21] cmc xgboost IsolationForest run=1 score=0.50847 removed=48 (0.051)
+[2026-03-19 00:40:21] cmc xgboost IsolationForest run=2 score=0.52881 removed=47 (0.050)
+[2026-03-19 00:40:21] cmc xgboost IsolationForest run=3 score=0.50169 removed=48 (0.051)
+[2026-03-19 00:40:22] cmc xgboost IsolationForest run=4 score=0.54576 removed=46 (0.049)
+[2026-03-19 00:40:22] RESULT cmc xgboost IsolationForest mean=0.52000 std=0.01570 removed=47.2 (0.050)
+[2026-03-19 00:40:22] RUN cmc xgboost IQR
+[2026-03-19 00:40:22] cmc xgboost IQR run=0 score=0.48475 removed=58 (0.062)
+[2026-03-19 00:40:22] cmc xgboost IQR run=1 score=0.48475 removed=58 (0.062)
+[2026-03-19 00:40:22] cmc xgboost IQR run=2 score=0.48475 removed=58 (0.062)
+[2026-03-19 00:40:23] cmc xgboost IQR run=3 score=0.48475 removed=58 (0.062)
+[2026-03-19 00:40:23] cmc xgboost IQR run=4 score=0.48475 removed=58 (0.062)
+[2026-03-19 00:40:23] RESULT cmc xgboost IQR mean=0.48475 std=0.00000 removed=58.0 (0.062)
+[2026-03-19 00:40:23] RUN cmc randomforest None
+[2026-03-19 00:40:23] cmc randomforest None run=0 score=0.52203 removed=0 (0.000)
+[2026-03-19 00:40:23] cmc randomforest None run=1 score=0.52881 removed=0 (0.000)
+[2026-03-19 00:40:23] cmc randomforest None run=2 score=0.50847 removed=0 (0.000)
+[2026-03-19 00:40:23] cmc randomforest None run=3 score=0.51525 removed=0 (0.000)
+[2026-03-19 00:40:23] cmc randomforest None run=4 score=0.52881 removed=0 (0.000)
+[2026-03-19 00:40:23] RESULT cmc randomforest None mean=0.52068 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 00:40:23] RUN cmc randomforest ZScore
+[2026-03-19 00:40:23] cmc randomforest ZScore run=0 score=0.52203 removed=14 (0.015)
+[2026-03-19 00:40:23] cmc randomforest ZScore run=1 score=0.51186 removed=14 (0.015)
+[2026-03-19 00:40:24] cmc randomforest ZScore run=2 score=0.52203 removed=14 (0.015)
+[2026-03-19 00:40:24] cmc randomforest ZScore run=3 score=0.52542 removed=14 (0.015)
+[2026-03-19 00:40:24] cmc randomforest ZScore run=4 score=0.52203 removed=14 (0.015)
+[2026-03-19 00:40:24] RESULT cmc randomforest ZScore mean=0.52068 std=0.00460 removed=14.0 (0.015)
+[2026-03-19 00:40:24] RUN cmc randomforest IsolationForest
+[2026-03-19 00:40:24] cmc randomforest IsolationForest run=0 score=0.53559 removed=47 (0.050)
+[2026-03-19 00:40:24] cmc randomforest IsolationForest run=1 score=0.53220 removed=48 (0.051)
+[2026-03-19 00:40:25] cmc randomforest IsolationForest run=2 score=0.53220 removed=47 (0.050)
+[2026-03-19 00:40:25] cmc randomforest IsolationForest run=3 score=0.51525 removed=48 (0.051)
+[2026-03-19 00:40:25] cmc randomforest IsolationForest run=4 score=0.52542 removed=46 (0.049)
+[2026-03-19 00:40:25] RESULT cmc randomforest IsolationForest mean=0.52814 std=0.00724 removed=47.2 (0.050)
+[2026-03-19 00:40:25] RUN cmc randomforest IQR
+[2026-03-19 00:40:25] cmc randomforest IQR run=0 score=0.52203 removed=58 (0.062)
+[2026-03-19 00:40:26] cmc randomforest IQR run=1 score=0.50847 removed=58 (0.062)
+[2026-03-19 00:40:26] cmc randomforest IQR run=2 score=0.53220 removed=58 (0.062)
+[2026-03-19 00:40:26] cmc randomforest IQR run=3 score=0.52542 removed=58 (0.062)
+[2026-03-19 00:40:26] cmc randomforest IQR run=4 score=0.51864 removed=58 (0.062)
+[2026-03-19 00:40:26] RESULT cmc randomforest IQR mean=0.52136 std=0.00785 removed=58.0 (0.062)
+[2026-03-19 00:40:26] Experiment finished
+
+====================
+START 2026-03-19 00:48:29
+[2026-03-19 00:48:29] Experiment started
+[2026-03-19 00:48:29] ===== EXPERIMENT SETUP =====
+[2026-03-19 00:48:29] Datasets: ['Bank_Customer_Churn_Dataset', 'cmc', 'connect-4', 'credit-g', 'electricity', 'elevators', 'eucalyptus', 'eye_movements', 'house_16H', 'kc1', 'phoneme', 'pol', 'socmob', 'splice', 'vehicle']
+[2026-03-19 00:48:29] Models: ['mlp', 'xgboost', 'randomforest']
+[2026-03-19 00:48:29] Outliers: [None, 'ZScore', 'IsolationForest', 'IQR']
+[2026-03-19 00:48:29] Runs per experiment: 5
+[2026-03-19 00:48:29] Total experiments: 180
+[2026-03-19 00:48:29] Total model trainings: 900
+[2026-03-19 00:48:29] ============================
+[2026-03-19 00:48:29] ==== DATASET Bank_Customer_Churn_Dataset ====
+[2026-03-19 00:48:29] RUN 1/180 (0.6%) Bank_Customer_Churn_Dataset mlp None
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp None
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 2/180 (1.1%) Bank_Customer_Churn_Dataset mlp ZScore
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp ZScore
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 3/180 (1.7%) Bank_Customer_Churn_Dataset mlp IsolationForest
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IsolationForest
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 4/180 (2.2%) Bank_Customer_Churn_Dataset mlp IQR
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IQR
+[2026-03-19 00:48:29] could not convert string to float: 'Germany'
+[2026-03-19 00:48:29] RUN 5/180 (2.8%) Bank_Customer_Churn_Dataset xgboost None
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost None
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 6/180 (3.3%) Bank_Customer_Churn_Dataset xgboost ZScore
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost ZScore
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 7/180 (3.9%) Bank_Customer_Churn_Dataset xgboost IsolationForest
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost IsolationForest
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 8/180 (4.4%) Bank_Customer_Churn_Dataset xgboost IQR
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost IQR
+[2026-03-19 00:48:29] could not convert string to float: 'Germany'
+[2026-03-19 00:48:29] RUN 9/180 (5.0%) Bank_Customer_Churn_Dataset randomforest None
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest None
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 10/180 (5.6%) Bank_Customer_Churn_Dataset randomforest ZScore
+[2026-03-19 00:48:29] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest ZScore
+[2026-03-19 00:48:29] could not convert string to float: 'France'
+[2026-03-19 00:48:29] RUN 11/180 (6.1%) Bank_Customer_Churn_Dataset randomforest IsolationForest
+[2026-03-19 00:48:30] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest IsolationForest
+[2026-03-19 00:48:30] could not convert string to float: 'France'
+[2026-03-19 00:48:30] RUN 12/180 (6.7%) Bank_Customer_Churn_Dataset randomforest IQR
+[2026-03-19 00:48:30] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest IQR
+[2026-03-19 00:48:30] could not convert string to float: 'Germany'
+[2026-03-19 00:48:30] ==== DATASET Bank_Customer_Churn_Dataset DONE ====
+[2026-03-19 00:48:30] ==== DATASET cmc ====
+[2026-03-19 00:48:30] RUN 13/180 (7.2%) cmc mlp None
+[2026-03-19 00:48:30] cmc mlp None run=0 score=0.57627 removed=0 (0.000)
+[2026-03-19 00:48:30] cmc mlp None run=1 score=0.58644 removed=0 (0.000)
+[2026-03-19 00:48:30] cmc mlp None run=2 score=0.59661 removed=0 (0.000)
+[2026-03-19 00:48:31] cmc mlp None run=3 score=0.58983 removed=0 (0.000)
+[2026-03-19 00:48:31] cmc mlp None run=4 score=0.57627 removed=0 (0.000)
+[2026-03-19 00:48:31] RESULT cmc mlp None mean=0.58508 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 00:48:31] SKIP 14/180 (7.8%) cmc mlp ZScore
+[2026-03-19 00:48:31] SKIP 15/180 (8.3%) cmc mlp IsolationForest
+[2026-03-19 00:48:31] SKIP 16/180 (8.9%) cmc mlp IQR
+[2026-03-19 00:48:31] RUN 17/180 (9.4%) cmc xgboost None
+[2026-03-19 00:48:31] cmc xgboost None run=0 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:48:31] cmc xgboost None run=1 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:48:31] cmc xgboost None run=2 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:48:31] cmc xgboost None run=3 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:48:32] cmc xgboost None run=4 score=0.51186 removed=0 (0.000)
+[2026-03-19 00:48:32] RESULT cmc xgboost None mean=0.51186 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:48:32] SKIP 18/180 (10.0%) cmc xgboost ZScore
+[2026-03-19 00:48:32] SKIP 19/180 (10.6%) cmc xgboost IsolationForest
+[2026-03-19 00:48:32] SKIP 20/180 (11.1%) cmc xgboost IQR
+[2026-03-19 00:48:32] RUN 21/180 (11.7%) cmc randomforest None
+[2026-03-19 00:48:32] cmc randomforest None run=0 score=0.52203 removed=0 (0.000)
+[2026-03-19 00:48:32] cmc randomforest None run=1 score=0.52881 removed=0 (0.000)
+[2026-03-19 00:48:32] cmc randomforest None run=2 score=0.50847 removed=0 (0.000)
+[2026-03-19 00:48:32] cmc randomforest None run=3 score=0.51525 removed=0 (0.000)
+[2026-03-19 00:48:32] cmc randomforest None run=4 score=0.52881 removed=0 (0.000)
+[2026-03-19 00:48:32] RESULT cmc randomforest None mean=0.52068 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 00:48:32] SKIP 22/180 (12.2%) cmc randomforest ZScore
+[2026-03-19 00:48:32] SKIP 23/180 (12.8%) cmc randomforest IsolationForest
+[2026-03-19 00:48:32] SKIP 24/180 (13.3%) cmc randomforest IQR
+[2026-03-19 00:48:32] ==== DATASET cmc DONE ====
+[2026-03-19 00:48:32] ==== DATASET connect-4 ====
+[2026-03-19 00:48:32] RUN 25/180 (13.9%) connect-4 mlp None
+[2026-03-19 00:48:32] EXPERIMENT FAILED connect-4 mlp None
+[2026-03-19 00:48:32] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:32] RUN 26/180 (14.4%) connect-4 mlp ZScore
+[2026-03-19 00:48:32] EXPERIMENT FAILED connect-4 mlp ZScore
+[2026-03-19 00:48:32] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:32] RUN 27/180 (15.0%) connect-4 mlp IsolationForest
+[2026-03-19 00:48:32] EXPERIMENT FAILED connect-4 mlp IsolationForest
+[2026-03-19 00:48:32] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:32] RUN 28/180 (15.6%) connect-4 mlp IQR
+[2026-03-19 00:48:32] EXPERIMENT FAILED connect-4 mlp IQR
+[2026-03-19 00:48:32] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:32] RUN 29/180 (16.1%) connect-4 xgboost None
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 xgboost None
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 30/180 (16.7%) connect-4 xgboost ZScore
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 xgboost ZScore
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 31/180 (17.2%) connect-4 xgboost IsolationForest
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 xgboost IsolationForest
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 32/180 (17.8%) connect-4 xgboost IQR
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 xgboost IQR
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 33/180 (18.3%) connect-4 randomforest None
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 randomforest None
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 34/180 (18.9%) connect-4 randomforest ZScore
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 randomforest ZScore
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 35/180 (19.4%) connect-4 randomforest IsolationForest
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 randomforest IsolationForest
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] RUN 36/180 (20.0%) connect-4 randomforest IQR
+[2026-03-19 00:48:33] EXPERIMENT FAILED connect-4 randomforest IQR
+[2026-03-19 00:48:33] 'NoneType' object is not subscriptable
+[2026-03-19 00:48:33] ==== DATASET connect-4 DONE ====
+[2026-03-19 00:48:33] ==== DATASET credit-g ====
+[2026-03-19 00:48:33] RUN 37/180 (20.6%) credit-g mlp None
+[2026-03-19 00:48:33] credit-g mlp None run=0 score=0.55000 removed=0 (0.000)
+[2026-03-19 00:48:33] credit-g mlp None run=1 score=0.51500 removed=0 (0.000)
+[2026-03-19 00:48:33] credit-g mlp None run=2 score=0.69500 removed=0 (0.000)
+[2026-03-19 00:48:33] credit-g mlp None run=3 score=0.70000 removed=0 (0.000)
+[2026-03-19 00:48:33] credit-g mlp None run=4 score=0.42500 removed=0 (0.000)
+[2026-03-19 00:48:33] RESULT credit-g mlp None mean=0.57700 std=0.10652 removed=0.0 (0.000)
+[2026-03-19 00:48:33] RUN 38/180 (21.1%) credit-g mlp ZScore
+[2026-03-19 00:48:33] EXPERIMENT FAILED credit-g mlp ZScore
+[2026-03-19 00:48:33] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:48:33] RUN 39/180 (21.7%) credit-g mlp IsolationForest
+[2026-03-19 00:48:33] credit-g mlp IsolationForest run=0 score=0.44000 removed=32 (0.050)
+[2026-03-19 00:48:34] credit-g mlp IsolationForest run=1 score=0.45500 removed=32 (0.050)
+[2026-03-19 00:48:34] credit-g mlp IsolationForest run=2 score=0.69500 removed=32 (0.050)
+[2026-03-19 00:48:34] credit-g mlp IsolationForest run=3 score=0.70500 removed=32 (0.050)
+[2026-03-19 00:48:34] credit-g mlp IsolationForest run=4 score=0.52500 removed=32 (0.050)
+[2026-03-19 00:48:34] RESULT credit-g mlp IsolationForest mean=0.56400 std=0.11473 removed=32.0 (0.050)
+[2026-03-19 00:48:34] RUN 40/180 (22.2%) credit-g mlp IQR
+[2026-03-19 00:48:34] credit-g mlp IQR run=0 score=0.71500 removed=161 (0.252)
+[2026-03-19 00:48:34] credit-g mlp IQR run=1 score=0.70000 removed=161 (0.252)
+[2026-03-19 00:48:34] credit-g mlp IQR run=2 score=0.70500 removed=161 (0.252)
+[2026-03-19 00:48:34] credit-g mlp IQR run=3 score=0.70000 removed=161 (0.252)
+[2026-03-19 00:48:34] credit-g mlp IQR run=4 score=0.69500 removed=161 (0.252)
+[2026-03-19 00:48:34] RESULT credit-g mlp IQR mean=0.70300 std=0.00678 removed=161.0 (0.252)
+[2026-03-19 00:48:34] RUN 41/180 (22.8%) credit-g xgboost None
+[2026-03-19 00:48:35] credit-g xgboost None run=0 score=0.80000 removed=0 (0.000)
+[2026-03-19 00:48:35] credit-g xgboost None run=1 score=0.80000 removed=0 (0.000)
+[2026-03-19 00:48:35] credit-g xgboost None run=2 score=0.80000 removed=0 (0.000)
+[2026-03-19 00:48:35] credit-g xgboost None run=3 score=0.80000 removed=0 (0.000)
+[2026-03-19 00:48:35] credit-g xgboost None run=4 score=0.80000 removed=0 (0.000)
+[2026-03-19 00:48:35] RESULT credit-g xgboost None mean=0.80000 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:48:35] RUN 42/180 (23.3%) credit-g xgboost ZScore
+[2026-03-19 00:48:35] EXPERIMENT FAILED credit-g xgboost ZScore
+[2026-03-19 00:48:35] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:48:35] RUN 43/180 (23.9%) credit-g xgboost IsolationForest
+[2026-03-19 00:48:35] credit-g xgboost IsolationForest run=0 score=0.78000 removed=32 (0.050)
+[2026-03-19 00:48:35] credit-g xgboost IsolationForest run=1 score=0.79500 removed=32 (0.050)
+[2026-03-19 00:48:36] credit-g xgboost IsolationForest run=2 score=0.77500 removed=32 (0.050)
+[2026-03-19 00:48:36] credit-g xgboost IsolationForest run=3 score=0.78000 removed=32 (0.050)
+[2026-03-19 00:48:36] credit-g xgboost IsolationForest run=4 score=0.81000 removed=32 (0.050)
+[2026-03-19 00:48:36] RESULT credit-g xgboost IsolationForest mean=0.78800 std=0.01288 removed=32.0 (0.050)
+[2026-03-19 00:48:36] RUN 44/180 (24.4%) credit-g xgboost IQR
+[2026-03-19 00:48:36] credit-g xgboost IQR run=0 score=0.72000 removed=161 (0.252)
+[2026-03-19 00:48:36] credit-g xgboost IQR run=1 score=0.72000 removed=161 (0.252)
+[2026-03-19 00:48:36] credit-g xgboost IQR run=2 score=0.72000 removed=161 (0.252)
+[2026-03-19 00:48:36] credit-g xgboost IQR run=3 score=0.72000 removed=161 (0.252)
+[2026-03-19 00:48:37] credit-g xgboost IQR run=4 score=0.72000 removed=161 (0.252)
+[2026-03-19 00:48:37] RESULT credit-g xgboost IQR mean=0.72000 std=0.00000 removed=161.0 (0.252)
+[2026-03-19 00:48:37] RUN 45/180 (25.0%) credit-g randomforest None
+[2026-03-19 00:48:37] credit-g randomforest None run=0 score=0.75000 removed=0 (0.000)
+[2026-03-19 00:48:37] credit-g randomforest None run=1 score=0.78500 removed=0 (0.000)
+[2026-03-19 00:48:37] credit-g randomforest None run=2 score=0.76500 removed=0 (0.000)
+[2026-03-19 00:48:37] credit-g randomforest None run=3 score=0.77000 removed=0 (0.000)
+[2026-03-19 00:48:37] credit-g randomforest None run=4 score=0.74500 removed=0 (0.000)
+[2026-03-19 00:48:37] RESULT credit-g randomforest None mean=0.76300 std=0.01435 removed=0.0 (0.000)
+[2026-03-19 00:48:37] RUN 46/180 (25.6%) credit-g randomforest ZScore
+[2026-03-19 00:48:37] EXPERIMENT FAILED credit-g randomforest ZScore
+[2026-03-19 00:48:37] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:48:37] RUN 47/180 (26.1%) credit-g randomforest IsolationForest
+[2026-03-19 00:48:37] credit-g randomforest IsolationForest run=0 score=0.76500 removed=32 (0.050)
+[2026-03-19 00:48:38] credit-g randomforest IsolationForest run=1 score=0.78000 removed=32 (0.050)
+[2026-03-19 00:48:38] credit-g randomforest IsolationForest run=2 score=0.76500 removed=32 (0.050)
+[2026-03-19 00:48:38] credit-g randomforest IsolationForest run=3 score=0.76000 removed=32 (0.050)
+[2026-03-19 00:48:38] credit-g randomforest IsolationForest run=4 score=0.75000 removed=32 (0.050)
+[2026-03-19 00:48:38] RESULT credit-g randomforest IsolationForest mean=0.76400 std=0.00970 removed=32.0 (0.050)
+[2026-03-19 00:48:38] RUN 48/180 (26.7%) credit-g randomforest IQR
+[2026-03-19 00:48:39] credit-g randomforest IQR run=0 score=0.74000 removed=161 (0.252)
+[2026-03-19 00:48:39] credit-g randomforest IQR run=1 score=0.75500 removed=161 (0.252)
+[2026-03-19 00:48:39] credit-g randomforest IQR run=2 score=0.71500 removed=161 (0.252)
+[2026-03-19 00:48:39] credit-g randomforest IQR run=3 score=0.73500 removed=161 (0.252)
+[2026-03-19 00:48:39] credit-g randomforest IQR run=4 score=0.74500 removed=161 (0.252)
+[2026-03-19 00:48:39] RESULT credit-g randomforest IQR mean=0.73800 std=0.01327 removed=161.0 (0.252)
+[2026-03-19 00:48:39] ==== DATASET credit-g DONE ====
+[2026-03-19 00:48:39] ==== DATASET electricity ====
+[2026-03-19 00:48:39] RUN 49/180 (27.2%) electricity mlp None
+[2026-03-19 00:48:44] electricity mlp None run=0 score=0.78616 removed=0 (0.000)
+[2026-03-19 00:48:52] electricity mlp None run=1 score=0.78054 removed=0 (0.000)
+[2026-03-19 00:49:02] electricity mlp None run=2 score=0.78914 removed=0 (0.000)
+[2026-03-19 00:49:07] electricity mlp None run=3 score=0.78429 removed=0 (0.000)
+[2026-03-19 00:49:13] electricity mlp None run=4 score=0.78672 removed=0 (0.000)
+[2026-03-19 00:49:13] RESULT electricity mlp None mean=0.78537 std=0.00287 removed=0.0 (0.000)
+[2026-03-19 00:49:13] RUN 50/180 (27.8%) electricity mlp ZScore
+[2026-03-19 00:49:24] electricity mlp ZScore run=0 score=0.79003 removed=349 (0.012)
+[2026-03-19 00:49:34] electricity mlp ZScore run=1 score=0.78992 removed=349 (0.012)
+[2026-03-19 00:49:39] electricity mlp ZScore run=2 score=0.78616 removed=349 (0.012)
+[2026-03-19 00:49:46] electricity mlp ZScore run=3 score=0.78782 removed=349 (0.012)
+[2026-03-19 00:49:52] electricity mlp ZScore run=4 score=0.78274 removed=349 (0.012)
+[2026-03-19 00:49:52] RESULT electricity mlp ZScore mean=0.78733 std=0.00271 removed=349.0 (0.012)
+[2026-03-19 00:49:52] RUN 51/180 (28.3%) electricity mlp IsolationForest
+[2026-03-19 00:50:03] electricity mlp IsolationForest run=0 score=0.78793 removed=1450 (0.050)
+[2026-03-19 00:50:10] electricity mlp IsolationForest run=1 score=0.78649 removed=1450 (0.050)
+[2026-03-19 00:50:16] electricity mlp IsolationForest run=2 score=0.78771 removed=1450 (0.050)
+[2026-03-19 00:50:21] electricity mlp IsolationForest run=3 score=0.77943 removed=1450 (0.050)
+[2026-03-19 00:50:27] electricity mlp IsolationForest run=4 score=0.78241 removed=1450 (0.050)
+[2026-03-19 00:50:27] RESULT electricity mlp IsolationForest mean=0.78480 std=0.00334 removed=1450.0 (0.050)
+[2026-03-19 00:50:27] RUN 52/180 (28.9%) electricity mlp IQR
+[2026-03-19 00:50:33] electricity mlp IQR run=0 score=0.78076 removed=5864 (0.202)
+[2026-03-19 00:50:37] electricity mlp IQR run=1 score=0.78352 removed=5864 (0.202)
+[2026-03-19 00:50:43] electricity mlp IQR run=2 score=0.78418 removed=5864 (0.202)
+[2026-03-19 00:50:49] electricity mlp IQR run=3 score=0.78219 removed=5864 (0.202)
+[2026-03-19 00:50:54] electricity mlp IQR run=4 score=0.78131 removed=5864 (0.202)
+[2026-03-19 00:50:54] RESULT electricity mlp IQR mean=0.78239 std=0.00129 removed=5864.0 (0.202)
+[2026-03-19 00:50:54] RUN 53/180 (29.4%) electricity xgboost None
+[2026-03-19 00:50:55] electricity xgboost None run=0 score=0.89694 removed=0 (0.000)
+[2026-03-19 00:50:55] electricity xgboost None run=1 score=0.89694 removed=0 (0.000)
+[2026-03-19 00:50:55] electricity xgboost None run=2 score=0.89694 removed=0 (0.000)
+[2026-03-19 00:50:55] electricity xgboost None run=3 score=0.89694 removed=0 (0.000)
+[2026-03-19 00:50:55] electricity xgboost None run=4 score=0.89694 removed=0 (0.000)
+[2026-03-19 00:50:55] RESULT electricity xgboost None mean=0.89694 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:50:55] RUN 54/180 (30.0%) electricity xgboost ZScore
+[2026-03-19 00:50:55] electricity xgboost ZScore run=0 score=0.90014 removed=349 (0.012)
+[2026-03-19 00:50:55] electricity xgboost ZScore run=1 score=0.90014 removed=349 (0.012)
+[2026-03-19 00:50:56] electricity xgboost ZScore run=2 score=0.90014 removed=349 (0.012)
+[2026-03-19 00:50:56] electricity xgboost ZScore run=3 score=0.90014 removed=349 (0.012)
+[2026-03-19 00:50:56] electricity xgboost ZScore run=4 score=0.90014 removed=349 (0.012)
+[2026-03-19 00:50:56] RESULT electricity xgboost ZScore mean=0.90014 std=0.00000 removed=349.0 (0.012)
+[2026-03-19 00:50:56] RUN 55/180 (30.6%) electricity xgboost IsolationForest
+[2026-03-19 00:50:57] electricity xgboost IsolationForest run=0 score=0.90367 removed=1450 (0.050)
+[2026-03-19 00:50:57] electricity xgboost IsolationForest run=1 score=0.89727 removed=1450 (0.050)
+[2026-03-19 00:50:58] electricity xgboost IsolationForest run=2 score=0.89738 removed=1450 (0.050)
+[2026-03-19 00:50:59] electricity xgboost IsolationForest run=3 score=0.89915 removed=1450 (0.050)
+[2026-03-19 00:50:59] electricity xgboost IsolationForest run=4 score=0.89981 removed=1450 (0.050)
+[2026-03-19 00:50:59] RESULT electricity xgboost IsolationForest mean=0.89946 std=0.00233 removed=1450.0 (0.050)
+[2026-03-19 00:50:59] RUN 56/180 (31.1%) electricity xgboost IQR
+[2026-03-19 00:51:00] electricity xgboost IQR run=0 score=0.89430 removed=5864 (0.202)
+[2026-03-19 00:51:00] electricity xgboost IQR run=1 score=0.89430 removed=5864 (0.202)
+[2026-03-19 00:51:00] electricity xgboost IQR run=2 score=0.89430 removed=5864 (0.202)
+[2026-03-19 00:51:00] electricity xgboost IQR run=3 score=0.89430 removed=5864 (0.202)
+[2026-03-19 00:51:00] electricity xgboost IQR run=4 score=0.89430 removed=5864 (0.202)
+[2026-03-19 00:51:00] RESULT electricity xgboost IQR mean=0.89430 std=0.00000 removed=5864.0 (0.202)
+[2026-03-19 00:51:00] RUN 57/180 (31.7%) electricity randomforest None
+[2026-03-19 00:51:04] electricity randomforest None run=0 score=0.90036 removed=0 (0.000)
+[2026-03-19 00:51:07] electricity randomforest None run=1 score=0.90125 removed=0 (0.000)
+[2026-03-19 00:51:10] electricity randomforest None run=2 score=0.90047 removed=0 (0.000)
+[2026-03-19 00:51:13] electricity randomforest None run=3 score=0.90202 removed=0 (0.000)
+[2026-03-19 00:51:16] electricity randomforest None run=4 score=0.90114 removed=0 (0.000)
+[2026-03-19 00:51:16] RESULT electricity randomforest None mean=0.90105 std=0.00060 removed=0.0 (0.000)
+[2026-03-19 00:51:16] RUN 58/180 (32.2%) electricity randomforest ZScore
+[2026-03-19 00:51:19] electricity randomforest ZScore run=0 score=0.90058 removed=349 (0.012)
+[2026-03-19 00:51:22] electricity randomforest ZScore run=1 score=0.89805 removed=349 (0.012)
+[2026-03-19 00:51:26] electricity randomforest ZScore run=2 score=0.89772 removed=349 (0.012)
+[2026-03-19 00:51:29] electricity randomforest ZScore run=3 score=0.89882 removed=349 (0.012)
+[2026-03-19 00:51:32] electricity randomforest ZScore run=4 score=0.89959 removed=349 (0.012)
+[2026-03-19 00:51:32] RESULT electricity randomforest ZScore mean=0.89895 std=0.00104 removed=349.0 (0.012)
+[2026-03-19 00:51:32] RUN 59/180 (32.8%) electricity randomforest IsolationForest
+[2026-03-19 00:51:36] electricity randomforest IsolationForest run=0 score=0.89705 removed=1450 (0.050)
+[2026-03-19 00:51:39] electricity randomforest IsolationForest run=1 score=0.90025 removed=1450 (0.050)
+[2026-03-19 00:51:43] electricity randomforest IsolationForest run=2 score=0.89882 removed=1450 (0.050)
+[2026-03-19 00:51:47] electricity randomforest IsolationForest run=3 score=0.90036 removed=1450 (0.050)
+[2026-03-19 00:51:50] electricity randomforest IsolationForest run=4 score=0.89959 removed=1450 (0.050)
+[2026-03-19 00:51:50] RESULT electricity randomforest IsolationForest mean=0.89922 std=0.00121 removed=1450.0 (0.050)
+[2026-03-19 00:51:50] RUN 60/180 (33.3%) electricity randomforest IQR
+[2026-03-19 00:51:52] electricity randomforest IQR run=0 score=0.88900 removed=5864 (0.202)
+[2026-03-19 00:51:55] electricity randomforest IQR run=1 score=0.88723 removed=5864 (0.202)
+[2026-03-19 00:51:57] electricity randomforest IQR run=2 score=0.88801 removed=5864 (0.202)
+[2026-03-19 00:51:59] electricity randomforest IQR run=3 score=0.88933 removed=5864 (0.202)
+[2026-03-19 00:52:02] electricity randomforest IQR run=4 score=0.88944 removed=5864 (0.202)
+[2026-03-19 00:52:02] RESULT electricity randomforest IQR mean=0.88860 std=0.00085 removed=5864.0 (0.202)
+[2026-03-19 00:52:02] ==== DATASET electricity DONE ====
+[2026-03-19 00:52:02] ==== DATASET elevators ====
+[2026-03-19 00:52:02] RUN 61/180 (33.9%) elevators mlp None
+[2026-03-19 00:52:02] elevators mlp None run=0 score=0.00093 removed=0 (0.000)
+[2026-03-19 00:52:03] elevators mlp None run=1 score=0.00096 removed=0 (0.000)
+[2026-03-19 00:52:03] elevators mlp None run=2 score=0.00070 removed=0 (0.000)
+[2026-03-19 00:52:03] elevators mlp None run=3 score=0.00088 removed=0 (0.000)
+[2026-03-19 00:52:04] elevators mlp None run=4 score=0.00171 removed=0 (0.000)
+[2026-03-19 00:52:04] RESULT elevators mlp None mean=0.00103 std=0.00035 removed=0.0 (0.000)
+[2026-03-19 00:52:04] RUN 62/180 (34.4%) elevators mlp ZScore
+[2026-03-19 00:52:04] elevators mlp ZScore run=0 score=0.00121 removed=1362 (0.128)
+[2026-03-19 00:52:04] elevators mlp ZScore run=1 score=0.00226 removed=1362 (0.128)
+[2026-03-19 00:52:05] elevators mlp ZScore run=2 score=0.00119 removed=1362 (0.128)
+[2026-03-19 00:52:05] elevators mlp ZScore run=3 score=0.00178 removed=1362 (0.128)
+[2026-03-19 00:52:05] elevators mlp ZScore run=4 score=0.00127 removed=1362 (0.128)
+[2026-03-19 00:52:05] RESULT elevators mlp ZScore mean=0.00154 std=0.00042 removed=1362.0 (0.128)
+[2026-03-19 00:52:05] RUN 63/180 (35.0%) elevators mlp IsolationForest
+[2026-03-19 00:52:06] elevators mlp IsolationForest run=0 score=0.00162 removed=532 (0.050)
+[2026-03-19 00:52:07] elevators mlp IsolationForest run=1 score=0.00118 removed=532 (0.050)
+[2026-03-19 00:52:08] elevators mlp IsolationForest run=2 score=0.00127 removed=532 (0.050)
+[2026-03-19 00:52:09] elevators mlp IsolationForest run=3 score=0.00095 removed=532 (0.050)
+[2026-03-19 00:52:09] elevators mlp IsolationForest run=4 score=0.00062 removed=532 (0.050)
+[2026-03-19 00:52:09] RESULT elevators mlp IsolationForest mean=0.00113 std=0.00034 removed=532.0 (0.050)
+[2026-03-19 00:52:09] RUN 64/180 (35.6%) elevators mlp IQR
+[2026-03-19 00:52:10] elevators mlp IQR run=0 score=0.00732 removed=5023 (0.473)
+[2026-03-19 00:52:10] elevators mlp IQR run=1 score=0.00302 removed=5023 (0.473)
+[2026-03-19 00:52:10] elevators mlp IQR run=2 score=0.00865 removed=5023 (0.473)
+[2026-03-19 00:52:10] elevators mlp IQR run=3 score=0.00373 removed=5023 (0.473)
+[2026-03-19 00:52:11] elevators mlp IQR run=4 score=0.00352 removed=5023 (0.473)
+[2026-03-19 00:52:11] RESULT elevators mlp IQR mean=0.00525 std=0.00229 removed=5023.0 (0.473)
+[2026-03-19 00:52:11] RUN 65/180 (36.1%) elevators xgboost None
+[2026-03-19 00:52:11] elevators xgboost None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:11] elevators xgboost None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:11] elevators xgboost None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:11] elevators xgboost None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:11] elevators xgboost None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:11] RESULT elevators xgboost None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:52:11] RUN 66/180 (36.7%) elevators xgboost ZScore
+[2026-03-19 00:52:12] elevators xgboost ZScore run=0 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:12] elevators xgboost ZScore run=1 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:12] elevators xgboost ZScore run=2 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:12] elevators xgboost ZScore run=3 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:12] elevators xgboost ZScore run=4 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:12] RESULT elevators xgboost ZScore mean=0.00001 std=0.00000 removed=1362.0 (0.128)
+[2026-03-19 00:52:12] RUN 67/180 (37.2%) elevators xgboost IsolationForest
+[2026-03-19 00:52:12] elevators xgboost IsolationForest run=0 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:52:13] elevators xgboost IsolationForest run=1 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:52:13] elevators xgboost IsolationForest run=2 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:52:14] elevators xgboost IsolationForest run=3 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:52:14] elevators xgboost IsolationForest run=4 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:52:14] RESULT elevators xgboost IsolationForest mean=0.00001 std=0.00000 removed=532.0 (0.050)
+[2026-03-19 00:52:14] RUN 68/180 (37.8%) elevators xgboost IQR
+[2026-03-19 00:52:14] elevators xgboost IQR run=0 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:52:14] elevators xgboost IQR run=1 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:52:14] elevators xgboost IQR run=2 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:52:14] elevators xgboost IQR run=3 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:52:14] elevators xgboost IQR run=4 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:52:14] RESULT elevators xgboost IQR mean=0.00001 std=0.00000 removed=5023.0 (0.473)
+[2026-03-19 00:52:14] RUN 69/180 (38.3%) elevators randomforest None
+[2026-03-19 00:52:19] elevators randomforest None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:24] elevators randomforest None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:30] elevators randomforest None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:35] elevators randomforest None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:40] elevators randomforest None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 00:52:40] RESULT elevators randomforest None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:52:40] RUN 70/180 (38.9%) elevators randomforest ZScore
+[2026-03-19 00:52:44] elevators randomforest ZScore run=0 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:49] elevators randomforest ZScore run=1 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:53] elevators randomforest ZScore run=2 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:52:57] elevators randomforest ZScore run=3 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:53:02] elevators randomforest ZScore run=4 score=0.00001 removed=1362 (0.128)
+[2026-03-19 00:53:02] RESULT elevators randomforest ZScore mean=0.00001 std=0.00000 removed=1362.0 (0.128)
+[2026-03-19 00:53:02] RUN 71/180 (39.4%) elevators randomforest IsolationForest
+[2026-03-19 00:53:07] elevators randomforest IsolationForest run=0 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:53:12] elevators randomforest IsolationForest run=1 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:53:18] elevators randomforest IsolationForest run=2 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:53:23] elevators randomforest IsolationForest run=3 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:53:28] elevators randomforest IsolationForest run=4 score=0.00001 removed=532 (0.050)
+[2026-03-19 00:53:28] RESULT elevators randomforest IsolationForest mean=0.00001 std=0.00000 removed=532.0 (0.050)
+[2026-03-19 00:53:28] RUN 72/180 (40.0%) elevators randomforest IQR
+[2026-03-19 00:53:30] elevators randomforest IQR run=0 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:53:32] elevators randomforest IQR run=1 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:53:35] elevators randomforest IQR run=2 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:53:37] elevators randomforest IQR run=3 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:53:39] elevators randomforest IQR run=4 score=0.00001 removed=5023 (0.473)
+[2026-03-19 00:53:39] RESULT elevators randomforest IQR mean=0.00001 std=0.00000 removed=5023.0 (0.473)
+[2026-03-19 00:53:39] ==== DATASET elevators DONE ====
+[2026-03-19 00:53:39] ==== DATASET eucalyptus ====
+[2026-03-19 00:53:39] RUN 73/180 (40.6%) eucalyptus mlp None
+[2026-03-19 00:53:39] EXPERIMENT FAILED eucalyptus mlp None
+[2026-03-19 00:53:39] Input X contains NaN.
+MLPClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+[2026-03-19 00:53:39] RUN 74/180 (41.1%) eucalyptus mlp ZScore
+[2026-03-19 00:53:39] EXPERIMENT FAILED eucalyptus mlp ZScore
+[2026-03-19 00:53:39] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:53:39] RUN 75/180 (41.7%) eucalyptus mlp IsolationForest
+[2026-03-19 00:53:40] EXPERIMENT FAILED eucalyptus mlp IsolationForest
+[2026-03-19 00:53:40] Input X contains NaN.
+MLPClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+[2026-03-19 00:53:40] RUN 76/180 (42.2%) eucalyptus mlp IQR
+[2026-03-19 00:53:40] EXPERIMENT FAILED eucalyptus mlp IQR
+[2026-03-19 00:53:40] y contains previously unseen labels: [np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4)]
+[2026-03-19 00:53:40] RUN 77/180 (42.8%) eucalyptus xgboost None
+[2026-03-19 00:53:43] eucalyptus xgboost None run=0 score=0.64865 removed=0 (0.000)
+[2026-03-19 00:53:45] eucalyptus xgboost None run=1 score=0.64865 removed=0 (0.000)
+[2026-03-19 00:53:47] eucalyptus xgboost None run=2 score=0.64865 removed=0 (0.000)
+[2026-03-19 00:53:49] eucalyptus xgboost None run=3 score=0.64865 removed=0 (0.000)
+[2026-03-19 00:53:51] eucalyptus xgboost None run=4 score=0.64865 removed=0 (0.000)
+[2026-03-19 00:53:51] RESULT eucalyptus xgboost None mean=0.64865 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:53:51] RUN 78/180 (43.3%) eucalyptus xgboost ZScore
+[2026-03-19 00:53:51] EXPERIMENT FAILED eucalyptus xgboost ZScore
+[2026-03-19 00:53:51] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:53:51] RUN 79/180 (43.9%) eucalyptus xgboost IsolationForest
+[2026-03-19 00:53:51] eucalyptus xgboost IsolationForest run=0 score=0.64865 removed=24 (0.051)
+[2026-03-19 00:53:52] eucalyptus xgboost IsolationForest run=1 score=0.64865 removed=24 (0.051)
+[2026-03-19 00:53:53] eucalyptus xgboost IsolationForest run=2 score=0.64189 removed=24 (0.051)
+[2026-03-19 00:53:54] eucalyptus xgboost IsolationForest run=3 score=0.64865 removed=24 (0.051)
+[2026-03-19 00:53:55] eucalyptus xgboost IsolationForest run=4 score=0.61486 removed=24 (0.051)
+[2026-03-19 00:53:55] RESULT eucalyptus xgboost IsolationForest mean=0.64054 std=0.01310 removed=24.0 (0.051)
+[2026-03-19 00:53:55] RUN 80/180 (44.4%) eucalyptus xgboost IQR
+[2026-03-19 00:53:55] EXPERIMENT FAILED eucalyptus xgboost IQR
+[2026-03-19 00:53:55] y contains previously unseen labels: [np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4)]
+[2026-03-19 00:53:55] RUN 81/180 (45.0%) eucalyptus randomforest None
+[2026-03-19 00:53:55] eucalyptus randomforest None run=0 score=0.66216 removed=0 (0.000)
+[2026-03-19 00:53:55] eucalyptus randomforest None run=1 score=0.68919 removed=0 (0.000)
+[2026-03-19 00:53:55] eucalyptus randomforest None run=2 score=0.70270 removed=0 (0.000)
+[2026-03-19 00:53:55] eucalyptus randomforest None run=3 score=0.69595 removed=0 (0.000)
+[2026-03-19 00:53:55] eucalyptus randomforest None run=4 score=0.70270 removed=0 (0.000)
+[2026-03-19 00:53:55] RESULT eucalyptus randomforest None mean=0.69054 std=0.01505 removed=0.0 (0.000)
+[2026-03-19 00:53:55] RUN 82/180 (45.6%) eucalyptus randomforest ZScore
+[2026-03-19 00:53:55] EXPERIMENT FAILED eucalyptus randomforest ZScore
+[2026-03-19 00:53:55] loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+[2026-03-19 00:53:55] RUN 83/180 (46.1%) eucalyptus randomforest IsolationForest
+[2026-03-19 00:53:55] eucalyptus randomforest IsolationForest run=0 score=0.64865 removed=24 (0.051)
+[2026-03-19 00:53:56] eucalyptus randomforest IsolationForest run=1 score=0.65541 removed=24 (0.051)
+[2026-03-19 00:53:56] eucalyptus randomforest IsolationForest run=2 score=0.64865 removed=24 (0.051)
+[2026-03-19 00:53:56] eucalyptus randomforest IsolationForest run=3 score=0.68919 removed=24 (0.051)
+[2026-03-19 00:53:57] eucalyptus randomforest IsolationForest run=4 score=0.66892 removed=24 (0.051)
+[2026-03-19 00:53:57] RESULT eucalyptus randomforest IsolationForest mean=0.66216 std=0.01541 removed=24.0 (0.051)
+[2026-03-19 00:53:57] RUN 84/180 (46.7%) eucalyptus randomforest IQR
+[2026-03-19 00:53:57] EXPERIMENT FAILED eucalyptus randomforest IQR
+[2026-03-19 00:53:57] y contains previously unseen labels: [np.int32(0), np.int32(1), np.int32(2), np.int32(3), np.int32(4)]
+[2026-03-19 00:53:57] ==== DATASET eucalyptus DONE ====
+[2026-03-19 00:53:57] ==== DATASET eye_movements ====
+[2026-03-19 00:53:57] RUN 85/180 (47.2%) eye_movements mlp None
+[2026-03-19 00:53:57] eye_movements mlp None run=0 score=0.37843 removed=0 (0.000)
+[2026-03-19 00:53:58] eye_movements mlp None run=1 score=0.42322 removed=0 (0.000)
+[2026-03-19 00:53:58] eye_movements mlp None run=2 score=0.39442 removed=0 (0.000)
+[2026-03-19 00:53:59] eye_movements mlp None run=3 score=0.38803 removed=0 (0.000)
+[2026-03-19 00:53:59] eye_movements mlp None run=4 score=0.40037 removed=0 (0.000)
+[2026-03-19 00:53:59] RESULT eye_movements mlp None mean=0.39689 std=0.01504 removed=0.0 (0.000)
+[2026-03-19 00:53:59] RUN 86/180 (47.8%) eye_movements mlp ZScore
+[2026-03-19 00:54:00] eye_movements mlp ZScore run=0 score=0.41682 removed=1334 (0.191)
+[2026-03-19 00:54:00] eye_movements mlp ZScore run=1 score=0.43967 removed=1334 (0.191)
+[2026-03-19 00:54:00] eye_movements mlp ZScore run=2 score=0.45430 removed=1334 (0.191)
+[2026-03-19 00:54:01] eye_movements mlp ZScore run=3 score=0.40539 removed=1334 (0.191)
+[2026-03-19 00:54:01] eye_movements mlp ZScore run=4 score=0.43419 removed=1334 (0.191)
+[2026-03-19 00:54:01] RESULT eye_movements mlp ZScore mean=0.43007 std=0.01721 removed=1334.0 (0.191)
+[2026-03-19 00:54:01] RUN 87/180 (48.3%) eye_movements mlp IsolationForest
+[2026-03-19 00:54:02] eye_movements mlp IsolationForest run=0 score=0.43236 removed=350 (0.050)
+[2026-03-19 00:54:02] eye_movements mlp IsolationForest run=1 score=0.34781 removed=350 (0.050)
+[2026-03-19 00:54:03] eye_movements mlp IsolationForest run=2 score=0.43921 removed=350 (0.050)
+[2026-03-19 00:54:04] eye_movements mlp IsolationForest run=3 score=0.40219 removed=350 (0.050)
+[2026-03-19 00:54:05] eye_movements mlp IsolationForest run=4 score=0.42139 removed=350 (0.050)
+[2026-03-19 00:54:05] RESULT eye_movements mlp IsolationForest mean=0.40859 std=0.03287 removed=350.0 (0.050)
+[2026-03-19 00:54:05] RUN 88/180 (48.9%) eye_movements mlp IQR
+[2026-03-19 00:54:05] eye_movements mlp IQR run=0 score=0.43144 removed=3988 (0.570)
+[2026-03-19 00:54:05] eye_movements mlp IQR run=1 score=0.29159 removed=3988 (0.570)
+[2026-03-19 00:54:05] eye_movements mlp IQR run=2 score=0.37751 removed=3988 (0.570)
+[2026-03-19 00:54:06] eye_movements mlp IQR run=3 score=0.39762 removed=3988 (0.570)
+[2026-03-19 00:54:06] eye_movements mlp IQR run=4 score=0.39808 removed=3988 (0.570)
+[2026-03-19 00:54:06] RESULT eye_movements mlp IQR mean=0.37925 std=0.04712 removed=3988.0 (0.570)
+[2026-03-19 00:54:06] RUN 89/180 (49.4%) eye_movements xgboost None
+[2026-03-19 00:54:10] eye_movements xgboost None run=0 score=0.68967 removed=0 (0.000)
+[2026-03-19 00:54:10] eye_movements xgboost None run=1 score=0.68967 removed=0 (0.000)
+[2026-03-19 00:54:10] eye_movements xgboost None run=2 score=0.68967 removed=0 (0.000)
+[2026-03-19 00:54:11] eye_movements xgboost None run=3 score=0.68967 removed=0 (0.000)
+[2026-03-19 00:54:12] eye_movements xgboost None run=4 score=0.68967 removed=0 (0.000)
+[2026-03-19 00:54:12] RESULT eye_movements xgboost None mean=0.68967 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:54:12] RUN 90/180 (50.0%) eye_movements xgboost ZScore
+[2026-03-19 00:54:13] eye_movements xgboost ZScore run=0 score=0.65951 removed=1334 (0.191)
+[2026-03-19 00:54:13] eye_movements xgboost ZScore run=1 score=0.65951 removed=1334 (0.191)
+[2026-03-19 00:54:13] eye_movements xgboost ZScore run=2 score=0.65951 removed=1334 (0.191)
+[2026-03-19 00:54:14] eye_movements xgboost ZScore run=3 score=0.65951 removed=1334 (0.191)
+[2026-03-19 00:54:16] eye_movements xgboost ZScore run=4 score=0.65951 removed=1334 (0.191)
+[2026-03-19 00:54:16] RESULT eye_movements xgboost ZScore mean=0.65951 std=0.00000 removed=1334.0 (0.191)
+[2026-03-19 00:54:16] RUN 91/180 (50.6%) eye_movements xgboost IsolationForest
+[2026-03-19 00:54:21] eye_movements xgboost IsolationForest run=0 score=0.68007 removed=350 (0.050)
+[2026-03-19 00:54:23] eye_movements xgboost IsolationForest run=1 score=0.68190 removed=350 (0.050)
+[2026-03-19 00:54:24] eye_movements xgboost IsolationForest run=2 score=0.69424 removed=350 (0.050)
+[2026-03-19 00:54:25] eye_movements xgboost IsolationForest run=3 score=0.68099 removed=350 (0.050)
+[2026-03-19 00:54:26] eye_movements xgboost IsolationForest run=4 score=0.68556 removed=350 (0.050)
+[2026-03-19 00:54:26] RESULT eye_movements xgboost IsolationForest mean=0.68455 std=0.00519 removed=350.0 (0.050)
+[2026-03-19 00:54:26] RUN 92/180 (51.1%) eye_movements xgboost IQR
+[2026-03-19 00:54:27] eye_movements xgboost IQR run=0 score=0.57358 removed=3988 (0.570)
+[2026-03-19 00:54:27] eye_movements xgboost IQR run=1 score=0.57358 removed=3988 (0.570)
+[2026-03-19 00:54:27] eye_movements xgboost IQR run=2 score=0.57358 removed=3988 (0.570)
+[2026-03-19 00:54:28] eye_movements xgboost IQR run=3 score=0.57358 removed=3988 (0.570)
+[2026-03-19 00:54:28] eye_movements xgboost IQR run=4 score=0.57358 removed=3988 (0.570)
+[2026-03-19 00:54:28] RESULT eye_movements xgboost IQR mean=0.57358 std=0.00000 removed=3988.0 (0.570)
+[2026-03-19 00:54:28] RUN 93/180 (51.7%) eye_movements randomforest None
+[2026-03-19 00:54:30] eye_movements randomforest None run=0 score=0.65951 removed=0 (0.000)
+[2026-03-19 00:54:31] eye_movements randomforest None run=1 score=0.66408 removed=0 (0.000)
+[2026-03-19 00:54:33] eye_movements randomforest None run=2 score=0.65676 removed=0 (0.000)
+[2026-03-19 00:54:34] eye_movements randomforest None run=3 score=0.66179 removed=0 (0.000)
+[2026-03-19 00:54:36] eye_movements randomforest None run=4 score=0.66545 removed=0 (0.000)
+[2026-03-19 00:54:36] RESULT eye_movements randomforest None mean=0.66152 std=0.00312 removed=0.0 (0.000)
+[2026-03-19 00:54:36] RUN 94/180 (52.2%) eye_movements randomforest ZScore
+[2026-03-19 00:54:37] eye_movements randomforest ZScore run=0 score=0.63894 removed=1334 (0.191)
+[2026-03-19 00:54:39] eye_movements randomforest ZScore run=1 score=0.63300 removed=1334 (0.191)
+[2026-03-19 00:54:40] eye_movements randomforest ZScore run=2 score=0.63711 removed=1334 (0.191)
+[2026-03-19 00:54:41] eye_movements randomforest ZScore run=3 score=0.63620 removed=1334 (0.191)
+[2026-03-19 00:54:42] eye_movements randomforest ZScore run=4 score=0.62888 removed=1334 (0.191)
+[2026-03-19 00:54:42] RESULT eye_movements randomforest ZScore mean=0.63483 std=0.00354 removed=1334.0 (0.191)
+[2026-03-19 00:54:42] RUN 95/180 (52.8%) eye_movements randomforest IsolationForest
+[2026-03-19 00:54:44] eye_movements randomforest IsolationForest run=0 score=0.66088 removed=350 (0.050)
+[2026-03-19 00:54:46] eye_movements randomforest IsolationForest run=1 score=0.65996 removed=350 (0.050)
+[2026-03-19 00:54:48] eye_movements randomforest IsolationForest run=2 score=0.66316 removed=350 (0.050)
+[2026-03-19 00:54:50] eye_movements randomforest IsolationForest run=3 score=0.64945 removed=350 (0.050)
+[2026-03-19 00:54:52] eye_movements randomforest IsolationForest run=4 score=0.65128 removed=350 (0.050)
+[2026-03-19 00:54:52] RESULT eye_movements randomforest IsolationForest mean=0.65695 std=0.00550 removed=350.0 (0.050)
+[2026-03-19 00:54:52] RUN 96/180 (53.3%) eye_movements randomforest IQR
+[2026-03-19 00:54:53] eye_movements randomforest IQR run=0 score=0.56993 removed=3988 (0.570)
+[2026-03-19 00:54:53] eye_movements randomforest IQR run=1 score=0.55073 removed=3988 (0.570)
+[2026-03-19 00:54:54] eye_movements randomforest IQR run=2 score=0.55759 removed=3988 (0.570)
+[2026-03-19 00:54:55] eye_movements randomforest IQR run=3 score=0.55393 removed=3988 (0.570)
+[2026-03-19 00:54:55] eye_movements randomforest IQR run=4 score=0.54753 removed=3988 (0.570)
+[2026-03-19 00:54:55] RESULT eye_movements randomforest IQR mean=0.55594 std=0.00775 removed=3988.0 (0.570)
+[2026-03-19 00:54:55] ==== DATASET eye_movements DONE ====
+[2026-03-19 00:54:55] ==== DATASET house_16H ====
+[2026-03-19 00:54:55] RUN 97/180 (53.9%) house_16H mlp None
+[2026-03-19 00:55:01] house_16H mlp None run=0 score=0.86546 removed=0 (0.000)
+[2026-03-19 00:55:06] house_16H mlp None run=1 score=0.86694 removed=0 (0.000)
+[2026-03-19 00:55:13] house_16H mlp None run=2 score=0.86360 removed=0 (0.000)
+[2026-03-19 00:55:19] house_16H mlp None run=3 score=0.86360 removed=0 (0.000)
+[2026-03-19 00:55:26] house_16H mlp None run=4 score=0.86064 removed=0 (0.000)
+[2026-03-19 00:55:26] RESULT house_16H mlp None mean=0.86405 std=0.00211 removed=0.0 (0.000)
+[2026-03-19 00:55:26] RUN 98/180 (54.4%) house_16H mlp ZScore
+[2026-03-19 00:55:32] house_16H mlp ZScore run=0 score=0.86471 removed=1320 (0.153)
+[2026-03-19 00:55:38] house_16H mlp ZScore run=1 score=0.86731 removed=1320 (0.153)
+[2026-03-19 00:55:44] house_16H mlp ZScore run=2 score=0.87361 removed=1320 (0.153)
+[2026-03-19 00:55:47] house_16H mlp ZScore run=3 score=0.86471 removed=1320 (0.153)
+[2026-03-19 00:55:52] house_16H mlp ZScore run=4 score=0.86138 removed=1320 (0.153)
+[2026-03-19 00:55:52] RESULT house_16H mlp ZScore mean=0.86635 std=0.00409 removed=1320.0 (0.153)
+[2026-03-19 00:55:52] RUN 99/180 (55.0%) house_16H mlp IsolationForest
+[2026-03-19 00:55:59] house_16H mlp IsolationForest run=0 score=0.86694 removed=432 (0.050)
+[2026-03-19 00:56:06] house_16H mlp IsolationForest run=1 score=0.86879 removed=432 (0.050)
+[2026-03-19 00:56:12] house_16H mlp IsolationForest run=2 score=0.86323 removed=432 (0.050)
+[2026-03-19 00:56:19] house_16H mlp IsolationForest run=3 score=0.86471 removed=432 (0.050)
+[2026-03-19 00:56:25] house_16H mlp IsolationForest run=4 score=0.86805 removed=432 (0.050)
+[2026-03-19 00:56:25] RESULT house_16H mlp IsolationForest mean=0.86635 std=0.00208 removed=432.0 (0.050)
+[2026-03-19 00:56:25] RUN 100/180 (55.6%) house_16H mlp IQR
+[2026-03-19 00:56:29] house_16H mlp IQR run=0 score=0.83951 removed=4580 (0.531)
+[2026-03-19 00:56:32] house_16H mlp IQR run=1 score=0.80208 removed=4580 (0.531)
+[2026-03-19 00:56:35] house_16H mlp IQR run=2 score=0.82431 removed=4580 (0.531)
+[2026-03-19 00:56:39] house_16H mlp IQR run=3 score=0.79948 removed=4580 (0.531)
+[2026-03-19 00:56:42] house_16H mlp IQR run=4 score=0.82246 removed=4580 (0.531)
+[2026-03-19 00:56:42] RESULT house_16H mlp IQR mean=0.81757 std=0.01495 removed=4580.0 (0.531)
+[2026-03-19 00:56:42] RUN 101/180 (56.1%) house_16H xgboost None
+[2026-03-19 00:56:42] house_16H xgboost None run=0 score=0.87695 removed=0 (0.000)
+[2026-03-19 00:56:43] house_16H xgboost None run=1 score=0.87695 removed=0 (0.000)
+[2026-03-19 00:56:43] house_16H xgboost None run=2 score=0.87398 removed=0 (0.000)
+[2026-03-19 00:56:43] house_16H xgboost None run=3 score=0.88176 removed=0 (0.000)
+[2026-03-19 00:56:43] house_16H xgboost None run=4 score=0.87287 removed=0 (0.000)
+[2026-03-19 00:56:43] RESULT house_16H xgboost None mean=0.87650 std=0.00309 removed=0.0 (0.000)
+[2026-03-19 00:56:43] RUN 102/180 (56.7%) house_16H xgboost ZScore
+[2026-03-19 00:56:43] house_16H xgboost ZScore run=0 score=0.86916 removed=1320 (0.153)
+[2026-03-19 00:56:44] house_16H xgboost ZScore run=1 score=0.86916 removed=1320 (0.153)
+[2026-03-19 00:56:44] house_16H xgboost ZScore run=2 score=0.86916 removed=1320 (0.153)
+[2026-03-19 00:56:44] house_16H xgboost ZScore run=3 score=0.86916 removed=1320 (0.153)
+[2026-03-19 00:56:44] house_16H xgboost ZScore run=4 score=0.86916 removed=1320 (0.153)
+[2026-03-19 00:56:44] RESULT house_16H xgboost ZScore mean=0.86916 std=0.00000 removed=1320.0 (0.153)
+[2026-03-19 00:56:44] RUN 103/180 (57.2%) house_16H xgboost IsolationForest
+[2026-03-19 00:56:44] house_16H xgboost IsolationForest run=0 score=0.87472 removed=432 (0.050)
+[2026-03-19 00:56:45] house_16H xgboost IsolationForest run=1 score=0.87435 removed=432 (0.050)
+[2026-03-19 00:56:45] house_16H xgboost IsolationForest run=2 score=0.87472 removed=432 (0.050)
+[2026-03-19 00:56:46] house_16H xgboost IsolationForest run=3 score=0.87658 removed=432 (0.050)
+[2026-03-19 00:56:47] house_16H xgboost IsolationForest run=4 score=0.87806 removed=432 (0.050)
+[2026-03-19 00:56:47] RESULT house_16H xgboost IsolationForest mean=0.87569 std=0.00142 removed=432.0 (0.050)
+[2026-03-19 00:56:47] RUN 104/180 (57.8%) house_16H xgboost IQR
+[2026-03-19 00:56:47] house_16H xgboost IQR run=0 score=0.86768 removed=4580 (0.531)
+[2026-03-19 00:56:47] house_16H xgboost IQR run=1 score=0.86768 removed=4580 (0.531)
+[2026-03-19 00:56:47] house_16H xgboost IQR run=2 score=0.86768 removed=4580 (0.531)
+[2026-03-19 00:56:47] house_16H xgboost IQR run=3 score=0.86768 removed=4580 (0.531)
+[2026-03-19 00:56:47] house_16H xgboost IQR run=4 score=0.86768 removed=4580 (0.531)
+[2026-03-19 00:56:47] RESULT house_16H xgboost IQR mean=0.86768 std=0.00000 removed=4580.0 (0.531)
+[2026-03-19 00:56:47] RUN 105/180 (58.3%) house_16H randomforest None
+[2026-03-19 00:56:50] house_16H randomforest None run=0 score=0.88436 removed=0 (0.000)
+[2026-03-19 00:56:52] house_16H randomforest None run=1 score=0.88176 removed=0 (0.000)
+[2026-03-19 00:56:54] house_16H randomforest None run=2 score=0.88102 removed=0 (0.000)
+[2026-03-19 00:56:56] house_16H randomforest None run=3 score=0.88288 removed=0 (0.000)
+[2026-03-19 00:56:58] house_16H randomforest None run=4 score=0.88028 removed=0 (0.000)
+[2026-03-19 00:56:58] RESULT house_16H randomforest None mean=0.88206 std=0.00143 removed=0.0 (0.000)
+[2026-03-19 00:56:58] RUN 106/180 (58.9%) house_16H randomforest ZScore
+[2026-03-19 00:57:00] house_16H randomforest ZScore run=0 score=0.87102 removed=1320 (0.153)
+[2026-03-19 00:57:02] house_16H randomforest ZScore run=1 score=0.87250 removed=1320 (0.153)
+[2026-03-19 00:57:04] house_16H randomforest ZScore run=2 score=0.87027 removed=1320 (0.153)
+[2026-03-19 00:57:06] house_16H randomforest ZScore run=3 score=0.87213 removed=1320 (0.153)
+[2026-03-19 00:57:08] house_16H randomforest ZScore run=4 score=0.87176 removed=1320 (0.153)
+[2026-03-19 00:57:08] RESULT house_16H randomforest ZScore mean=0.87153 std=0.00080 removed=1320.0 (0.153)
+[2026-03-19 00:57:08] RUN 107/180 (59.4%) house_16H randomforest IsolationForest
+[2026-03-19 00:57:10] house_16H randomforest IsolationForest run=0 score=0.87658 removed=432 (0.050)
+[2026-03-19 00:57:13] house_16H randomforest IsolationForest run=1 score=0.87880 removed=432 (0.050)
+[2026-03-19 00:57:15] house_16H randomforest IsolationForest run=2 score=0.87991 removed=432 (0.050)
+[2026-03-19 00:57:17] house_16H randomforest IsolationForest run=3 score=0.87991 removed=432 (0.050)
+[2026-03-19 00:57:20] house_16H randomforest IsolationForest run=4 score=0.87658 removed=432 (0.050)
+[2026-03-19 00:57:20] RESULT house_16H randomforest IsolationForest mean=0.87835 std=0.00151 removed=432.0 (0.050)
+[2026-03-19 00:57:20] RUN 108/180 (60.0%) house_16H randomforest IQR
+[2026-03-19 00:57:21] house_16H randomforest IQR run=0 score=0.86397 removed=4580 (0.531)
+[2026-03-19 00:57:21] house_16H randomforest IQR run=1 score=0.86620 removed=4580 (0.531)
+[2026-03-19 00:57:22] house_16H randomforest IQR run=2 score=0.86509 removed=4580 (0.531)
+[2026-03-19 00:57:23] house_16H randomforest IQR run=3 score=0.87102 removed=4580 (0.531)
+[2026-03-19 00:57:24] house_16H randomforest IQR run=4 score=0.86805 removed=4580 (0.531)
+[2026-03-19 00:57:24] RESULT house_16H randomforest IQR mean=0.86686 std=0.00247 removed=4580.0 (0.531)
+[2026-03-19 00:57:24] ==== DATASET house_16H DONE ====
+[2026-03-19 00:57:24] ==== DATASET kc1 ====
+[2026-03-19 00:57:24] RUN 109/180 (60.6%) kc1 mlp None
+[2026-03-19 00:57:25] kc1 mlp None run=0 score=0.85782 removed=0 (0.000)
+[2026-03-19 00:57:26] kc1 mlp None run=1 score=0.86019 removed=0 (0.000)
+[2026-03-19 00:57:27] kc1 mlp None run=2 score=0.86493 removed=0 (0.000)
+[2026-03-19 00:57:28] kc1 mlp None run=3 score=0.85782 removed=0 (0.000)
+[2026-03-19 00:57:29] kc1 mlp None run=4 score=0.86730 removed=0 (0.000)
+[2026-03-19 00:57:29] RESULT kc1 mlp None mean=0.86161 std=0.00385 removed=0.0 (0.000)
+[2026-03-19 00:57:29] RUN 110/180 (61.1%) kc1 mlp ZScore
+[2026-03-19 00:57:30] kc1 mlp ZScore run=0 score=0.86019 removed=113 (0.084)
+[2026-03-19 00:57:31] kc1 mlp ZScore run=1 score=0.86256 removed=113 (0.084)
+[2026-03-19 00:57:32] kc1 mlp ZScore run=2 score=0.84360 removed=113 (0.084)
+[2026-03-19 00:57:33] kc1 mlp ZScore run=3 score=0.85782 removed=113 (0.084)
+[2026-03-19 00:57:34] kc1 mlp ZScore run=4 score=0.86256 removed=113 (0.084)
+[2026-03-19 00:57:34] RESULT kc1 mlp ZScore mean=0.85735 std=0.00709 removed=113.0 (0.084)
+[2026-03-19 00:57:34] RUN 111/180 (61.7%) kc1 mlp IsolationForest
+[2026-03-19 00:57:35] kc1 mlp IsolationForest run=0 score=0.86019 removed=68 (0.050)
+[2026-03-19 00:57:36] kc1 mlp IsolationForest run=1 score=0.86019 removed=68 (0.050)
+[2026-03-19 00:57:38] kc1 mlp IsolationForest run=2 score=0.85545 removed=68 (0.050)
+[2026-03-19 00:57:39] kc1 mlp IsolationForest run=3 score=0.85545 removed=68 (0.050)
+[2026-03-19 00:57:40] kc1 mlp IsolationForest run=4 score=0.86493 removed=68 (0.050)
+[2026-03-19 00:57:40] RESULT kc1 mlp IsolationForest mean=0.85924 std=0.00355 removed=68.0 (0.050)
+[2026-03-19 00:57:40] RUN 112/180 (62.2%) kc1 mlp IQR
+[2026-03-19 00:57:41] kc1 mlp IQR run=0 score=0.80332 removed=451 (0.334)
+[2026-03-19 00:57:41] kc1 mlp IQR run=1 score=0.81991 removed=451 (0.334)
+[2026-03-19 00:57:42] kc1 mlp IQR run=2 score=0.82227 removed=451 (0.334)
+[2026-03-19 00:57:43] kc1 mlp IQR run=3 score=0.81754 removed=451 (0.334)
+[2026-03-19 00:57:44] kc1 mlp IQR run=4 score=0.81043 removed=451 (0.334)
+[2026-03-19 00:57:44] RESULT kc1 mlp IQR mean=0.81469 std=0.00693 removed=451.0 (0.334)
+[2026-03-19 00:57:44] RUN 113/180 (62.8%) kc1 xgboost None
+[2026-03-19 00:57:44] kc1 xgboost None run=0 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:44] kc1 xgboost None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:44] kc1 xgboost None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:44] kc1 xgboost None run=3 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:44] kc1 xgboost None run=4 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:44] RESULT kc1 xgboost None mean=0.87441 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:57:44] RUN 114/180 (63.3%) kc1 xgboost ZScore
+[2026-03-19 00:57:44] kc1 xgboost ZScore run=0 score=0.86730 removed=113 (0.084)
+[2026-03-19 00:57:44] kc1 xgboost ZScore run=1 score=0.86730 removed=113 (0.084)
+[2026-03-19 00:57:44] kc1 xgboost ZScore run=2 score=0.86730 removed=113 (0.084)
+[2026-03-19 00:57:44] kc1 xgboost ZScore run=3 score=0.86730 removed=113 (0.084)
+[2026-03-19 00:57:44] kc1 xgboost ZScore run=4 score=0.86730 removed=113 (0.084)
+[2026-03-19 00:57:44] RESULT kc1 xgboost ZScore mean=0.86730 std=0.00000 removed=113.0 (0.084)
+[2026-03-19 00:57:44] RUN 115/180 (63.9%) kc1 xgboost IsolationForest
+[2026-03-19 00:57:45] kc1 xgboost IsolationForest run=0 score=0.86493 removed=68 (0.050)
+[2026-03-19 00:57:45] kc1 xgboost IsolationForest run=1 score=0.86493 removed=68 (0.050)
+[2026-03-19 00:57:45] kc1 xgboost IsolationForest run=2 score=0.86493 removed=68 (0.050)
+[2026-03-19 00:57:46] kc1 xgboost IsolationForest run=3 score=0.87441 removed=68 (0.050)
+[2026-03-19 00:57:46] kc1 xgboost IsolationForest run=4 score=0.86730 removed=68 (0.050)
+[2026-03-19 00:57:46] RESULT kc1 xgboost IsolationForest mean=0.86730 std=0.00367 removed=68.0 (0.050)
+[2026-03-19 00:57:46] RUN 116/180 (64.4%) kc1 xgboost IQR
+[2026-03-19 00:57:46] kc1 xgboost IQR run=0 score=0.83175 removed=451 (0.334)
+[2026-03-19 00:57:46] kc1 xgboost IQR run=1 score=0.83175 removed=451 (0.334)
+[2026-03-19 00:57:46] kc1 xgboost IQR run=2 score=0.83175 removed=451 (0.334)
+[2026-03-19 00:57:46] kc1 xgboost IQR run=3 score=0.83175 removed=451 (0.334)
+[2026-03-19 00:57:46] kc1 xgboost IQR run=4 score=0.83175 removed=451 (0.334)
+[2026-03-19 00:57:46] RESULT kc1 xgboost IQR mean=0.83175 std=0.00000 removed=451.0 (0.334)
+[2026-03-19 00:57:46] RUN 117/180 (65.0%) kc1 randomforest None
+[2026-03-19 00:57:47] kc1 randomforest None run=0 score=0.87204 removed=0 (0.000)
+[2026-03-19 00:57:47] kc1 randomforest None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:47] kc1 randomforest None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 00:57:47] kc1 randomforest None run=3 score=0.86967 removed=0 (0.000)
+[2026-03-19 00:57:47] kc1 randomforest None run=4 score=0.86256 removed=0 (0.000)
+[2026-03-19 00:57:47] RESULT kc1 randomforest None mean=0.87062 std=0.00440 removed=0.0 (0.000)
+[2026-03-19 00:57:47] RUN 118/180 (65.6%) kc1 randomforest ZScore
+[2026-03-19 00:57:48] kc1 randomforest ZScore run=0 score=0.86493 removed=113 (0.084)
+[2026-03-19 00:57:48] kc1 randomforest ZScore run=1 score=0.86256 removed=113 (0.084)
+[2026-03-19 00:57:48] kc1 randomforest ZScore run=2 score=0.86256 removed=113 (0.084)
+[2026-03-19 00:57:48] kc1 randomforest ZScore run=3 score=0.85545 removed=113 (0.084)
+[2026-03-19 00:57:48] kc1 randomforest ZScore run=4 score=0.86019 removed=113 (0.084)
+[2026-03-19 00:57:48] RESULT kc1 randomforest ZScore mean=0.86114 std=0.00321 removed=113.0 (0.084)
+[2026-03-19 00:57:48] RUN 119/180 (66.1%) kc1 randomforest IsolationForest
+[2026-03-19 00:57:49] kc1 randomforest IsolationForest run=0 score=0.86967 removed=68 (0.050)
+[2026-03-19 00:57:49] kc1 randomforest IsolationForest run=1 score=0.87441 removed=68 (0.050)
+[2026-03-19 00:57:49] kc1 randomforest IsolationForest run=2 score=0.86019 removed=68 (0.050)
+[2026-03-19 00:57:50] kc1 randomforest IsolationForest run=3 score=0.87678 removed=68 (0.050)
+[2026-03-19 00:57:50] kc1 randomforest IsolationForest run=4 score=0.87678 removed=68 (0.050)
+[2026-03-19 00:57:50] RESULT kc1 randomforest IsolationForest mean=0.87156 std=0.00625 removed=68.0 (0.050)
+[2026-03-19 00:57:50] RUN 120/180 (66.7%) kc1 randomforest IQR
+[2026-03-19 00:57:50] kc1 randomforest IQR run=0 score=0.83886 removed=451 (0.334)
+[2026-03-19 00:57:50] kc1 randomforest IQR run=1 score=0.85545 removed=451 (0.334)
+[2026-03-19 00:57:51] kc1 randomforest IQR run=2 score=0.84597 removed=451 (0.334)
+[2026-03-19 00:57:51] kc1 randomforest IQR run=3 score=0.84834 removed=451 (0.334)
+[2026-03-19 00:57:51] kc1 randomforest IQR run=4 score=0.85071 removed=451 (0.334)
+[2026-03-19 00:57:51] RESULT kc1 randomforest IQR mean=0.84787 std=0.00549 removed=451.0 (0.334)
+[2026-03-19 00:57:51] ==== DATASET kc1 DONE ====
+[2026-03-19 00:57:51] ==== DATASET phoneme ====
+[2026-03-19 00:57:51] RUN 121/180 (67.2%) phoneme mlp None
+[2026-03-19 00:57:53] phoneme mlp None run=0 score=0.83719 removed=0 (0.000)
+[2026-03-19 00:57:55] phoneme mlp None run=1 score=0.84921 removed=0 (0.000)
+[2026-03-19 00:57:57] phoneme mlp None run=2 score=0.85014 removed=0 (0.000)
+[2026-03-19 00:58:00] phoneme mlp None run=3 score=0.83811 removed=0 (0.000)
+[2026-03-19 00:58:02] phoneme mlp None run=4 score=0.83811 removed=0 (0.000)
+[2026-03-19 00:58:02] RESULT phoneme mlp None mean=0.84255 std=0.00583 removed=0.0 (0.000)
+[2026-03-19 00:58:02] RUN 122/180 (67.8%) phoneme mlp ZScore
+[2026-03-19 00:58:04] phoneme mlp ZScore run=0 score=0.83904 removed=87 (0.025)
+[2026-03-19 00:58:06] phoneme mlp ZScore run=1 score=0.84459 removed=87 (0.025)
+[2026-03-19 00:58:09] phoneme mlp ZScore run=2 score=0.84274 removed=87 (0.025)
+[2026-03-19 00:58:11] phoneme mlp ZScore run=3 score=0.83534 removed=87 (0.025)
+[2026-03-19 00:58:13] phoneme mlp ZScore run=4 score=0.83811 removed=87 (0.025)
+[2026-03-19 00:58:13] RESULT phoneme mlp ZScore mean=0.83996 std=0.00331 removed=87.0 (0.025)
+[2026-03-19 00:58:13] RUN 123/180 (68.3%) phoneme mlp IsolationForest
+[2026-03-19 00:58:15] phoneme mlp IsolationForest run=0 score=0.83626 removed=173 (0.050)
+[2026-03-19 00:58:18] phoneme mlp IsolationForest run=1 score=0.84274 removed=173 (0.050)
+[2026-03-19 00:58:20] phoneme mlp IsolationForest run=2 score=0.84089 removed=173 (0.050)
+[2026-03-19 00:58:22] phoneme mlp IsolationForest run=3 score=0.84829 removed=173 (0.050)
+[2026-03-19 00:58:24] phoneme mlp IsolationForest run=4 score=0.84274 removed=173 (0.050)
+[2026-03-19 00:58:24] RESULT phoneme mlp IsolationForest mean=0.84218 std=0.00386 removed=173.0 (0.050)
+[2026-03-19 00:58:24] RUN 124/180 (68.9%) phoneme mlp IQR
+[2026-03-19 00:58:26] phoneme mlp IQR run=0 score=0.82054 removed=784 (0.227)
+[2026-03-19 00:58:28] phoneme mlp IQR run=1 score=0.81684 removed=784 (0.227)
+[2026-03-19 00:58:30] phoneme mlp IQR run=2 score=0.81684 removed=784 (0.227)
+[2026-03-19 00:58:31] phoneme mlp IQR run=3 score=0.81221 removed=784 (0.227)
+[2026-03-19 00:58:33] phoneme mlp IQR run=4 score=0.81406 removed=784 (0.227)
+[2026-03-19 00:58:33] RESULT phoneme mlp IQR mean=0.81610 std=0.00283 removed=784.0 (0.227)
+[2026-03-19 00:58:33] RUN 125/180 (69.4%) phoneme xgboost None
+[2026-03-19 00:58:33] phoneme xgboost None run=0 score=0.87789 removed=0 (0.000)
+[2026-03-19 00:58:33] phoneme xgboost None run=1 score=0.87789 removed=0 (0.000)
+[2026-03-19 00:58:33] phoneme xgboost None run=2 score=0.87789 removed=0 (0.000)
+[2026-03-19 00:58:34] phoneme xgboost None run=3 score=0.87789 removed=0 (0.000)
+[2026-03-19 00:58:34] phoneme xgboost None run=4 score=0.87789 removed=0 (0.000)
+[2026-03-19 00:58:34] RESULT phoneme xgboost None mean=0.87789 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:58:34] RUN 126/180 (70.0%) phoneme xgboost ZScore
+[2026-03-19 00:58:34] phoneme xgboost ZScore run=0 score=0.87512 removed=87 (0.025)
+[2026-03-19 00:58:34] phoneme xgboost ZScore run=1 score=0.87512 removed=87 (0.025)
+[2026-03-19 00:58:34] phoneme xgboost ZScore run=2 score=0.87512 removed=87 (0.025)
+[2026-03-19 00:58:34] phoneme xgboost ZScore run=3 score=0.87512 removed=87 (0.025)
+[2026-03-19 00:58:34] phoneme xgboost ZScore run=4 score=0.87512 removed=87 (0.025)
+[2026-03-19 00:58:34] RESULT phoneme xgboost ZScore mean=0.87512 std=0.00000 removed=87.0 (0.025)
+[2026-03-19 00:58:34] RUN 127/180 (70.6%) phoneme xgboost IsolationForest
+[2026-03-19 00:58:34] phoneme xgboost IsolationForest run=0 score=0.86679 removed=173 (0.050)
+[2026-03-19 00:58:35] phoneme xgboost IsolationForest run=1 score=0.86772 removed=173 (0.050)
+[2026-03-19 00:58:35] phoneme xgboost IsolationForest run=2 score=0.86679 removed=173 (0.050)
+[2026-03-19 00:58:35] phoneme xgboost IsolationForest run=3 score=0.87234 removed=173 (0.050)
+[2026-03-19 00:58:36] phoneme xgboost IsolationForest run=4 score=0.86124 removed=173 (0.050)
+[2026-03-19 00:58:36] RESULT phoneme xgboost IsolationForest mean=0.86698 std=0.00353 removed=173.0 (0.050)
+[2026-03-19 00:58:36] RUN 128/180 (71.1%) phoneme xgboost IQR
+[2026-03-19 00:58:36] phoneme xgboost IQR run=0 score=0.84736 removed=784 (0.227)
+[2026-03-19 00:58:36] phoneme xgboost IQR run=1 score=0.84736 removed=784 (0.227)
+[2026-03-19 00:58:36] phoneme xgboost IQR run=2 score=0.84736 removed=784 (0.227)
+[2026-03-19 00:58:36] phoneme xgboost IQR run=3 score=0.84736 removed=784 (0.227)
+[2026-03-19 00:58:36] phoneme xgboost IQR run=4 score=0.84736 removed=784 (0.227)
+[2026-03-19 00:58:36] RESULT phoneme xgboost IQR mean=0.84736 std=0.00000 removed=784.0 (0.227)
+[2026-03-19 00:58:36] RUN 129/180 (71.7%) phoneme randomforest None
+[2026-03-19 00:58:36] phoneme randomforest None run=0 score=0.88529 removed=0 (0.000)
+[2026-03-19 00:58:37] phoneme randomforest None run=1 score=0.88437 removed=0 (0.000)
+[2026-03-19 00:58:37] phoneme randomforest None run=2 score=0.88529 removed=0 (0.000)
+[2026-03-19 00:58:38] phoneme randomforest None run=3 score=0.88252 removed=0 (0.000)
+[2026-03-19 00:58:38] phoneme randomforest None run=4 score=0.89177 removed=0 (0.000)
+[2026-03-19 00:58:38] RESULT phoneme randomforest None mean=0.88585 std=0.00313 removed=0.0 (0.000)
+[2026-03-19 00:58:38] RUN 130/180 (72.2%) phoneme randomforest ZScore
+[2026-03-19 00:58:39] phoneme randomforest ZScore run=0 score=0.88344 removed=87 (0.025)
+[2026-03-19 00:58:39] phoneme randomforest ZScore run=1 score=0.88992 removed=87 (0.025)
+[2026-03-19 00:58:40] phoneme randomforest ZScore run=2 score=0.89362 removed=87 (0.025)
+[2026-03-19 00:58:40] phoneme randomforest ZScore run=3 score=0.88807 removed=87 (0.025)
+[2026-03-19 00:58:40] phoneme randomforest ZScore run=4 score=0.88344 removed=87 (0.025)
+[2026-03-19 00:58:40] RESULT phoneme randomforest ZScore mean=0.88770 std=0.00391 removed=87.0 (0.025)
+[2026-03-19 00:58:40] RUN 131/180 (72.8%) phoneme randomforest IsolationForest
+[2026-03-19 00:58:42] phoneme randomforest IsolationForest run=0 score=0.88529 removed=173 (0.050)
+[2026-03-19 00:58:42] phoneme randomforest IsolationForest run=1 score=0.88714 removed=173 (0.050)
+[2026-03-19 00:58:43] phoneme randomforest IsolationForest run=2 score=0.88159 removed=173 (0.050)
+[2026-03-19 00:58:44] phoneme randomforest IsolationForest run=3 score=0.89084 removed=173 (0.050)
+[2026-03-19 00:58:44] phoneme randomforest IsolationForest run=4 score=0.89084 removed=173 (0.050)
+[2026-03-19 00:58:44] RESULT phoneme randomforest IsolationForest mean=0.88714 std=0.00351 removed=173.0 (0.050)
+[2026-03-19 00:58:44] RUN 132/180 (73.3%) phoneme randomforest IQR
+[2026-03-19 00:58:45] phoneme randomforest IQR run=0 score=0.86216 removed=784 (0.227)
+[2026-03-19 00:58:45] phoneme randomforest IQR run=1 score=0.85199 removed=784 (0.227)
+[2026-03-19 00:58:45] phoneme randomforest IQR run=2 score=0.86124 removed=784 (0.227)
+[2026-03-19 00:58:46] phoneme randomforest IQR run=3 score=0.86216 removed=784 (0.227)
+[2026-03-19 00:58:46] phoneme randomforest IQR run=4 score=0.85384 removed=784 (0.227)
+[2026-03-19 00:58:46] RESULT phoneme randomforest IQR mean=0.85828 std=0.00443 removed=784.0 (0.227)
+[2026-03-19 00:58:46] ==== DATASET phoneme DONE ====
+[2026-03-19 00:58:46] ==== DATASET pol ====
+[2026-03-19 00:58:46] RUN 133/180 (73.9%) pol mlp None
+[2026-03-19 00:58:49] pol mlp None run=0 score=0.98860 removed=0 (0.000)
+[2026-03-19 00:58:51] pol mlp None run=1 score=0.98711 removed=0 (0.000)
+[2026-03-19 00:58:53] pol mlp None run=2 score=0.98364 removed=0 (0.000)
+[2026-03-19 00:58:56] pol mlp None run=3 score=0.98612 removed=0 (0.000)
+[2026-03-19 00:58:58] pol mlp None run=4 score=0.98661 removed=0 (0.000)
+[2026-03-19 00:58:58] RESULT pol mlp None mean=0.98642 std=0.00162 removed=0.0 (0.000)
+[2026-03-19 00:58:58] RUN 134/180 (74.4%) pol mlp ZScore
+[2026-03-19 00:59:00] pol mlp ZScore run=0 score=0.88647 removed=2310 (0.358)
+[2026-03-19 00:59:02] pol mlp ZScore run=1 score=0.87804 removed=2310 (0.358)
+[2026-03-19 00:59:04] pol mlp ZScore run=2 score=0.87506 removed=2310 (0.358)
+[2026-03-19 00:59:06] pol mlp ZScore run=3 score=0.88200 removed=2310 (0.358)
+[2026-03-19 00:59:08] pol mlp ZScore run=4 score=0.88151 removed=2310 (0.358)
+[2026-03-19 00:59:08] RESULT pol mlp ZScore mean=0.88061 std=0.00386 removed=2310.0 (0.358)
+[2026-03-19 00:59:08] RUN 135/180 (75.0%) pol mlp IsolationForest
+[2026-03-19 00:59:11] pol mlp IsolationForest run=0 score=0.98761 removed=323 (0.050)
+[2026-03-19 00:59:14] pol mlp IsolationForest run=1 score=0.98463 removed=323 (0.050)
+[2026-03-19 00:59:18] pol mlp IsolationForest run=2 score=0.98413 removed=323 (0.050)
+[2026-03-19 00:59:21] pol mlp IsolationForest run=3 score=0.98364 removed=323 (0.050)
+[2026-03-19 00:59:24] pol mlp IsolationForest run=4 score=0.98761 removed=323 (0.050)
+[2026-03-19 00:59:24] RESULT pol mlp IsolationForest mean=0.98552 std=0.00173 removed=323.0 (0.050)
+[2026-03-19 00:59:24] RUN 136/180 (75.6%) pol mlp IQR
+[2026-03-19 00:59:25] pol mlp IQR run=0 score=0.61626 removed=5671 (0.879)
+[2026-03-19 00:59:25] pol mlp IQR run=1 score=0.61378 removed=5671 (0.879)
+[2026-03-19 00:59:25] pol mlp IQR run=2 score=0.61130 removed=5671 (0.879)
+[2026-03-19 00:59:26] pol mlp IQR run=3 score=0.60337 removed=5671 (0.879)
+[2026-03-19 00:59:26] pol mlp IQR run=4 score=0.60585 removed=5671 (0.879)
+[2026-03-19 00:59:26] RESULT pol mlp IQR mean=0.61011 std=0.00482 removed=5671.0 (0.879)
+[2026-03-19 00:59:26] RUN 137/180 (76.1%) pol xgboost None
+[2026-03-19 00:59:26] pol xgboost None run=0 score=0.98413 removed=0 (0.000)
+[2026-03-19 00:59:26] pol xgboost None run=1 score=0.98413 removed=0 (0.000)
+[2026-03-19 00:59:26] pol xgboost None run=2 score=0.98413 removed=0 (0.000)
+[2026-03-19 00:59:26] pol xgboost None run=3 score=0.98413 removed=0 (0.000)
+[2026-03-19 00:59:26] pol xgboost None run=4 score=0.98413 removed=0 (0.000)
+[2026-03-19 00:59:26] RESULT pol xgboost None mean=0.98413 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:59:26] RUN 138/180 (76.7%) pol xgboost ZScore
+[2026-03-19 00:59:26] pol xgboost ZScore run=0 score=0.89043 removed=2310 (0.358)
+[2026-03-19 00:59:27] pol xgboost ZScore run=1 score=0.89043 removed=2310 (0.358)
+[2026-03-19 00:59:27] pol xgboost ZScore run=2 score=0.89043 removed=2310 (0.358)
+[2026-03-19 00:59:27] pol xgboost ZScore run=3 score=0.89043 removed=2310 (0.358)
+[2026-03-19 00:59:27] pol xgboost ZScore run=4 score=0.89043 removed=2310 (0.358)
+[2026-03-19 00:59:27] RESULT pol xgboost ZScore mean=0.89043 std=0.00000 removed=2310.0 (0.358)
+[2026-03-19 00:59:27] RUN 139/180 (77.2%) pol xgboost IsolationForest
+[2026-03-19 00:59:27] pol xgboost IsolationForest run=0 score=0.98463 removed=323 (0.050)
+[2026-03-19 00:59:28] pol xgboost IsolationForest run=1 score=0.98364 removed=323 (0.050)
+[2026-03-19 00:59:28] pol xgboost IsolationForest run=2 score=0.98413 removed=323 (0.050)
+[2026-03-19 00:59:28] pol xgboost IsolationForest run=3 score=0.98215 removed=323 (0.050)
+[2026-03-19 00:59:29] pol xgboost IsolationForest run=4 score=0.98314 removed=323 (0.050)
+[2026-03-19 00:59:29] RESULT pol xgboost IsolationForest mean=0.98354 std=0.00085 removed=323.0 (0.050)
+[2026-03-19 00:59:29] RUN 140/180 (77.8%) pol xgboost IQR
+[2026-03-19 00:59:29] pol xgboost IQR run=0 score=0.69856 removed=5671 (0.879)
+[2026-03-19 00:59:29] pol xgboost IQR run=1 score=0.69856 removed=5671 (0.879)
+[2026-03-19 00:59:29] pol xgboost IQR run=2 score=0.69856 removed=5671 (0.879)
+[2026-03-19 00:59:29] pol xgboost IQR run=3 score=0.69856 removed=5671 (0.879)
+[2026-03-19 00:59:29] pol xgboost IQR run=4 score=0.69856 removed=5671 (0.879)
+[2026-03-19 00:59:29] RESULT pol xgboost IQR mean=0.69856 std=0.00000 removed=5671.0 (0.879)
+[2026-03-19 00:59:29] RUN 141/180 (78.3%) pol randomforest None
+[2026-03-19 00:59:29] pol randomforest None run=0 score=0.98265 removed=0 (0.000)
+[2026-03-19 00:59:30] pol randomforest None run=1 score=0.98066 removed=0 (0.000)
+[2026-03-19 00:59:30] pol randomforest None run=2 score=0.98215 removed=0 (0.000)
+[2026-03-19 00:59:31] pol randomforest None run=3 score=0.98265 removed=0 (0.000)
+[2026-03-19 00:59:31] pol randomforest None run=4 score=0.98364 removed=0 (0.000)
+[2026-03-19 00:59:31] RESULT pol randomforest None mean=0.98235 std=0.00097 removed=0.0 (0.000)
+[2026-03-19 00:59:31] RUN 142/180 (78.9%) pol randomforest ZScore
+[2026-03-19 00:59:31] pol randomforest ZScore run=0 score=0.89241 removed=2310 (0.358)
+[2026-03-19 00:59:32] pol randomforest ZScore run=1 score=0.89341 removed=2310 (0.358)
+[2026-03-19 00:59:32] pol randomforest ZScore run=2 score=0.89489 removed=2310 (0.358)
+[2026-03-19 00:59:32] pol randomforest ZScore run=3 score=0.89539 removed=2310 (0.358)
+[2026-03-19 00:59:33] pol randomforest ZScore run=4 score=0.89688 removed=2310 (0.358)
+[2026-03-19 00:59:33] RESULT pol randomforest ZScore mean=0.89460 std=0.00156 removed=2310.0 (0.358)
+[2026-03-19 00:59:33] RUN 143/180 (79.4%) pol randomforest IsolationForest
+[2026-03-19 00:59:33] pol randomforest IsolationForest run=0 score=0.98314 removed=323 (0.050)
+[2026-03-19 00:59:34] pol randomforest IsolationForest run=1 score=0.98215 removed=323 (0.050)
+[2026-03-19 00:59:35] pol randomforest IsolationForest run=2 score=0.98066 removed=323 (0.050)
+[2026-03-19 00:59:35] pol randomforest IsolationForest run=3 score=0.98265 removed=323 (0.050)
+[2026-03-19 00:59:36] pol randomforest IsolationForest run=4 score=0.98265 removed=323 (0.050)
+[2026-03-19 00:59:36] RESULT pol randomforest IsolationForest mean=0.98225 std=0.00085 removed=323.0 (0.050)
+[2026-03-19 00:59:36] RUN 144/180 (80.0%) pol randomforest IQR
+[2026-03-19 00:59:36] pol randomforest IQR run=0 score=0.68914 removed=5671 (0.879)
+[2026-03-19 00:59:36] pol randomforest IQR run=1 score=0.68765 removed=5671 (0.879)
+[2026-03-19 00:59:36] pol randomforest IQR run=2 score=0.68815 removed=5671 (0.879)
+[2026-03-19 00:59:36] pol randomforest IQR run=3 score=0.69013 removed=5671 (0.879)
+[2026-03-19 00:59:36] pol randomforest IQR run=4 score=0.69311 removed=5671 (0.879)
+[2026-03-19 00:59:36] RESULT pol randomforest IQR mean=0.68964 std=0.00193 removed=5671.0 (0.879)
+[2026-03-19 00:59:36] ==== DATASET pol DONE ====
+[2026-03-19 00:59:36] ==== DATASET socmob ====
+[2026-03-19 00:59:36] RUN 145/180 (80.6%) socmob mlp None
+[2026-03-19 00:59:36] EXPERIMENT FAILED socmob mlp None
+[2026-03-19 00:59:36] could not convert string to float: 'Clerk'
+[2026-03-19 00:59:36] RUN 146/180 (81.1%) socmob mlp ZScore
+[2026-03-19 00:59:36] EXPERIMENT FAILED socmob mlp ZScore
+[2026-03-19 00:59:36] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 00:59:36] RUN 147/180 (81.7%) socmob mlp IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob mlp IsolationForest
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 00:59:37] RUN 148/180 (82.2%) socmob mlp IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob mlp IQR
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 00:59:37] RUN 149/180 (82.8%) socmob xgboost None
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob xgboost None
+[2026-03-19 00:59:37] could not convert string to float: 'Clerk'
+[2026-03-19 00:59:37] RUN 150/180 (83.3%) socmob xgboost ZScore
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob xgboost ZScore
+[2026-03-19 00:59:37] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 00:59:37] RUN 151/180 (83.9%) socmob xgboost IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob xgboost IsolationForest
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 00:59:37] RUN 152/180 (84.4%) socmob xgboost IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob xgboost IQR
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 00:59:37] RUN 153/180 (85.0%) socmob randomforest None
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob randomforest None
+[2026-03-19 00:59:37] could not convert string to float: 'Clerk'
+[2026-03-19 00:59:37] RUN 154/180 (85.6%) socmob randomforest ZScore
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob randomforest ZScore
+[2026-03-19 00:59:37] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 00:59:37] RUN 155/180 (86.1%) socmob randomforest IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob randomforest IsolationForest
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 00:59:37] RUN 156/180 (86.7%) socmob randomforest IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED socmob randomforest IQR
+[2026-03-19 00:59:37] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 00:59:37] ==== DATASET socmob DONE ====
+[2026-03-19 00:59:37] ==== DATASET splice ====
+[2026-03-19 00:59:37] RUN 157/180 (87.2%) splice mlp None
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice mlp None
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 158/180 (87.8%) splice mlp ZScore
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice mlp ZScore
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 159/180 (88.3%) splice mlp IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice mlp IsolationForest
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 160/180 (88.9%) splice mlp IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice mlp IQR
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 161/180 (89.4%) splice xgboost None
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice xgboost None
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 162/180 (90.0%) splice xgboost ZScore
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice xgboost ZScore
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 163/180 (90.6%) splice xgboost IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice xgboost IsolationForest
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 164/180 (91.1%) splice xgboost IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice xgboost IQR
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 165/180 (91.7%) splice randomforest None
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice randomforest None
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 166/180 (92.2%) splice randomforest ZScore
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice randomforest ZScore
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 167/180 (92.8%) splice randomforest IsolationForest
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice randomforest IsolationForest
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] RUN 168/180 (93.3%) splice randomforest IQR
+[2026-03-19 00:59:37] EXPERIMENT FAILED splice randomforest IQR
+[2026-03-19 00:59:37] 'NoneType' object is not subscriptable
+[2026-03-19 00:59:37] ==== DATASET splice DONE ====
+[2026-03-19 00:59:37] ==== DATASET vehicle ====
+[2026-03-19 00:59:37] RUN 169/180 (93.9%) vehicle mlp None
+[2026-03-19 00:59:37] vehicle mlp None run=0 score=0.82941 removed=0 (0.000)
+[2026-03-19 00:59:38] vehicle mlp None run=1 score=0.81765 removed=0 (0.000)
+[2026-03-19 00:59:38] vehicle mlp None run=2 score=0.84706 removed=0 (0.000)
+[2026-03-19 00:59:39] vehicle mlp None run=3 score=0.84118 removed=0 (0.000)
+[2026-03-19 00:59:39] vehicle mlp None run=4 score=0.84706 removed=0 (0.000)
+[2026-03-19 00:59:39] RESULT vehicle mlp None mean=0.83647 std=0.01141 removed=0.0 (0.000)
+[2026-03-19 00:59:39] RUN 170/180 (94.4%) vehicle mlp ZScore
+[2026-03-19 00:59:40] vehicle mlp ZScore run=0 score=0.82353 removed=18 (0.033)
+[2026-03-19 00:59:40] vehicle mlp ZScore run=1 score=0.82353 removed=18 (0.033)
+[2026-03-19 00:59:41] vehicle mlp ZScore run=2 score=0.80588 removed=18 (0.033)
+[2026-03-19 00:59:41] vehicle mlp ZScore run=3 score=0.82941 removed=18 (0.033)
+[2026-03-19 00:59:42] vehicle mlp ZScore run=4 score=0.82941 removed=18 (0.033)
+[2026-03-19 00:59:42] RESULT vehicle mlp ZScore mean=0.82235 std=0.00865 removed=18.0 (0.033)
+[2026-03-19 00:59:42] RUN 171/180 (95.0%) vehicle mlp IsolationForest
+[2026-03-19 00:59:42] vehicle mlp IsolationForest run=0 score=0.82941 removed=27 (0.050)
+[2026-03-19 00:59:43] vehicle mlp IsolationForest run=1 score=0.83529 removed=27 (0.050)
+[2026-03-19 00:59:44] vehicle mlp IsolationForest run=2 score=0.83529 removed=27 (0.050)
+[2026-03-19 00:59:44] vehicle mlp IsolationForest run=3 score=0.85294 removed=27 (0.050)
+[2026-03-19 00:59:45] vehicle mlp IsolationForest run=4 score=0.84706 removed=27 (0.050)
+[2026-03-19 00:59:45] RESULT vehicle mlp IsolationForest mean=0.84000 std=0.00865 removed=27.0 (0.050)
+[2026-03-19 00:59:45] RUN 172/180 (95.6%) vehicle mlp IQR
+[2026-03-19 00:59:45] vehicle mlp IQR run=0 score=0.81176 removed=28 (0.052)
+[2026-03-19 00:59:46] vehicle mlp IQR run=1 score=0.78235 removed=28 (0.052)
+[2026-03-19 00:59:47] vehicle mlp IQR run=2 score=0.80000 removed=28 (0.052)
+[2026-03-19 00:59:47] vehicle mlp IQR run=3 score=0.80588 removed=28 (0.052)
+[2026-03-19 00:59:48] vehicle mlp IQR run=4 score=0.81765 removed=28 (0.052)
+[2026-03-19 00:59:48] RESULT vehicle mlp IQR mean=0.80353 std=0.01211 removed=28.0 (0.052)
+[2026-03-19 00:59:48] RUN 173/180 (96.1%) vehicle xgboost None
+[2026-03-19 00:59:48] vehicle xgboost None run=0 score=0.77647 removed=0 (0.000)
+[2026-03-19 00:59:48] vehicle xgboost None run=1 score=0.77647 removed=0 (0.000)
+[2026-03-19 00:59:48] vehicle xgboost None run=2 score=0.77647 removed=0 (0.000)
+[2026-03-19 00:59:48] vehicle xgboost None run=3 score=0.77647 removed=0 (0.000)
+[2026-03-19 00:59:49] vehicle xgboost None run=4 score=0.77647 removed=0 (0.000)
+[2026-03-19 00:59:49] RESULT vehicle xgboost None mean=0.77647 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 00:59:49] RUN 174/180 (96.7%) vehicle xgboost ZScore
+[2026-03-19 00:59:49] vehicle xgboost ZScore run=0 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:49] vehicle xgboost ZScore run=1 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:49] vehicle xgboost ZScore run=2 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:49] vehicle xgboost ZScore run=3 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:49] vehicle xgboost ZScore run=4 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:49] RESULT vehicle xgboost ZScore mean=0.75294 std=0.00000 removed=18.0 (0.033)
+[2026-03-19 00:59:49] RUN 175/180 (97.2%) vehicle xgboost IsolationForest
+[2026-03-19 00:59:50] vehicle xgboost IsolationForest run=0 score=0.75882 removed=27 (0.050)
+[2026-03-19 00:59:50] vehicle xgboost IsolationForest run=1 score=0.77647 removed=27 (0.050)
+[2026-03-19 00:59:50] vehicle xgboost IsolationForest run=2 score=0.74706 removed=27 (0.050)
+[2026-03-19 00:59:51] vehicle xgboost IsolationForest run=3 score=0.75882 removed=27 (0.050)
+[2026-03-19 00:59:51] vehicle xgboost IsolationForest run=4 score=0.75882 removed=27 (0.050)
+[2026-03-19 00:59:51] RESULT vehicle xgboost IsolationForest mean=0.76000 std=0.00941 removed=27.0 (0.050)
+[2026-03-19 00:59:51] RUN 176/180 (97.8%) vehicle xgboost IQR
+[2026-03-19 00:59:51] vehicle xgboost IQR run=0 score=0.75882 removed=28 (0.052)
+[2026-03-19 00:59:51] vehicle xgboost IQR run=1 score=0.75882 removed=28 (0.052)
+[2026-03-19 00:59:51] vehicle xgboost IQR run=2 score=0.75882 removed=28 (0.052)
+[2026-03-19 00:59:52] vehicle xgboost IQR run=3 score=0.75882 removed=28 (0.052)
+[2026-03-19 00:59:52] vehicle xgboost IQR run=4 score=0.75882 removed=28 (0.052)
+[2026-03-19 00:59:52] RESULT vehicle xgboost IQR mean=0.75882 std=0.00000 removed=28.0 (0.052)
+[2026-03-19 00:59:52] RUN 177/180 (98.3%) vehicle randomforest None
+[2026-03-19 00:59:52] vehicle randomforest None run=0 score=0.72941 removed=0 (0.000)
+[2026-03-19 00:59:52] vehicle randomforest None run=1 score=0.71765 removed=0 (0.000)
+[2026-03-19 00:59:52] vehicle randomforest None run=2 score=0.73529 removed=0 (0.000)
+[2026-03-19 00:59:52] vehicle randomforest None run=3 score=0.75294 removed=0 (0.000)
+[2026-03-19 00:59:52] vehicle randomforest None run=4 score=0.72941 removed=0 (0.000)
+[2026-03-19 00:59:52] RESULT vehicle randomforest None mean=0.73294 std=0.01153 removed=0.0 (0.000)
+[2026-03-19 00:59:52] RUN 178/180 (98.9%) vehicle randomforest ZScore
+[2026-03-19 00:59:52] vehicle randomforest ZScore run=0 score=0.71765 removed=18 (0.033)
+[2026-03-19 00:59:53] vehicle randomforest ZScore run=1 score=0.75294 removed=18 (0.033)
+[2026-03-19 00:59:53] vehicle randomforest ZScore run=2 score=0.71176 removed=18 (0.033)
+[2026-03-19 00:59:53] vehicle randomforest ZScore run=3 score=0.73529 removed=18 (0.033)
+[2026-03-19 00:59:53] vehicle randomforest ZScore run=4 score=0.72941 removed=18 (0.033)
+[2026-03-19 00:59:53] RESULT vehicle randomforest ZScore mean=0.72941 std=0.01441 removed=18.0 (0.033)
+[2026-03-19 00:59:53] RUN 179/180 (99.4%) vehicle randomforest IsolationForest
+[2026-03-19 00:59:53] vehicle randomforest IsolationForest run=0 score=0.70000 removed=27 (0.050)
+[2026-03-19 00:59:54] vehicle randomforest IsolationForest run=1 score=0.74118 removed=27 (0.050)
+[2026-03-19 00:59:54] vehicle randomforest IsolationForest run=2 score=0.72941 removed=27 (0.050)
+[2026-03-19 00:59:54] vehicle randomforest IsolationForest run=3 score=0.73529 removed=27 (0.050)
+[2026-03-19 00:59:54] vehicle randomforest IsolationForest run=4 score=0.71765 removed=27 (0.050)
+[2026-03-19 00:59:54] RESULT vehicle randomforest IsolationForest mean=0.72471 std=0.01460 removed=27.0 (0.050)
+[2026-03-19 00:59:54] RUN 180/180 (100.0%) vehicle randomforest IQR
+[2026-03-19 00:59:55] vehicle randomforest IQR run=0 score=0.72941 removed=28 (0.052)
+[2026-03-19 00:59:55] vehicle randomforest IQR run=1 score=0.72353 removed=28 (0.052)
+[2026-03-19 00:59:55] vehicle randomforest IQR run=2 score=0.70588 removed=28 (0.052)
+[2026-03-19 00:59:55] vehicle randomforest IQR run=3 score=0.70588 removed=28 (0.052)
+[2026-03-19 00:59:55] vehicle randomforest IQR run=4 score=0.74706 removed=28 (0.052)
+[2026-03-19 00:59:55] RESULT vehicle randomforest IQR mean=0.72235 std=0.01552 removed=28.0 (0.052)
+[2026-03-19 00:59:55] ==== DATASET vehicle DONE ====
+[2026-03-19 00:59:55] Experiment finished
+
+====================
+START 2026-03-19 11:44:51
+[2026-03-19 11:44:51] Experiment started
+[2026-03-19 11:44:51] ===== EXPERIMENT SETUP =====
+[2026-03-19 11:44:51] Datasets: ['Bank_Customer_Churn_Dataset', 'cmc', 'connect-4', 'credit-g', 'electricity', 'elevators', 'eucalyptus', 'eye_movements', 'house_16H', 'kc1', 'phoneme', 'pol', 'socmob', 'splice', 'vehicle']
+[2026-03-19 11:44:51] Models: ['mlp', 'xgboost', 'randomforest']
+[2026-03-19 11:44:51] Outliers: [None, 'ZScore', 'IsolationForest', 'IQR']
+[2026-03-19 11:44:51] Runs per experiment: 5
+[2026-03-19 11:44:51] Total experiments: 180
+[2026-03-19 11:44:51] Total model trainings: 900
+[2026-03-19 11:44:51] ============================
+[2026-03-19 11:44:51] ==== DATASET Bank_Customer_Churn_Dataset ====
+[2026-03-19 11:44:51] RUN 1/180 (0.6%) Bank_Customer_Churn_Dataset mlp None
+[2026-03-19 11:44:51] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp None
+[2026-03-19 11:44:51] could not convert string to float: 'France'
+[2026-03-19 11:44:51] RUN 2/180 (1.1%) Bank_Customer_Churn_Dataset mlp ZScore
+[2026-03-19 11:44:51] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp ZScore
+[2026-03-19 11:44:51] could not convert string to float: 'France'
+[2026-03-19 11:44:51] RUN 3/180 (1.7%) Bank_Customer_Churn_Dataset mlp IsolationForest
+[2026-03-19 11:44:51] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IsolationForest
+[2026-03-19 11:44:51] could not convert string to float: 'France'
+[2026-03-19 11:44:51] RUN 4/180 (2.2%) Bank_Customer_Churn_Dataset mlp IQR
+[2026-03-19 11:44:52] EXPERIMENT FAILED Bank_Customer_Churn_Dataset mlp IQR
+[2026-03-19 11:44:52] could not convert string to float: 'Germany'
+[2026-03-19 11:44:52] RUN 5/180 (2.8%) Bank_Customer_Churn_Dataset xgboost None
+[2026-03-19 11:44:53] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost None
+[2026-03-19 11:44:53] could not convert string to float: 'France'
+[2026-03-19 11:44:53] RUN 6/180 (3.3%) Bank_Customer_Churn_Dataset xgboost ZScore
+[2026-03-19 11:44:53] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost ZScore
+[2026-03-19 11:44:53] could not convert string to float: 'France'
+[2026-03-19 11:44:53] RUN 7/180 (3.9%) Bank_Customer_Churn_Dataset xgboost IsolationForest
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost IsolationForest
+[2026-03-19 11:44:54] could not convert string to float: 'France'
+[2026-03-19 11:44:54] RUN 8/180 (4.4%) Bank_Customer_Churn_Dataset xgboost IQR
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset xgboost IQR
+[2026-03-19 11:44:54] could not convert string to float: 'Germany'
+[2026-03-19 11:44:54] RUN 9/180 (5.0%) Bank_Customer_Churn_Dataset randomforest None
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest None
+[2026-03-19 11:44:54] could not convert string to float: 'France'
+[2026-03-19 11:44:54] RUN 10/180 (5.6%) Bank_Customer_Churn_Dataset randomforest ZScore
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest ZScore
+[2026-03-19 11:44:54] could not convert string to float: 'France'
+[2026-03-19 11:44:54] RUN 11/180 (6.1%) Bank_Customer_Churn_Dataset randomforest IsolationForest
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest IsolationForest
+[2026-03-19 11:44:54] could not convert string to float: 'France'
+[2026-03-19 11:44:54] RUN 12/180 (6.7%) Bank_Customer_Churn_Dataset randomforest IQR
+[2026-03-19 11:44:54] EXPERIMENT FAILED Bank_Customer_Churn_Dataset randomforest IQR
+[2026-03-19 11:44:54] could not convert string to float: 'Germany'
+[2026-03-19 11:44:54] ==== DATASET Bank_Customer_Churn_Dataset DONE ====
+[2026-03-19 11:44:54] ==== DATASET cmc ====
+[2026-03-19 11:44:54] RUN 13/180 (7.2%) cmc mlp None
+[2026-03-19 11:44:54] cmc mlp None run=0 score=0.57627 removed=0 (0.000)
+[2026-03-19 11:44:54] cmc mlp None run=1 score=0.58644 removed=0 (0.000)
+[2026-03-19 11:44:55] cmc mlp None run=2 score=0.59661 removed=0 (0.000)
+[2026-03-19 11:44:55] cmc mlp None run=3 score=0.58983 removed=0 (0.000)
+[2026-03-19 11:44:55] cmc mlp None run=4 score=0.57627 removed=0 (0.000)
+[2026-03-19 11:44:55] RESULT cmc mlp None mean=0.58508 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 11:44:55] SKIP 14/180 (7.8%) cmc mlp ZScore
+[2026-03-19 11:44:55] SKIP 15/180 (8.3%) cmc mlp IsolationForest
+[2026-03-19 11:44:55] SKIP 16/180 (8.9%) cmc mlp IQR
+[2026-03-19 11:44:55] RUN 17/180 (9.4%) cmc xgboost None
+[2026-03-19 11:44:55] cmc xgboost None run=0 score=0.51186 removed=0 (0.000)
+[2026-03-19 11:44:55] cmc xgboost None run=1 score=0.51186 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc xgboost None run=2 score=0.51186 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc xgboost None run=3 score=0.51186 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc xgboost None run=4 score=0.51186 removed=0 (0.000)
+[2026-03-19 11:44:56] RESULT cmc xgboost None mean=0.51186 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:44:56] SKIP 18/180 (10.0%) cmc xgboost ZScore
+[2026-03-19 11:44:56] SKIP 19/180 (10.6%) cmc xgboost IsolationForest
+[2026-03-19 11:44:56] SKIP 20/180 (11.1%) cmc xgboost IQR
+[2026-03-19 11:44:56] RUN 21/180 (11.7%) cmc randomforest None
+[2026-03-19 11:44:56] cmc randomforest None run=0 score=0.52203 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc randomforest None run=1 score=0.52881 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc randomforest None run=2 score=0.50847 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc randomforest None run=3 score=0.51525 removed=0 (0.000)
+[2026-03-19 11:44:56] cmc randomforest None run=4 score=0.52881 removed=0 (0.000)
+[2026-03-19 11:44:56] RESULT cmc randomforest None mean=0.52068 std=0.00791 removed=0.0 (0.000)
+[2026-03-19 11:44:56] SKIP 22/180 (12.2%) cmc randomforest ZScore
+[2026-03-19 11:44:56] SKIP 23/180 (12.8%) cmc randomforest IsolationForest
+[2026-03-19 11:44:56] SKIP 24/180 (13.3%) cmc randomforest IQR
+[2026-03-19 11:44:56] ==== DATASET cmc DONE ====
+[2026-03-19 11:44:56] ==== DATASET connect-4 ====
+[2026-03-19 11:44:56] RUN 25/180 (13.9%) connect-4 mlp None
+[2026-03-19 11:44:56] EXPERIMENT FAILED connect-4 mlp None
+[2026-03-19 11:44:56] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:56] RUN 26/180 (14.4%) connect-4 mlp ZScore
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 mlp ZScore
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 27/180 (15.0%) connect-4 mlp IsolationForest
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 mlp IsolationForest
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 28/180 (15.6%) connect-4 mlp IQR
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 mlp IQR
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 29/180 (16.1%) connect-4 xgboost None
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 xgboost None
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 30/180 (16.7%) connect-4 xgboost ZScore
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 xgboost ZScore
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 31/180 (17.2%) connect-4 xgboost IsolationForest
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 xgboost IsolationForest
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 32/180 (17.8%) connect-4 xgboost IQR
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 xgboost IQR
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 33/180 (18.3%) connect-4 randomforest None
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 randomforest None
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 34/180 (18.9%) connect-4 randomforest ZScore
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 randomforest ZScore
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 35/180 (19.4%) connect-4 randomforest IsolationForest
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 randomforest IsolationForest
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] RUN 36/180 (20.0%) connect-4 randomforest IQR
+[2026-03-19 11:44:57] EXPERIMENT FAILED connect-4 randomforest IQR
+[2026-03-19 11:44:57] 'NoneType' object is not subscriptable
+[2026-03-19 11:44:57] ==== DATASET connect-4 DONE ====
+[2026-03-19 11:44:57] ==== DATASET credit-g ====
+[2026-03-19 11:44:57] RUN 37/180 (20.6%) credit-g mlp None
+[2026-03-19 11:44:57] credit-g mlp None run=0 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp None run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp None run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp None run=3 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp None run=4 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:57] RESULT credit-g mlp None mean=0.46000 std=0.19596 removed=0.0 (0.000)
+[2026-03-19 11:44:57] RUN 38/180 (21.1%) credit-g mlp ZScore
+[2026-03-19 11:44:57] credit-g mlp ZScore run=0 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp ZScore run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:57] credit-g mlp ZScore run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g mlp ZScore run=3 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g mlp ZScore run=4 score=0.30000 removed=0 (0.000)
+[2026-03-19 11:44:58] RESULT credit-g mlp ZScore mean=0.46000 std=0.19596 removed=0.0 (0.000)
+[2026-03-19 11:44:58] SKIP 39/180 (21.7%) credit-g mlp IsolationForest
+[2026-03-19 11:44:58] SKIP 40/180 (22.2%) credit-g mlp IQR
+[2026-03-19 11:44:58] RUN 41/180 (22.8%) credit-g xgboost None
+[2026-03-19 11:44:58] credit-g xgboost None run=0 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost None run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost None run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost None run=3 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost None run=4 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] RESULT credit-g xgboost None mean=0.70000 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:44:58] RUN 42/180 (23.3%) credit-g xgboost ZScore
+[2026-03-19 11:44:58] credit-g xgboost ZScore run=0 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost ZScore run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost ZScore run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost ZScore run=3 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g xgboost ZScore run=4 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] RESULT credit-g xgboost ZScore mean=0.70000 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:44:58] SKIP 43/180 (23.9%) credit-g xgboost IsolationForest
+[2026-03-19 11:44:58] SKIP 44/180 (24.4%) credit-g xgboost IQR
+[2026-03-19 11:44:58] RUN 45/180 (25.0%) credit-g randomforest None
+[2026-03-19 11:44:58] credit-g randomforest None run=0 score=0.71500 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g randomforest None run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:58] credit-g randomforest None run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest None run=3 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest None run=4 score=0.72000 removed=0 (0.000)
+[2026-03-19 11:44:59] RESULT credit-g randomforest None mean=0.70700 std=0.00872 removed=0.0 (0.000)
+[2026-03-19 11:44:59] RUN 46/180 (25.6%) credit-g randomforest ZScore
+[2026-03-19 11:44:59] credit-g randomforest ZScore run=0 score=0.71500 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest ZScore run=1 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest ZScore run=2 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest ZScore run=3 score=0.70000 removed=0 (0.000)
+[2026-03-19 11:44:59] credit-g randomforest ZScore run=4 score=0.72000 removed=0 (0.000)
+[2026-03-19 11:44:59] RESULT credit-g randomforest ZScore mean=0.70700 std=0.00872 removed=0.0 (0.000)
+[2026-03-19 11:44:59] SKIP 47/180 (26.1%) credit-g randomforest IsolationForest
+[2026-03-19 11:44:59] SKIP 48/180 (26.7%) credit-g randomforest IQR
+[2026-03-19 11:44:59] ==== DATASET credit-g DONE ====
+[2026-03-19 11:44:59] ==== DATASET electricity ====
+[2026-03-19 11:44:59] RUN 49/180 (27.2%) electricity mlp None
+[2026-03-19 11:45:05] electricity mlp None run=0 score=0.78616 removed=0 (0.000)
+[2026-03-19 11:45:12] electricity mlp None run=1 score=0.78054 removed=0 (0.000)
+[2026-03-19 11:45:15] electricity mlp None run=2 score=0.78296 removed=0 (0.000)
+[2026-03-19 11:45:21] electricity mlp None run=3 score=0.78429 removed=0 (0.000)
+[2026-03-19 11:45:29] electricity mlp None run=4 score=0.78672 removed=0 (0.000)
+[2026-03-19 11:45:29] RESULT electricity mlp None mean=0.78413 std=0.00224 removed=0.0 (0.000)
+[2026-03-19 11:45:29] SKIP 50/180 (27.8%) electricity mlp ZScore
+[2026-03-19 11:45:29] SKIP 51/180 (28.3%) electricity mlp IsolationForest
+[2026-03-19 11:45:29] SKIP 52/180 (28.9%) electricity mlp IQR
+[2026-03-19 11:45:29] RUN 53/180 (29.4%) electricity xgboost None
+[2026-03-19 11:45:29] electricity xgboost None run=0 score=0.89694 removed=0 (0.000)
+[2026-03-19 11:45:29] electricity xgboost None run=1 score=0.89694 removed=0 (0.000)
+[2026-03-19 11:45:29] electricity xgboost None run=2 score=0.89694 removed=0 (0.000)
+[2026-03-19 11:45:30] electricity xgboost None run=3 score=0.89694 removed=0 (0.000)
+[2026-03-19 11:45:30] electricity xgboost None run=4 score=0.89694 removed=0 (0.000)
+[2026-03-19 11:45:30] RESULT electricity xgboost None mean=0.89694 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:45:30] SKIP 54/180 (30.0%) electricity xgboost ZScore
+[2026-03-19 11:45:30] SKIP 55/180 (30.6%) electricity xgboost IsolationForest
+[2026-03-19 11:45:30] SKIP 56/180 (31.1%) electricity xgboost IQR
+[2026-03-19 11:45:30] RUN 57/180 (31.7%) electricity randomforest None
+[2026-03-19 11:45:33] electricity randomforest None run=0 score=0.90036 removed=0 (0.000)
+[2026-03-19 11:45:36] electricity randomforest None run=1 score=0.90125 removed=0 (0.000)
+[2026-03-19 11:45:39] electricity randomforest None run=2 score=0.90047 removed=0 (0.000)
+[2026-03-19 11:45:43] electricity randomforest None run=3 score=0.90202 removed=0 (0.000)
+[2026-03-19 11:45:46] electricity randomforest None run=4 score=0.90114 removed=0 (0.000)
+[2026-03-19 11:45:46] RESULT electricity randomforest None mean=0.90105 std=0.00060 removed=0.0 (0.000)
+[2026-03-19 11:45:46] SKIP 58/180 (32.2%) electricity randomforest ZScore
+[2026-03-19 11:45:46] SKIP 59/180 (32.8%) electricity randomforest IsolationForest
+[2026-03-19 11:45:46] SKIP 60/180 (33.3%) electricity randomforest IQR
+[2026-03-19 11:45:46] ==== DATASET electricity DONE ====
+[2026-03-19 11:45:46] ==== DATASET elevators ====
+[2026-03-19 11:45:46] RUN 61/180 (33.9%) elevators mlp None
+[2026-03-19 11:45:46] elevators mlp None run=0 score=0.00093 removed=0 (0.000)
+[2026-03-19 11:45:47] elevators mlp None run=1 score=0.00096 removed=0 (0.000)
+[2026-03-19 11:45:47] elevators mlp None run=2 score=0.00070 removed=0 (0.000)
+[2026-03-19 11:45:48] elevators mlp None run=3 score=0.00088 removed=0 (0.000)
+[2026-03-19 11:45:48] elevators mlp None run=4 score=0.00171 removed=0 (0.000)
+[2026-03-19 11:45:48] RESULT elevators mlp None mean=0.00103 std=0.00035 removed=0.0 (0.000)
+[2026-03-19 11:45:48] SKIP 62/180 (34.4%) elevators mlp ZScore
+[2026-03-19 11:45:48] SKIP 63/180 (35.0%) elevators mlp IsolationForest
+[2026-03-19 11:45:48] SKIP 64/180 (35.6%) elevators mlp IQR
+[2026-03-19 11:45:48] RUN 65/180 (36.1%) elevators xgboost None
+[2026-03-19 11:45:49] elevators xgboost None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:45:49] elevators xgboost None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:45:49] elevators xgboost None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:45:49] elevators xgboost None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:45:50] elevators xgboost None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:45:50] RESULT elevators xgboost None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:45:50] SKIP 66/180 (36.7%) elevators xgboost ZScore
+[2026-03-19 11:45:50] SKIP 67/180 (37.2%) elevators xgboost IsolationForest
+[2026-03-19 11:45:50] SKIP 68/180 (37.8%) elevators xgboost IQR
+[2026-03-19 11:45:50] RUN 69/180 (38.3%) elevators randomforest None
+[2026-03-19 11:45:55] elevators randomforest None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:46:01] elevators randomforest None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:46:06] elevators randomforest None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:46:11] elevators randomforest None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:46:16] elevators randomforest None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 11:46:16] RESULT elevators randomforest None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:46:16] SKIP 70/180 (38.9%) elevators randomforest ZScore
+[2026-03-19 11:46:16] SKIP 71/180 (39.4%) elevators randomforest IsolationForest
+[2026-03-19 11:46:16] SKIP 72/180 (40.0%) elevators randomforest IQR
+[2026-03-19 11:46:16] ==== DATASET elevators DONE ====
+[2026-03-19 11:46:16] ==== DATASET eucalyptus ====
+[2026-03-19 11:46:16] RUN 73/180 (40.6%) eucalyptus mlp None
+[2026-03-19 11:46:16] eucalyptus mlp None run=0 score=0.12838 removed=0 (0.000)
+[2026-03-19 11:46:16] eucalyptus mlp None run=1 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp None run=2 score=0.16892 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp None run=4 score=0.17568 removed=0 (0.000)
+[2026-03-19 11:46:17] RESULT eucalyptus mlp None mean=0.19324 std=0.04654 removed=0.0 (0.000)
+[2026-03-19 11:46:17] RUN 74/180 (41.1%) eucalyptus mlp ZScore
+[2026-03-19 11:46:17] eucalyptus mlp ZScore run=0 score=0.12838 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp ZScore run=1 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp ZScore run=2 score=0.16892 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp ZScore run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp ZScore run=4 score=0.17568 removed=0 (0.000)
+[2026-03-19 11:46:17] RESULT eucalyptus mlp ZScore mean=0.19324 std=0.04654 removed=0.0 (0.000)
+[2026-03-19 11:46:17] RUN 75/180 (41.7%) eucalyptus mlp IsolationForest
+[2026-03-19 11:46:17] EXPERIMENT FAILED eucalyptus mlp IsolationForest
+[2026-03-19 11:46:17] Found array with 0 feature(s) (shape=(470, 0)) while a minimum of 1 is required by IsolationForest.
+[2026-03-19 11:46:17] RUN 76/180 (42.2%) eucalyptus mlp IQR
+[2026-03-19 11:46:17] eucalyptus mlp IQR run=0 score=0.12838 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp IQR run=1 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp IQR run=2 score=0.16892 removed=0 (0.000)
+[2026-03-19 11:46:17] eucalyptus mlp IQR run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus mlp IQR run=4 score=0.17568 removed=0 (0.000)
+[2026-03-19 11:46:18] RESULT eucalyptus mlp IQR mean=0.19324 std=0.04654 removed=0.0 (0.000)
+[2026-03-19 11:46:18] RUN 77/180 (42.8%) eucalyptus xgboost None
+[2026-03-19 11:46:18] eucalyptus xgboost None run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus xgboost None run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus xgboost None run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus xgboost None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus xgboost None run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] RESULT eucalyptus xgboost None mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:46:18] RUN 78/180 (43.3%) eucalyptus xgboost ZScore
+[2026-03-19 11:46:18] eucalyptus xgboost ZScore run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:18] eucalyptus xgboost ZScore run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:19] eucalyptus xgboost ZScore run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:19] eucalyptus xgboost ZScore run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:19] eucalyptus xgboost ZScore run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:19] RESULT eucalyptus xgboost ZScore mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:46:19] SKIP 79/180 (43.9%) eucalyptus xgboost IsolationForest
+[2026-03-19 11:46:19] RUN 80/180 (44.4%) eucalyptus xgboost IQR
+[2026-03-19 11:46:19] eucalyptus xgboost IQR run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:20] eucalyptus xgboost IQR run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:20] eucalyptus xgboost IQR run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:20] eucalyptus xgboost IQR run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:20] eucalyptus xgboost IQR run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 11:46:20] RESULT eucalyptus xgboost IQR mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:46:20] RUN 81/180 (45.0%) eucalyptus randomforest None
+[2026-03-19 11:46:21] eucalyptus randomforest None run=0 score=0.33108 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest None run=1 score=0.18243 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest None run=2 score=0.20946 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest None run=3 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest None run=4 score=0.20270 removed=0 (0.000)
+[2026-03-19 11:46:21] RESULT eucalyptus randomforest None mean=0.23514 std=0.05275 removed=0.0 (0.000)
+[2026-03-19 11:46:21] RUN 82/180 (45.6%) eucalyptus randomforest ZScore
+[2026-03-19 11:46:21] eucalyptus randomforest ZScore run=0 score=0.33108 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest ZScore run=1 score=0.18243 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest ZScore run=2 score=0.20946 removed=0 (0.000)
+[2026-03-19 11:46:21] eucalyptus randomforest ZScore run=3 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:22] eucalyptus randomforest ZScore run=4 score=0.20270 removed=0 (0.000)
+[2026-03-19 11:46:22] RESULT eucalyptus randomforest ZScore mean=0.23514 std=0.05275 removed=0.0 (0.000)
+[2026-03-19 11:46:22] SKIP 83/180 (46.1%) eucalyptus randomforest IsolationForest
+[2026-03-19 11:46:22] RUN 84/180 (46.7%) eucalyptus randomforest IQR
+[2026-03-19 11:46:22] eucalyptus randomforest IQR run=0 score=0.33108 removed=0 (0.000)
+[2026-03-19 11:46:22] eucalyptus randomforest IQR run=1 score=0.18243 removed=0 (0.000)
+[2026-03-19 11:46:22] eucalyptus randomforest IQR run=2 score=0.20946 removed=0 (0.000)
+[2026-03-19 11:46:22] eucalyptus randomforest IQR run=3 score=0.25000 removed=0 (0.000)
+[2026-03-19 11:46:22] eucalyptus randomforest IQR run=4 score=0.20270 removed=0 (0.000)
+[2026-03-19 11:46:22] RESULT eucalyptus randomforest IQR mean=0.23514 std=0.05275 removed=0.0 (0.000)
+[2026-03-19 11:46:22] ==== DATASET eucalyptus DONE ====
+[2026-03-19 11:46:22] ==== DATASET eye_movements ====
+[2026-03-19 11:46:22] RUN 85/180 (47.2%) eye_movements mlp None
+[2026-03-19 11:46:23] eye_movements mlp None run=0 score=0.37843 removed=0 (0.000)
+[2026-03-19 11:46:23] eye_movements mlp None run=1 score=0.42322 removed=0 (0.000)
+[2026-03-19 11:46:24] eye_movements mlp None run=2 score=0.39442 removed=0 (0.000)
+[2026-03-19 11:46:24] eye_movements mlp None run=3 score=0.38803 removed=0 (0.000)
+[2026-03-19 11:46:25] eye_movements mlp None run=4 score=0.40037 removed=0 (0.000)
+[2026-03-19 11:46:25] RESULT eye_movements mlp None mean=0.39689 std=0.01504 removed=0.0 (0.000)
+[2026-03-19 11:46:25] SKIP 86/180 (47.8%) eye_movements mlp ZScore
+[2026-03-19 11:46:25] SKIP 87/180 (48.3%) eye_movements mlp IsolationForest
+[2026-03-19 11:46:25] SKIP 88/180 (48.9%) eye_movements mlp IQR
+[2026-03-19 11:46:25] RUN 89/180 (49.4%) eye_movements xgboost None
+[2026-03-19 11:46:25] eye_movements xgboost None run=0 score=0.68967 removed=0 (0.000)
+[2026-03-19 11:46:26] eye_movements xgboost None run=1 score=0.68967 removed=0 (0.000)
+[2026-03-19 11:46:26] eye_movements xgboost None run=2 score=0.68967 removed=0 (0.000)
+[2026-03-19 11:46:26] eye_movements xgboost None run=3 score=0.68967 removed=0 (0.000)
+[2026-03-19 11:46:27] eye_movements xgboost None run=4 score=0.68967 removed=0 (0.000)
+[2026-03-19 11:46:27] RESULT eye_movements xgboost None mean=0.68967 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:46:27] SKIP 90/180 (50.0%) eye_movements xgboost ZScore
+[2026-03-19 11:46:27] SKIP 91/180 (50.6%) eye_movements xgboost IsolationForest
+[2026-03-19 11:46:27] SKIP 92/180 (51.1%) eye_movements xgboost IQR
+[2026-03-19 11:46:27] RUN 93/180 (51.7%) eye_movements randomforest None
+[2026-03-19 11:46:28] eye_movements randomforest None run=0 score=0.65951 removed=0 (0.000)
+[2026-03-19 11:46:30] eye_movements randomforest None run=1 score=0.66408 removed=0 (0.000)
+[2026-03-19 11:46:31] eye_movements randomforest None run=2 score=0.65676 removed=0 (0.000)
+[2026-03-19 11:46:34] eye_movements randomforest None run=3 score=0.66179 removed=0 (0.000)
+[2026-03-19 11:46:36] eye_movements randomforest None run=4 score=0.66545 removed=0 (0.000)
+[2026-03-19 11:46:36] RESULT eye_movements randomforest None mean=0.66152 std=0.00312 removed=0.0 (0.000)
+[2026-03-19 11:46:36] SKIP 94/180 (52.2%) eye_movements randomforest ZScore
+[2026-03-19 11:46:36] SKIP 95/180 (52.8%) eye_movements randomforest IsolationForest
+[2026-03-19 11:46:36] SKIP 96/180 (53.3%) eye_movements randomforest IQR
+[2026-03-19 11:46:36] ==== DATASET eye_movements DONE ====
+[2026-03-19 11:46:36] ==== DATASET house_16H ====
+[2026-03-19 11:46:36] RUN 97/180 (53.9%) house_16H mlp None
+[2026-03-19 11:46:37] house_16H mlp None run=0 score=0.87064 removed=0 (0.000)
+[2026-03-19 11:46:41] house_16H mlp None run=1 score=0.86694 removed=0 (0.000)
+[2026-03-19 11:46:48] house_16H mlp None run=2 score=0.86360 removed=0 (0.000)
+[2026-03-19 11:46:54] house_16H mlp None run=3 score=0.86360 removed=0 (0.000)
+[2026-03-19 11:47:00] house_16H mlp None run=4 score=0.86064 removed=0 (0.000)
+[2026-03-19 11:47:00] RESULT house_16H mlp None mean=0.86509 std=0.00342 removed=0.0 (0.000)
+[2026-03-19 11:47:00] SKIP 98/180 (54.4%) house_16H mlp ZScore
+[2026-03-19 11:47:00] SKIP 99/180 (55.0%) house_16H mlp IsolationForest
+[2026-03-19 11:47:00] SKIP 100/180 (55.6%) house_16H mlp IQR
+[2026-03-19 11:47:00] RUN 101/180 (56.1%) house_16H xgboost None
+[2026-03-19 11:47:00] house_16H xgboost None run=0 score=0.87695 removed=0 (0.000)
+[2026-03-19 11:47:01] house_16H xgboost None run=1 score=0.87695 removed=0 (0.000)
+[2026-03-19 11:47:01] house_16H xgboost None run=2 score=0.87398 removed=0 (0.000)
+[2026-03-19 11:47:01] house_16H xgboost None run=3 score=0.88176 removed=0 (0.000)
+[2026-03-19 11:47:01] house_16H xgboost None run=4 score=0.87287 removed=0 (0.000)
+[2026-03-19 11:47:01] RESULT house_16H xgboost None mean=0.87650 std=0.00309 removed=0.0 (0.000)
+[2026-03-19 11:47:01] SKIP 102/180 (56.7%) house_16H xgboost ZScore
+[2026-03-19 11:47:01] SKIP 103/180 (57.2%) house_16H xgboost IsolationForest
+[2026-03-19 11:47:01] SKIP 104/180 (57.8%) house_16H xgboost IQR
+[2026-03-19 11:47:01] RUN 105/180 (58.3%) house_16H randomforest None
+[2026-03-19 11:47:03] house_16H randomforest None run=0 score=0.88436 removed=0 (0.000)
+[2026-03-19 11:47:06] house_16H randomforest None run=1 score=0.88176 removed=0 (0.000)
+[2026-03-19 11:47:09] house_16H randomforest None run=2 score=0.88102 removed=0 (0.000)
+[2026-03-19 11:47:11] house_16H randomforest None run=3 score=0.88288 removed=0 (0.000)
+[2026-03-19 11:47:13] house_16H randomforest None run=4 score=0.88028 removed=0 (0.000)
+[2026-03-19 11:47:13] RESULT house_16H randomforest None mean=0.88206 std=0.00143 removed=0.0 (0.000)
+[2026-03-19 11:47:13] SKIP 106/180 (58.9%) house_16H randomforest ZScore
+[2026-03-19 11:47:13] SKIP 107/180 (59.4%) house_16H randomforest IsolationForest
+[2026-03-19 11:47:13] SKIP 108/180 (60.0%) house_16H randomforest IQR
+[2026-03-19 11:47:13] ==== DATASET house_16H DONE ====
+[2026-03-19 11:47:13] ==== DATASET kc1 ====
+[2026-03-19 11:47:13] RUN 109/180 (60.6%) kc1 mlp None
+[2026-03-19 11:47:14] kc1 mlp None run=0 score=0.85782 removed=0 (0.000)
+[2026-03-19 11:47:15] kc1 mlp None run=1 score=0.86019 removed=0 (0.000)
+[2026-03-19 11:47:16] kc1 mlp None run=2 score=0.86493 removed=0 (0.000)
+[2026-03-19 11:47:17] kc1 mlp None run=3 score=0.85782 removed=0 (0.000)
+[2026-03-19 11:47:18] kc1 mlp None run=4 score=0.86730 removed=0 (0.000)
+[2026-03-19 11:47:18] RESULT kc1 mlp None mean=0.86161 std=0.00385 removed=0.0 (0.000)
+[2026-03-19 11:47:18] SKIP 110/180 (61.1%) kc1 mlp ZScore
+[2026-03-19 11:47:18] SKIP 111/180 (61.7%) kc1 mlp IsolationForest
+[2026-03-19 11:47:18] SKIP 112/180 (62.2%) kc1 mlp IQR
+[2026-03-19 11:47:18] RUN 113/180 (62.8%) kc1 xgboost None
+[2026-03-19 11:47:18] kc1 xgboost None run=0 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 xgboost None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 xgboost None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 xgboost None run=3 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 xgboost None run=4 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] RESULT kc1 xgboost None mean=0.87441 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:47:19] SKIP 114/180 (63.3%) kc1 xgboost ZScore
+[2026-03-19 11:47:19] SKIP 115/180 (63.9%) kc1 xgboost IsolationForest
+[2026-03-19 11:47:19] SKIP 116/180 (64.4%) kc1 xgboost IQR
+[2026-03-19 11:47:19] RUN 117/180 (65.0%) kc1 randomforest None
+[2026-03-19 11:47:19] kc1 randomforest None run=0 score=0.87204 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 randomforest None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 randomforest None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 11:47:19] kc1 randomforest None run=3 score=0.86967 removed=0 (0.000)
+[2026-03-19 11:47:20] kc1 randomforest None run=4 score=0.86256 removed=0 (0.000)
+[2026-03-19 11:47:20] RESULT kc1 randomforest None mean=0.87062 std=0.00440 removed=0.0 (0.000)
+[2026-03-19 11:47:20] SKIP 118/180 (65.6%) kc1 randomforest ZScore
+[2026-03-19 11:47:20] SKIP 119/180 (66.1%) kc1 randomforest IsolationForest
+[2026-03-19 11:47:20] SKIP 120/180 (66.7%) kc1 randomforest IQR
+[2026-03-19 11:47:20] ==== DATASET kc1 DONE ====
+[2026-03-19 11:47:20] ==== DATASET phoneme ====
+[2026-03-19 11:47:20] RUN 121/180 (67.2%) phoneme mlp None
+[2026-03-19 11:47:21] phoneme mlp None run=0 score=0.83719 removed=0 (0.000)
+[2026-03-19 11:47:24] phoneme mlp None run=1 score=0.84921 removed=0 (0.000)
+[2026-03-19 11:47:26] phoneme mlp None run=2 score=0.85014 removed=0 (0.000)
+[2026-03-19 11:47:28] phoneme mlp None run=3 score=0.83811 removed=0 (0.000)
+[2026-03-19 11:47:30] phoneme mlp None run=4 score=0.83811 removed=0 (0.000)
+[2026-03-19 11:47:30] RESULT phoneme mlp None mean=0.84255 std=0.00583 removed=0.0 (0.000)
+[2026-03-19 11:47:30] SKIP 122/180 (67.8%) phoneme mlp ZScore
+[2026-03-19 11:47:30] SKIP 123/180 (68.3%) phoneme mlp IsolationForest
+[2026-03-19 11:47:30] SKIP 124/180 (68.9%) phoneme mlp IQR
+[2026-03-19 11:47:30] RUN 125/180 (69.4%) phoneme xgboost None
+[2026-03-19 11:47:30] phoneme xgboost None run=0 score=0.87789 removed=0 (0.000)
+[2026-03-19 11:47:30] phoneme xgboost None run=1 score=0.87789 removed=0 (0.000)
+[2026-03-19 11:47:30] phoneme xgboost None run=2 score=0.87789 removed=0 (0.000)
+[2026-03-19 11:47:30] phoneme xgboost None run=3 score=0.87789 removed=0 (0.000)
+[2026-03-19 11:47:30] phoneme xgboost None run=4 score=0.87789 removed=0 (0.000)
+[2026-03-19 11:47:30] RESULT phoneme xgboost None mean=0.87789 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:47:30] SKIP 126/180 (70.0%) phoneme xgboost ZScore
+[2026-03-19 11:47:30] SKIP 127/180 (70.6%) phoneme xgboost IsolationForest
+[2026-03-19 11:47:30] SKIP 128/180 (71.1%) phoneme xgboost IQR
+[2026-03-19 11:47:30] RUN 129/180 (71.7%) phoneme randomforest None
+[2026-03-19 11:47:30] phoneme randomforest None run=0 score=0.88529 removed=0 (0.000)
+[2026-03-19 11:47:31] phoneme randomforest None run=1 score=0.88437 removed=0 (0.000)
+[2026-03-19 11:47:31] phoneme randomforest None run=2 score=0.88529 removed=0 (0.000)
+[2026-03-19 11:47:32] phoneme randomforest None run=3 score=0.88252 removed=0 (0.000)
+[2026-03-19 11:47:32] phoneme randomforest None run=4 score=0.89177 removed=0 (0.000)
+[2026-03-19 11:47:32] RESULT phoneme randomforest None mean=0.88585 std=0.00313 removed=0.0 (0.000)
+[2026-03-19 11:47:32] SKIP 130/180 (72.2%) phoneme randomforest ZScore
+[2026-03-19 11:47:32] SKIP 131/180 (72.8%) phoneme randomforest IsolationForest
+[2026-03-19 11:47:32] SKIP 132/180 (73.3%) phoneme randomforest IQR
+[2026-03-19 11:47:32] ==== DATASET phoneme DONE ====
+[2026-03-19 11:47:32] ==== DATASET pol ====
+[2026-03-19 11:47:32] RUN 133/180 (73.9%) pol mlp None
+[2026-03-19 11:47:35] pol mlp None run=0 score=0.98860 removed=0 (0.000)
+[2026-03-19 11:47:37] pol mlp None run=1 score=0.98711 removed=0 (0.000)
+[2026-03-19 11:47:41] pol mlp None run=2 score=0.98364 removed=0 (0.000)
+[2026-03-19 11:47:43] pol mlp None run=3 score=0.98612 removed=0 (0.000)
+[2026-03-19 11:47:46] pol mlp None run=4 score=0.98661 removed=0 (0.000)
+[2026-03-19 11:47:46] RESULT pol mlp None mean=0.98642 std=0.00162 removed=0.0 (0.000)
+[2026-03-19 11:47:46] SKIP 134/180 (74.4%) pol mlp ZScore
+[2026-03-19 11:47:46] SKIP 135/180 (75.0%) pol mlp IsolationForest
+[2026-03-19 11:47:46] SKIP 136/180 (75.6%) pol mlp IQR
+[2026-03-19 11:47:46] RUN 137/180 (76.1%) pol xgboost None
+[2026-03-19 11:47:46] pol xgboost None run=0 score=0.98413 removed=0 (0.000)
+[2026-03-19 11:47:46] pol xgboost None run=1 score=0.98413 removed=0 (0.000)
+[2026-03-19 11:47:46] pol xgboost None run=2 score=0.98413 removed=0 (0.000)
+[2026-03-19 11:47:47] pol xgboost None run=3 score=0.98413 removed=0 (0.000)
+[2026-03-19 11:47:47] pol xgboost None run=4 score=0.98413 removed=0 (0.000)
+[2026-03-19 11:47:47] RESULT pol xgboost None mean=0.98413 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:47:47] SKIP 138/180 (76.7%) pol xgboost ZScore
+[2026-03-19 11:47:47] SKIP 139/180 (77.2%) pol xgboost IsolationForest
+[2026-03-19 11:47:47] SKIP 140/180 (77.8%) pol xgboost IQR
+[2026-03-19 11:47:47] RUN 141/180 (78.3%) pol randomforest None
+[2026-03-19 11:47:47] pol randomforest None run=0 score=0.98265 removed=0 (0.000)
+[2026-03-19 11:47:48] pol randomforest None run=1 score=0.98066 removed=0 (0.000)
+[2026-03-19 11:47:48] pol randomforest None run=2 score=0.98215 removed=0 (0.000)
+[2026-03-19 11:47:48] pol randomforest None run=3 score=0.98265 removed=0 (0.000)
+[2026-03-19 11:47:49] pol randomforest None run=4 score=0.98364 removed=0 (0.000)
+[2026-03-19 11:47:49] RESULT pol randomforest None mean=0.98235 std=0.00097 removed=0.0 (0.000)
+[2026-03-19 11:47:49] SKIP 142/180 (78.9%) pol randomforest ZScore
+[2026-03-19 11:47:49] SKIP 143/180 (79.4%) pol randomforest IsolationForest
+[2026-03-19 11:47:49] SKIP 144/180 (80.0%) pol randomforest IQR
+[2026-03-19 11:47:49] ==== DATASET pol DONE ====
+[2026-03-19 11:47:49] ==== DATASET socmob ====
+[2026-03-19 11:47:49] RUN 145/180 (80.6%) socmob mlp None
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob mlp None
+[2026-03-19 11:47:49] could not convert string to float: 'Clerk'
+[2026-03-19 11:47:49] RUN 146/180 (81.1%) socmob mlp ZScore
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob mlp ZScore
+[2026-03-19 11:47:49] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 11:47:49] RUN 147/180 (81.7%) socmob mlp IsolationForest
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob mlp IsolationForest
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 11:47:49] RUN 148/180 (82.2%) socmob mlp IQR
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob mlp IQR
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 11:47:49] RUN 149/180 (82.8%) socmob xgboost None
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob xgboost None
+[2026-03-19 11:47:49] could not convert string to float: 'Clerk'
+[2026-03-19 11:47:49] RUN 150/180 (83.3%) socmob xgboost ZScore
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob xgboost ZScore
+[2026-03-19 11:47:49] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 11:47:49] RUN 151/180 (83.9%) socmob xgboost IsolationForest
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob xgboost IsolationForest
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 11:47:49] RUN 152/180 (84.4%) socmob xgboost IQR
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob xgboost IQR
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 11:47:49] RUN 153/180 (85.0%) socmob randomforest None
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob randomforest None
+[2026-03-19 11:47:49] could not convert string to float: 'Clerk'
+[2026-03-19 11:47:49] RUN 154/180 (85.6%) socmob randomforest ZScore
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob randomforest ZScore
+[2026-03-19 11:47:49] could not convert string to float: 'Professional_Self-Employed'
+[2026-03-19 11:47:49] RUN 155/180 (86.1%) socmob randomforest IsolationForest
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob randomforest IsolationForest
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Nonretail'
+[2026-03-19 11:47:49] RUN 156/180 (86.7%) socmob randomforest IQR
+[2026-03-19 11:47:49] EXPERIMENT FAILED socmob randomforest IQR
+[2026-03-19 11:47:49] could not convert string to float: 'Salesman-Retail'
+[2026-03-19 11:47:49] ==== DATASET socmob DONE ====
+[2026-03-19 11:47:49] ==== DATASET splice ====
+[2026-03-19 11:47:49] RUN 157/180 (87.2%) splice mlp None
+[2026-03-19 11:47:49] EXPERIMENT FAILED splice mlp None
+[2026-03-19 11:47:49] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:49] RUN 158/180 (87.8%) splice mlp ZScore
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice mlp ZScore
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 159/180 (88.3%) splice mlp IsolationForest
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice mlp IsolationForest
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 160/180 (88.9%) splice mlp IQR
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice mlp IQR
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 161/180 (89.4%) splice xgboost None
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice xgboost None
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 162/180 (90.0%) splice xgboost ZScore
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice xgboost ZScore
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 163/180 (90.6%) splice xgboost IsolationForest
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice xgboost IsolationForest
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 164/180 (91.1%) splice xgboost IQR
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice xgboost IQR
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 165/180 (91.7%) splice randomforest None
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice randomforest None
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 166/180 (92.2%) splice randomforest ZScore
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice randomforest ZScore
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 167/180 (92.8%) splice randomforest IsolationForest
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice randomforest IsolationForest
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] RUN 168/180 (93.3%) splice randomforest IQR
+[2026-03-19 11:47:50] EXPERIMENT FAILED splice randomforest IQR
+[2026-03-19 11:47:50] 'NoneType' object is not subscriptable
+[2026-03-19 11:47:50] ==== DATASET splice DONE ====
+[2026-03-19 11:47:50] ==== DATASET vehicle ====
+[2026-03-19 11:47:50] RUN 169/180 (93.9%) vehicle mlp None
+[2026-03-19 11:47:50] vehicle mlp None run=0 score=0.82941 removed=0 (0.000)
+[2026-03-19 11:47:51] vehicle mlp None run=1 score=0.81765 removed=0 (0.000)
+[2026-03-19 11:47:51] vehicle mlp None run=2 score=0.84706 removed=0 (0.000)
+[2026-03-19 11:47:51] vehicle mlp None run=3 score=0.84118 removed=0 (0.000)
+[2026-03-19 11:47:52] vehicle mlp None run=4 score=0.84706 removed=0 (0.000)
+[2026-03-19 11:47:52] RESULT vehicle mlp None mean=0.83647 std=0.01141 removed=0.0 (0.000)
+[2026-03-19 11:47:52] SKIP 170/180 (94.4%) vehicle mlp ZScore
+[2026-03-19 11:47:52] SKIP 171/180 (95.0%) vehicle mlp IsolationForest
+[2026-03-19 11:47:52] SKIP 172/180 (95.6%) vehicle mlp IQR
+[2026-03-19 11:47:52] RUN 173/180 (96.1%) vehicle xgboost None
+[2026-03-19 11:47:52] vehicle xgboost None run=0 score=0.77647 removed=0 (0.000)
+[2026-03-19 11:47:52] vehicle xgboost None run=1 score=0.77647 removed=0 (0.000)
+[2026-03-19 11:47:52] vehicle xgboost None run=2 score=0.77647 removed=0 (0.000)
+[2026-03-19 11:47:52] vehicle xgboost None run=3 score=0.77647 removed=0 (0.000)
+[2026-03-19 11:47:52] vehicle xgboost None run=4 score=0.77647 removed=0 (0.000)
+[2026-03-19 11:47:52] RESULT vehicle xgboost None mean=0.77647 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:47:52] SKIP 174/180 (96.7%) vehicle xgboost ZScore
+[2026-03-19 11:47:52] SKIP 175/180 (97.2%) vehicle xgboost IsolationForest
+[2026-03-19 11:47:52] SKIP 176/180 (97.8%) vehicle xgboost IQR
+[2026-03-19 11:47:52] RUN 177/180 (98.3%) vehicle randomforest None
+[2026-03-19 11:47:53] vehicle randomforest None run=0 score=0.72941 removed=0 (0.000)
+[2026-03-19 11:47:53] vehicle randomforest None run=1 score=0.71765 removed=0 (0.000)
+[2026-03-19 11:47:53] vehicle randomforest None run=2 score=0.73529 removed=0 (0.000)
+[2026-03-19 11:47:53] vehicle randomforest None run=3 score=0.75294 removed=0 (0.000)
+[2026-03-19 11:47:53] vehicle randomforest None run=4 score=0.72941 removed=0 (0.000)
+[2026-03-19 11:47:53] RESULT vehicle randomforest None mean=0.73294 std=0.01153 removed=0.0 (0.000)
+[2026-03-19 11:47:53] SKIP 178/180 (98.9%) vehicle randomforest ZScore
+[2026-03-19 11:47:53] SKIP 179/180 (99.4%) vehicle randomforest IsolationForest
+[2026-03-19 11:47:53] SKIP 180/180 (100.0%) vehicle randomforest IQR
+[2026-03-19 11:47:53] ==== DATASET vehicle DONE ====
+[2026-03-19 11:47:53] Experiment finished
+
+====================
+START 2026-03-19 11:50:47
+[2026-03-19 11:50:47] Experiment started
+[2026-03-19 11:50:47] ===== EXPERIMENT SETUP =====
+[2026-03-19 11:50:47] Datasets: ['Bank_Customer_Churn_Dataset', 'cmc', 'connect-4', 'credit-g', 'electricity', 'elevators', 'eucalyptus', 'eye_movements', 'house_16H', 'kc1', 'phoneme', 'pol', 'socmob', 'splice', 'vehicle']
+[2026-03-19 11:50:47] Models: ['mlp', 'xgboost', 'randomforest']
+[2026-03-19 11:50:47] Outliers: [None, 'ZScore', 'IsolationForest', 'IQR']
+[2026-03-19 11:50:47] Runs per experiment: 5
+[2026-03-19 11:50:47] Total experiments: 180
+[2026-03-19 11:50:47] Total model trainings: 900
+[2026-03-19 11:50:47] ============================
+[2026-03-19 11:50:47] ==== DATASET Bank_Customer_Churn_Dataset ====
+[2026-03-19 11:50:47] RUN 1/180 (0.6%) Bank_Customer_Churn_Dataset mlp None
+[2026-03-19 11:50:53] Bank_Customer_Churn_Dataset mlp None run=0 score=0.84500 removed=0 (0.000)
+[2026-03-19 11:51:00] Bank_Customer_Churn_Dataset mlp None run=1 score=0.83300 removed=0 (0.000)
+[2026-03-19 11:51:08] Bank_Customer_Churn_Dataset mlp None run=2 score=0.83850 removed=0 (0.000)
+[2026-03-19 11:51:14] Bank_Customer_Churn_Dataset mlp None run=3 score=0.83850 removed=0 (0.000)
+[2026-03-19 11:51:21] Bank_Customer_Churn_Dataset mlp None run=4 score=0.84650 removed=0 (0.000)
+[2026-03-19 11:51:21] RESULT Bank_Customer_Churn_Dataset mlp None mean=0.84030 std=0.00491 removed=0.0 (0.000)
+[2026-03-19 11:51:21] RUN 2/180 (1.1%) Bank_Customer_Churn_Dataset mlp ZScore
+[2026-03-19 11:51:27] Bank_Customer_Churn_Dataset mlp ZScore run=0 score=0.83050 removed=136 (0.021)
+[2026-03-19 11:51:33] Bank_Customer_Churn_Dataset mlp ZScore run=1 score=0.82650 removed=136 (0.021)
+[2026-03-19 11:51:41] Bank_Customer_Churn_Dataset mlp ZScore run=2 score=0.84250 removed=136 (0.021)
+[2026-03-19 11:51:48] Bank_Customer_Churn_Dataset mlp ZScore run=3 score=0.84550 removed=136 (0.021)
+[2026-03-19 11:51:56] Bank_Customer_Churn_Dataset mlp ZScore run=4 score=0.83200 removed=136 (0.021)
+[2026-03-19 11:51:56] RESULT Bank_Customer_Churn_Dataset mlp ZScore mean=0.83540 std=0.00731 removed=136.0 (0.021)
+[2026-03-19 11:51:56] RUN 3/180 (1.7%) Bank_Customer_Churn_Dataset mlp IsolationForest
+[2026-03-19 11:52:02] Bank_Customer_Churn_Dataset mlp IsolationForest run=0 score=0.83550 removed=320 (0.050)
+[2026-03-19 11:52:10] Bank_Customer_Churn_Dataset mlp IsolationForest run=1 score=0.83900 removed=320 (0.050)
+[2026-03-19 11:52:17] Bank_Customer_Churn_Dataset mlp IsolationForest run=2 score=0.82950 removed=320 (0.050)
+[2026-03-19 11:52:24] Bank_Customer_Churn_Dataset mlp IsolationForest run=3 score=0.84150 removed=320 (0.050)
+[2026-03-19 11:52:31] Bank_Customer_Churn_Dataset mlp IsolationForest run=4 score=0.83750 removed=320 (0.050)
+[2026-03-19 11:52:31] RESULT Bank_Customer_Churn_Dataset mlp IsolationForest mean=0.83660 std=0.00405 removed=320.0 (0.050)
+[2026-03-19 11:52:31] RUN 4/180 (2.2%) Bank_Customer_Churn_Dataset mlp IQR
+[2026-03-19 11:52:38] Bank_Customer_Churn_Dataset mlp IQR run=0 score=0.84200 removed=273 (0.043)
+[2026-03-19 11:52:46] Bank_Customer_Churn_Dataset mlp IQR run=1 score=0.83750 removed=273 (0.043)
+[2026-03-19 11:52:52] Bank_Customer_Churn_Dataset mlp IQR run=2 score=0.83550 removed=273 (0.043)
+[2026-03-19 11:52:59] Bank_Customer_Churn_Dataset mlp IQR run=3 score=0.84000 removed=273 (0.043)
+[2026-03-19 11:53:04] Bank_Customer_Churn_Dataset mlp IQR run=4 score=0.84150 removed=273 (0.043)
+[2026-03-19 11:53:04] RESULT Bank_Customer_Churn_Dataset mlp IQR mean=0.83930 std=0.00246 removed=273.0 (0.043)
+[2026-03-19 11:53:04] RUN 5/180 (2.8%) Bank_Customer_Churn_Dataset xgboost None
+[2026-03-19 11:53:07] Bank_Customer_Churn_Dataset xgboost None run=0 score=0.76700 removed=0 (0.000)
+[2026-03-19 11:53:09] Bank_Customer_Churn_Dataset xgboost None run=1 score=0.76700 removed=0 (0.000)
+[2026-03-19 11:53:12] Bank_Customer_Churn_Dataset xgboost None run=2 score=0.76700 removed=0 (0.000)
+[2026-03-19 11:53:15] Bank_Customer_Churn_Dataset xgboost None run=3 score=0.76700 removed=0 (0.000)
+[2026-03-19 11:53:18] Bank_Customer_Churn_Dataset xgboost None run=4 score=0.76700 removed=0 (0.000)
+[2026-03-19 11:53:18] RESULT Bank_Customer_Churn_Dataset xgboost None mean=0.76700 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:53:18] RUN 6/180 (3.3%) Bank_Customer_Churn_Dataset xgboost ZScore
+[2026-03-19 11:53:20] Bank_Customer_Churn_Dataset xgboost ZScore run=0 score=0.78500 removed=136 (0.021)
+[2026-03-19 11:53:23] Bank_Customer_Churn_Dataset xgboost ZScore run=1 score=0.78500 removed=136 (0.021)
+[2026-03-19 11:53:25] Bank_Customer_Churn_Dataset xgboost ZScore run=2 score=0.78500 removed=136 (0.021)
+[2026-03-19 11:53:27] Bank_Customer_Churn_Dataset xgboost ZScore run=3 score=0.78500 removed=136 (0.021)
+[2026-03-19 11:53:30] Bank_Customer_Churn_Dataset xgboost ZScore run=4 score=0.78500 removed=136 (0.021)
+[2026-03-19 11:53:30] RESULT Bank_Customer_Churn_Dataset xgboost ZScore mean=0.78500 std=0.00000 removed=136.0 (0.021)
+[2026-03-19 11:53:30] RUN 7/180 (3.9%) Bank_Customer_Churn_Dataset xgboost IsolationForest
+[2026-03-19 11:53:32] Bank_Customer_Churn_Dataset xgboost IsolationForest run=0 score=0.79550 removed=320 (0.050)
+[2026-03-19 11:53:35] Bank_Customer_Churn_Dataset xgboost IsolationForest run=1 score=0.78400 removed=320 (0.050)
+[2026-03-19 11:53:38] Bank_Customer_Churn_Dataset xgboost IsolationForest run=2 score=0.79450 removed=320 (0.050)
+[2026-03-19 11:53:40] Bank_Customer_Churn_Dataset xgboost IsolationForest run=3 score=0.79400 removed=320 (0.050)
+[2026-03-19 11:53:43] Bank_Customer_Churn_Dataset xgboost IsolationForest run=4 score=0.79150 removed=320 (0.050)
+[2026-03-19 11:53:43] RESULT Bank_Customer_Churn_Dataset xgboost IsolationForest mean=0.79190 std=0.00416 removed=320.0 (0.050)
+[2026-03-19 11:53:43] RUN 8/180 (4.4%) Bank_Customer_Churn_Dataset xgboost IQR
+[2026-03-19 11:53:45] Bank_Customer_Churn_Dataset xgboost IQR run=0 score=0.79600 removed=273 (0.043)
+[2026-03-19 11:53:49] Bank_Customer_Churn_Dataset xgboost IQR run=1 score=0.79600 removed=273 (0.043)
+[2026-03-19 11:53:51] Bank_Customer_Churn_Dataset xgboost IQR run=2 score=0.79600 removed=273 (0.043)
+[2026-03-19 11:53:54] Bank_Customer_Churn_Dataset xgboost IQR run=3 score=0.79600 removed=273 (0.043)
+[2026-03-19 11:53:56] Bank_Customer_Churn_Dataset xgboost IQR run=4 score=0.79600 removed=273 (0.043)
+[2026-03-19 11:53:56] RESULT Bank_Customer_Churn_Dataset xgboost IQR mean=0.79600 std=0.00000 removed=273.0 (0.043)
+[2026-03-19 11:53:56] RUN 9/180 (5.0%) Bank_Customer_Churn_Dataset randomforest None
+[2026-03-19 11:53:59] Bank_Customer_Churn_Dataset randomforest None run=0 score=0.83250 removed=0 (0.000)
+[2026-03-19 11:54:02] Bank_Customer_Churn_Dataset randomforest None run=1 score=0.83350 removed=0 (0.000)
+[2026-03-19 11:54:05] Bank_Customer_Churn_Dataset randomforest None run=2 score=0.84150 removed=0 (0.000)
+[2026-03-19 11:54:08] Bank_Customer_Churn_Dataset randomforest None run=3 score=0.80950 removed=0 (0.000)
+[2026-03-19 11:54:11] Bank_Customer_Churn_Dataset randomforest None run=4 score=0.83600 removed=0 (0.000)
+[2026-03-19 11:54:11] RESULT Bank_Customer_Churn_Dataset randomforest None mean=0.83060 std=0.01100 removed=0.0 (0.000)
+[2026-03-19 11:54:11] RUN 10/180 (5.6%) Bank_Customer_Churn_Dataset randomforest ZScore
+[2026-03-19 11:54:14] Bank_Customer_Churn_Dataset randomforest ZScore run=0 score=0.81250 removed=136 (0.021)
+[2026-03-19 11:54:17] Bank_Customer_Churn_Dataset randomforest ZScore run=1 score=0.80450 removed=136 (0.021)
+[2026-03-19 11:54:20] Bank_Customer_Churn_Dataset randomforest ZScore run=2 score=0.82650 removed=136 (0.021)
+[2026-03-19 11:54:25] Bank_Customer_Churn_Dataset randomforest ZScore run=3 score=0.82050 removed=136 (0.021)
+[2026-03-19 11:54:28] Bank_Customer_Churn_Dataset randomforest ZScore run=4 score=0.83000 removed=136 (0.021)
+[2026-03-19 11:54:28] RESULT Bank_Customer_Churn_Dataset randomforest ZScore mean=0.81880 std=0.00929 removed=136.0 (0.021)
+[2026-03-19 11:54:28] RUN 11/180 (6.1%) Bank_Customer_Churn_Dataset randomforest IsolationForest
+[2026-03-19 11:54:31] Bank_Customer_Churn_Dataset randomforest IsolationForest run=0 score=0.81350 removed=320 (0.050)
+[2026-03-19 11:54:34] Bank_Customer_Churn_Dataset randomforest IsolationForest run=1 score=0.81050 removed=320 (0.050)
+[2026-03-19 11:54:37] Bank_Customer_Churn_Dataset randomforest IsolationForest run=2 score=0.82350 removed=320 (0.050)
+[2026-03-19 11:54:40] Bank_Customer_Churn_Dataset randomforest IsolationForest run=3 score=0.81950 removed=320 (0.050)
+[2026-03-19 11:54:43] Bank_Customer_Churn_Dataset randomforest IsolationForest run=4 score=0.81150 removed=320 (0.050)
+[2026-03-19 11:54:43] RESULT Bank_Customer_Churn_Dataset randomforest IsolationForest mean=0.81570 std=0.00500 removed=320.0 (0.050)
+[2026-03-19 11:54:43] RUN 12/180 (6.7%) Bank_Customer_Churn_Dataset randomforest IQR
+[2026-03-19 11:54:46] Bank_Customer_Churn_Dataset randomforest IQR run=0 score=0.82150 removed=273 (0.043)
+[2026-03-19 11:54:49] Bank_Customer_Churn_Dataset randomforest IQR run=1 score=0.82600 removed=273 (0.043)
+[2026-03-19 11:54:52] Bank_Customer_Churn_Dataset randomforest IQR run=2 score=0.82800 removed=273 (0.043)
+[2026-03-19 11:54:56] Bank_Customer_Churn_Dataset randomforest IQR run=3 score=0.82700 removed=273 (0.043)
+[2026-03-19 11:54:59] Bank_Customer_Churn_Dataset randomforest IQR run=4 score=0.81200 removed=273 (0.043)
+[2026-03-19 11:54:59] RESULT Bank_Customer_Churn_Dataset randomforest IQR mean=0.82290 std=0.00589 removed=273.0 (0.043)
+[2026-03-19 11:54:59] ==== DATASET Bank_Customer_Churn_Dataset DONE ====
+[2026-03-19 11:54:59] ==== DATASET cmc ====
+[2026-03-19 11:54:59] RUN 13/180 (7.2%) cmc mlp None
+[2026-03-19 11:55:00] cmc mlp None run=0 score=0.53220 removed=0 (0.000)
+[2026-03-19 11:55:01] cmc mlp None run=1 score=0.54237 removed=0 (0.000)
+[2026-03-19 11:55:02] cmc mlp None run=2 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:02] cmc mlp None run=3 score=0.53898 removed=0 (0.000)
+[2026-03-19 11:55:03] cmc mlp None run=4 score=0.53220 removed=0 (0.000)
+[2026-03-19 11:55:03] RESULT cmc mlp None mean=0.53424 std=0.00591 removed=0.0 (0.000)
+[2026-03-19 11:55:03] SKIP 14/180 (7.8%) cmc mlp ZScore
+[2026-03-19 11:55:03] SKIP 15/180 (8.3%) cmc mlp IsolationForest
+[2026-03-19 11:55:03] SKIP 16/180 (8.9%) cmc mlp IQR
+[2026-03-19 11:55:03] RUN 17/180 (9.4%) cmc xgboost None
+[2026-03-19 11:55:04] cmc xgboost None run=0 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:04] cmc xgboost None run=1 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:04] cmc xgboost None run=2 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:04] cmc xgboost None run=3 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:05] cmc xgboost None run=4 score=0.52542 removed=0 (0.000)
+[2026-03-19 11:55:05] RESULT cmc xgboost None mean=0.52542 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:55:05] SKIP 18/180 (10.0%) cmc xgboost ZScore
+[2026-03-19 11:55:05] SKIP 19/180 (10.6%) cmc xgboost IsolationForest
+[2026-03-19 11:55:05] SKIP 20/180 (11.1%) cmc xgboost IQR
+[2026-03-19 11:55:05] RUN 21/180 (11.7%) cmc randomforest None
+[2026-03-19 11:55:05] cmc randomforest None run=0 score=0.53559 removed=0 (0.000)
+[2026-03-19 11:55:05] cmc randomforest None run=1 score=0.51525 removed=0 (0.000)
+[2026-03-19 11:55:05] cmc randomforest None run=2 score=0.52881 removed=0 (0.000)
+[2026-03-19 11:55:05] cmc randomforest None run=3 score=0.51525 removed=0 (0.000)
+[2026-03-19 11:55:06] cmc randomforest None run=4 score=0.50847 removed=0 (0.000)
+[2026-03-19 11:55:06] RESULT cmc randomforest None mean=0.52068 std=0.00996 removed=0.0 (0.000)
+[2026-03-19 11:55:06] SKIP 22/180 (12.2%) cmc randomforest ZScore
+[2026-03-19 11:55:06] SKIP 23/180 (12.8%) cmc randomforest IsolationForest
+[2026-03-19 11:55:06] SKIP 24/180 (13.3%) cmc randomforest IQR
+[2026-03-19 11:55:06] ==== DATASET cmc DONE ====
+[2026-03-19 11:55:06] ==== DATASET connect-4 ====
+[2026-03-19 11:55:06] RUN 25/180 (13.9%) connect-4 mlp None
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 mlp None
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 26/180 (14.4%) connect-4 mlp ZScore
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 mlp ZScore
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 27/180 (15.0%) connect-4 mlp IsolationForest
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 mlp IsolationForest
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 28/180 (15.6%) connect-4 mlp IQR
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 mlp IQR
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 29/180 (16.1%) connect-4 xgboost None
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 xgboost None
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 30/180 (16.7%) connect-4 xgboost ZScore
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 xgboost ZScore
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 31/180 (17.2%) connect-4 xgboost IsolationForest
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 xgboost IsolationForest
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 32/180 (17.8%) connect-4 xgboost IQR
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 xgboost IQR
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 33/180 (18.3%) connect-4 randomforest None
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 randomforest None
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 34/180 (18.9%) connect-4 randomforest ZScore
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 randomforest ZScore
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 35/180 (19.4%) connect-4 randomforest IsolationForest
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 randomforest IsolationForest
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] RUN 36/180 (20.0%) connect-4 randomforest IQR
+[2026-03-19 11:55:06] EXPERIMENT FAILED connect-4 randomforest IQR
+[2026-03-19 11:55:06] 'NoneType' object is not subscriptable
+[2026-03-19 11:55:06] ==== DATASET connect-4 DONE ====
+[2026-03-19 11:55:06] ==== DATASET credit-g ====
+[2026-03-19 11:55:06] RUN 37/180 (20.6%) credit-g mlp None
+[2026-03-19 11:55:07] credit-g mlp None run=0 score=0.67500 removed=0 (0.000)
+[2026-03-19 11:55:08] credit-g mlp None run=1 score=0.68500 removed=0 (0.000)
+[2026-03-19 11:55:08] credit-g mlp None run=2 score=0.69500 removed=0 (0.000)
+[2026-03-19 11:55:09] credit-g mlp None run=3 score=0.69500 removed=0 (0.000)
+[2026-03-19 11:55:10] credit-g mlp None run=4 score=0.65500 removed=0 (0.000)
+[2026-03-19 11:55:10] RESULT credit-g mlp None mean=0.68100 std=0.01497 removed=0.0 (0.000)
+[2026-03-19 11:55:10] SKIP 38/180 (21.1%) credit-g mlp ZScore
+[2026-03-19 11:55:10] SKIP 39/180 (21.7%) credit-g mlp IsolationForest
+[2026-03-19 11:55:10] SKIP 40/180 (22.2%) credit-g mlp IQR
+[2026-03-19 11:55:10] RUN 41/180 (22.8%) credit-g xgboost None
+[2026-03-19 11:55:10] credit-g xgboost None run=0 score=0.63500 removed=0 (0.000)
+[2026-03-19 11:55:10] credit-g xgboost None run=1 score=0.63500 removed=0 (0.000)
+[2026-03-19 11:55:10] credit-g xgboost None run=2 score=0.63500 removed=0 (0.000)
+[2026-03-19 11:55:10] credit-g xgboost None run=3 score=0.63500 removed=0 (0.000)
+[2026-03-19 11:55:10] credit-g xgboost None run=4 score=0.63500 removed=0 (0.000)
+[2026-03-19 11:55:10] RESULT credit-g xgboost None mean=0.63500 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 11:55:10] SKIP 42/180 (23.3%) credit-g xgboost ZScore
+[2026-03-19 11:55:10] SKIP 43/180 (23.9%) credit-g xgboost IsolationForest
+[2026-03-19 11:55:10] SKIP 44/180 (24.4%) credit-g xgboost IQR
+[2026-03-19 11:55:10] RUN 45/180 (25.0%) credit-g randomforest None
+[2026-03-19 11:55:11] credit-g randomforest None run=0 score=0.70500 removed=0 (0.000)
+[2026-03-19 11:55:11] credit-g randomforest None run=1 score=0.70500 removed=0 (0.000)
+[2026-03-19 11:55:11] credit-g randomforest None run=2 score=0.54500 removed=0 (0.000)
+[2026-03-19 11:55:11] credit-g randomforest None run=3 score=0.46000 removed=0 (0.000)
+[2026-03-19 11:55:12] credit-g randomforest None run=4 score=0.69000 removed=0 (0.000)
+[2026-03-19 11:55:12] RESULT credit-g randomforest None mean=0.62100 std=0.10057 removed=0.0 (0.000)
+[2026-03-19 11:55:12] SKIP 46/180 (25.6%) credit-g randomforest ZScore
+[2026-03-19 11:55:12] SKIP 47/180 (26.1%) credit-g randomforest IsolationForest
+[2026-03-19 11:55:12] SKIP 48/180 (26.7%) credit-g randomforest IQR
+[2026-03-19 11:55:12] ==== DATASET credit-g DONE ====
+[2026-03-19 11:55:12] ==== DATASET electricity ====
+[2026-03-19 11:55:12] RUN 49/180 (27.2%) electricity mlp None
+[2026-03-19 11:56:30] electricity mlp None run=0 score=0.80128 removed=0 (0.000)
+[2026-03-19 11:57:50] electricity mlp None run=1 score=0.80404 removed=0 (0.000)
+[2026-03-19 11:59:10] electricity mlp None run=2 score=0.80294 removed=0 (0.000)
+[2026-03-19 12:00:27] electricity mlp None run=3 score=0.80591 removed=0 (0.000)
+[2026-03-19 12:01:51] electricity mlp None run=4 score=0.80316 removed=0 (0.000)
+[2026-03-19 12:01:51] RESULT electricity mlp None mean=0.80346 std=0.00152 removed=0.0 (0.000)
+[2026-03-19 12:01:51] SKIP 50/180 (27.8%) electricity mlp ZScore
+[2026-03-19 12:01:51] SKIP 51/180 (28.3%) electricity mlp IsolationForest
+[2026-03-19 12:01:51] SKIP 52/180 (28.9%) electricity mlp IQR
+[2026-03-19 12:01:51] RUN 53/180 (29.4%) electricity xgboost None
+[2026-03-19 12:02:59] electricity xgboost None run=0 score=0.87675 removed=0 (0.000)
+[2026-03-19 12:04:06] electricity xgboost None run=1 score=0.87675 removed=0 (0.000)
+[2026-03-19 12:05:13] electricity xgboost None run=2 score=0.87675 removed=0 (0.000)
+[2026-03-19 12:06:20] electricity xgboost None run=3 score=0.87675 removed=0 (0.000)
+[2026-03-19 12:07:26] electricity xgboost None run=4 score=0.87675 removed=0 (0.000)
+[2026-03-19 12:07:26] RESULT electricity xgboost None mean=0.87675 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:07:26] SKIP 54/180 (30.0%) electricity xgboost ZScore
+[2026-03-19 12:07:26] SKIP 55/180 (30.6%) electricity xgboost IsolationForest
+[2026-03-19 12:07:26] SKIP 56/180 (31.1%) electricity xgboost IQR
+[2026-03-19 12:07:26] RUN 57/180 (31.7%) electricity randomforest None
+[2026-03-19 12:08:35] electricity randomforest None run=0 score=0.87499 removed=0 (0.000)
+[2026-03-19 12:09:44] electricity randomforest None run=1 score=0.87499 removed=0 (0.000)
+[2026-03-19 12:10:54] electricity randomforest None run=2 score=0.87366 removed=0 (0.000)
+[2026-03-19 12:12:03] electricity randomforest None run=3 score=0.87521 removed=0 (0.000)
+[2026-03-19 12:13:13] electricity randomforest None run=4 score=0.87620 removed=0 (0.000)
+[2026-03-19 12:13:13] RESULT electricity randomforest None mean=0.87501 std=0.00081 removed=0.0 (0.000)
+[2026-03-19 12:13:13] SKIP 58/180 (32.2%) electricity randomforest ZScore
+[2026-03-19 12:13:13] SKIP 59/180 (32.8%) electricity randomforest IsolationForest
+[2026-03-19 12:13:13] SKIP 60/180 (33.3%) electricity randomforest IQR
+[2026-03-19 12:13:13] ==== DATASET electricity DONE ====
+[2026-03-19 12:13:13] ==== DATASET elevators ====
+[2026-03-19 12:13:13] RUN 61/180 (33.9%) elevators mlp None
+[2026-03-19 12:13:13] elevators mlp None run=0 score=0.00093 removed=0 (0.000)
+[2026-03-19 12:13:13] elevators mlp None run=1 score=0.00096 removed=0 (0.000)
+[2026-03-19 12:13:14] elevators mlp None run=2 score=0.00070 removed=0 (0.000)
+[2026-03-19 12:13:14] elevators mlp None run=3 score=0.00088 removed=0 (0.000)
+[2026-03-19 12:13:15] elevators mlp None run=4 score=0.00171 removed=0 (0.000)
+[2026-03-19 12:13:15] RESULT elevators mlp None mean=0.00103 std=0.00035 removed=0.0 (0.000)
+[2026-03-19 12:13:15] SKIP 62/180 (34.4%) elevators mlp ZScore
+[2026-03-19 12:13:15] SKIP 63/180 (35.0%) elevators mlp IsolationForest
+[2026-03-19 12:13:15] SKIP 64/180 (35.6%) elevators mlp IQR
+[2026-03-19 12:13:15] RUN 65/180 (36.1%) elevators xgboost None
+[2026-03-19 12:13:15] elevators xgboost None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:15] elevators xgboost None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:15] elevators xgboost None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:15] elevators xgboost None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:15] elevators xgboost None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:15] RESULT elevators xgboost None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:13:15] SKIP 66/180 (36.7%) elevators xgboost ZScore
+[2026-03-19 12:13:15] SKIP 67/180 (37.2%) elevators xgboost IsolationForest
+[2026-03-19 12:13:15] SKIP 68/180 (37.8%) elevators xgboost IQR
+[2026-03-19 12:13:15] RUN 69/180 (38.3%) elevators randomforest None
+[2026-03-19 12:13:22] elevators randomforest None run=0 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:27] elevators randomforest None run=1 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:32] elevators randomforest None run=2 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:36] elevators randomforest None run=3 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:41] elevators randomforest None run=4 score=0.00001 removed=0 (0.000)
+[2026-03-19 12:13:41] RESULT elevators randomforest None mean=0.00001 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:13:41] SKIP 70/180 (38.9%) elevators randomforest ZScore
+[2026-03-19 12:13:41] SKIP 71/180 (39.4%) elevators randomforest IsolationForest
+[2026-03-19 12:13:41] SKIP 72/180 (40.0%) elevators randomforest IQR
+[2026-03-19 12:13:41] ==== DATASET elevators DONE ====
+[2026-03-19 12:13:41] ==== DATASET eucalyptus ====
+[2026-03-19 12:13:41] RUN 73/180 (40.6%) eucalyptus mlp None
+[2026-03-19 12:13:42] eucalyptus mlp None run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:42] eucalyptus mlp None run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:43] eucalyptus mlp None run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:44] eucalyptus mlp None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:44] eucalyptus mlp None run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:44] RESULT eucalyptus mlp None mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:13:44] SKIP 74/180 (41.1%) eucalyptus mlp ZScore
+[2026-03-19 12:13:44] RUN 75/180 (41.7%) eucalyptus mlp IsolationForest
+[2026-03-19 12:13:44] EXPERIMENT FAILED eucalyptus mlp IsolationForest
+[2026-03-19 12:13:44] Found array with 0 feature(s) (shape=(470, 0)) while a minimum of 1 is required by IsolationForest.
+[2026-03-19 12:13:44] SKIP 76/180 (42.2%) eucalyptus mlp IQR
+[2026-03-19 12:13:44] RUN 77/180 (42.8%) eucalyptus xgboost None
+[2026-03-19 12:13:44] eucalyptus xgboost None run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:44] eucalyptus xgboost None run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:45] eucalyptus xgboost None run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:45] eucalyptus xgboost None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:45] eucalyptus xgboost None run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:45] RESULT eucalyptus xgboost None mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:13:45] SKIP 78/180 (43.3%) eucalyptus xgboost ZScore
+[2026-03-19 12:13:45] SKIP 79/180 (43.9%) eucalyptus xgboost IsolationForest
+[2026-03-19 12:13:45] SKIP 80/180 (44.4%) eucalyptus xgboost IQR
+[2026-03-19 12:13:45] RUN 81/180 (45.0%) eucalyptus randomforest None
+[2026-03-19 12:13:45] eucalyptus randomforest None run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:45] eucalyptus randomforest None run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:46] eucalyptus randomforest None run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:46] eucalyptus randomforest None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:46] eucalyptus randomforest None run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 12:13:46] RESULT eucalyptus randomforest None mean=0.24324 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:13:46] SKIP 82/180 (45.6%) eucalyptus randomforest ZScore
+[2026-03-19 12:13:46] SKIP 83/180 (46.1%) eucalyptus randomforest IsolationForest
+[2026-03-19 12:13:46] SKIP 84/180 (46.7%) eucalyptus randomforest IQR
+[2026-03-19 12:13:46] ==== DATASET eucalyptus DONE ====
+[2026-03-19 12:13:46] ==== DATASET eye_movements ====
+[2026-03-19 12:13:46] RUN 85/180 (47.2%) eye_movements mlp None
+[2026-03-19 12:14:10] eye_movements mlp None run=0 score=0.40905 removed=0 (0.000)
+[2026-03-19 12:14:34] eye_movements mlp None run=1 score=0.44104 removed=0 (0.000)
+[2026-03-19 12:14:57] eye_movements mlp None run=2 score=0.40814 removed=0 (0.000)
+[2026-03-19 12:15:21] eye_movements mlp None run=3 score=0.42733 removed=0 (0.000)
+[2026-03-19 12:15:46] eye_movements mlp None run=4 score=0.40768 removed=0 (0.000)
+[2026-03-19 12:15:46] RESULT eye_movements mlp None mean=0.41865 std=0.01342 removed=0.0 (0.000)
+[2026-03-19 12:15:46] SKIP 86/180 (47.8%) eye_movements mlp ZScore
+[2026-03-19 12:15:46] SKIP 87/180 (48.3%) eye_movements mlp IsolationForest
+[2026-03-19 12:15:46] SKIP 88/180 (48.9%) eye_movements mlp IQR
+[2026-03-19 12:15:46] RUN 89/180 (49.4%) eye_movements xgboost None
+[2026-03-19 12:16:02] eye_movements xgboost None run=0 score=0.52651 removed=0 (0.000)
+[2026-03-19 12:16:20] eye_movements xgboost None run=1 score=0.52651 removed=0 (0.000)
+[2026-03-19 12:16:36] eye_movements xgboost None run=2 score=0.52651 removed=0 (0.000)
+[2026-03-19 12:16:54] eye_movements xgboost None run=3 score=0.52651 removed=0 (0.000)
+[2026-03-19 12:17:11] eye_movements xgboost None run=4 score=0.52651 removed=0 (0.000)
+[2026-03-19 12:17:11] RESULT eye_movements xgboost None mean=0.52651 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:17:11] SKIP 90/180 (50.0%) eye_movements xgboost ZScore
+[2026-03-19 12:17:11] SKIP 91/180 (50.6%) eye_movements xgboost IsolationForest
+[2026-03-19 12:17:11] SKIP 92/180 (51.1%) eye_movements xgboost IQR
+[2026-03-19 12:17:11] RUN 93/180 (51.7%) eye_movements randomforest None
+[2026-03-19 12:17:30] eye_movements randomforest None run=0 score=0.33684 removed=0 (0.000)
+[2026-03-19 12:17:49] eye_movements randomforest None run=1 score=0.33821 removed=0 (0.000)
+[2026-03-19 12:18:06] eye_movements randomforest None run=2 score=0.35375 removed=0 (0.000)
+[2026-03-19 12:18:25] eye_movements randomforest None run=3 score=0.36380 removed=0 (0.000)
+[2026-03-19 12:18:43] eye_movements randomforest None run=4 score=0.33912 removed=0 (0.000)
+[2026-03-19 12:18:43] RESULT eye_movements randomforest None mean=0.34634 std=0.01066 removed=0.0 (0.000)
+[2026-03-19 12:18:43] SKIP 94/180 (52.2%) eye_movements randomforest ZScore
+[2026-03-19 12:18:43] SKIP 95/180 (52.8%) eye_movements randomforest IsolationForest
+[2026-03-19 12:18:43] SKIP 96/180 (53.3%) eye_movements randomforest IQR
+[2026-03-19 12:18:43] ==== DATASET eye_movements DONE ====
+[2026-03-19 12:18:43] ==== DATASET house_16H ====
+[2026-03-19 12:18:43] RUN 97/180 (53.9%) house_16H mlp None
+[2026-03-19 12:18:49] house_16H mlp None run=0 score=0.86546 removed=0 (0.000)
+[2026-03-19 12:18:53] house_16H mlp None run=1 score=0.86694 removed=0 (0.000)
+[2026-03-19 12:19:01] house_16H mlp None run=2 score=0.86360 removed=0 (0.000)
+[2026-03-19 12:19:07] house_16H mlp None run=3 score=0.86360 removed=0 (0.000)
+[2026-03-19 12:19:13] house_16H mlp None run=4 score=0.86064 removed=0 (0.000)
+[2026-03-19 12:19:13] RESULT house_16H mlp None mean=0.86405 std=0.00211 removed=0.0 (0.000)
+[2026-03-19 12:19:13] SKIP 98/180 (54.4%) house_16H mlp ZScore
+[2026-03-19 12:19:13] SKIP 99/180 (55.0%) house_16H mlp IsolationForest
+[2026-03-19 12:19:13] SKIP 100/180 (55.6%) house_16H mlp IQR
+[2026-03-19 12:19:13] RUN 101/180 (56.1%) house_16H xgboost None
+[2026-03-19 12:19:13] house_16H xgboost None run=0 score=0.87695 removed=0 (0.000)
+[2026-03-19 12:19:13] house_16H xgboost None run=1 score=0.87695 removed=0 (0.000)
+[2026-03-19 12:19:13] house_16H xgboost None run=2 score=0.87398 removed=0 (0.000)
+[2026-03-19 12:19:13] house_16H xgboost None run=3 score=0.88176 removed=0 (0.000)
+[2026-03-19 12:19:13] house_16H xgboost None run=4 score=0.87287 removed=0 (0.000)
+[2026-03-19 12:19:13] RESULT house_16H xgboost None mean=0.87650 std=0.00309 removed=0.0 (0.000)
+[2026-03-19 12:19:13] SKIP 102/180 (56.7%) house_16H xgboost ZScore
+[2026-03-19 12:19:13] SKIP 103/180 (57.2%) house_16H xgboost IsolationForest
+[2026-03-19 12:19:13] SKIP 104/180 (57.8%) house_16H xgboost IQR
+[2026-03-19 12:19:13] RUN 105/180 (58.3%) house_16H randomforest None
+[2026-03-19 12:19:16] house_16H randomforest None run=0 score=0.88436 removed=0 (0.000)
+[2026-03-19 12:19:18] house_16H randomforest None run=1 score=0.88176 removed=0 (0.000)
+[2026-03-19 12:19:20] house_16H randomforest None run=2 score=0.88102 removed=0 (0.000)
+[2026-03-19 12:19:22] house_16H randomforest None run=3 score=0.88288 removed=0 (0.000)
+[2026-03-19 12:19:24] house_16H randomforest None run=4 score=0.88028 removed=0 (0.000)
+[2026-03-19 12:19:24] RESULT house_16H randomforest None mean=0.88206 std=0.00143 removed=0.0 (0.000)
+[2026-03-19 12:19:24] SKIP 106/180 (58.9%) house_16H randomforest ZScore
+[2026-03-19 12:19:24] SKIP 107/180 (59.4%) house_16H randomforest IsolationForest
+[2026-03-19 12:19:24] SKIP 108/180 (60.0%) house_16H randomforest IQR
+[2026-03-19 12:19:24] ==== DATASET house_16H DONE ====
+[2026-03-19 12:19:24] ==== DATASET kc1 ====
+[2026-03-19 12:19:24] RUN 109/180 (60.6%) kc1 mlp None
+[2026-03-19 12:19:25] kc1 mlp None run=0 score=0.85782 removed=0 (0.000)
+[2026-03-19 12:19:26] kc1 mlp None run=1 score=0.86019 removed=0 (0.000)
+[2026-03-19 12:19:28] kc1 mlp None run=2 score=0.86493 removed=0 (0.000)
+[2026-03-19 12:19:29] kc1 mlp None run=3 score=0.85782 removed=0 (0.000)
+[2026-03-19 12:19:30] kc1 mlp None run=4 score=0.86730 removed=0 (0.000)
+[2026-03-19 12:19:30] RESULT kc1 mlp None mean=0.86161 std=0.00385 removed=0.0 (0.000)
+[2026-03-19 12:19:30] SKIP 110/180 (61.1%) kc1 mlp ZScore
+[2026-03-19 12:19:30] SKIP 111/180 (61.7%) kc1 mlp IsolationForest
+[2026-03-19 12:19:30] SKIP 112/180 (62.2%) kc1 mlp IQR
+[2026-03-19 12:19:30] RUN 113/180 (62.8%) kc1 xgboost None
+[2026-03-19 12:19:30] kc1 xgboost None run=0 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:30] kc1 xgboost None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:30] kc1 xgboost None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:31] kc1 xgboost None run=3 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:31] kc1 xgboost None run=4 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:31] RESULT kc1 xgboost None mean=0.87441 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:19:31] SKIP 114/180 (63.3%) kc1 xgboost ZScore
+[2026-03-19 12:19:31] SKIP 115/180 (63.9%) kc1 xgboost IsolationForest
+[2026-03-19 12:19:31] SKIP 116/180 (64.4%) kc1 xgboost IQR
+[2026-03-19 12:19:31] RUN 117/180 (65.0%) kc1 randomforest None
+[2026-03-19 12:19:31] kc1 randomforest None run=0 score=0.87204 removed=0 (0.000)
+[2026-03-19 12:19:31] kc1 randomforest None run=1 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:31] kc1 randomforest None run=2 score=0.87441 removed=0 (0.000)
+[2026-03-19 12:19:31] kc1 randomforest None run=3 score=0.86967 removed=0 (0.000)
+[2026-03-19 12:19:32] kc1 randomforest None run=4 score=0.86256 removed=0 (0.000)
+[2026-03-19 12:19:32] RESULT kc1 randomforest None mean=0.87062 std=0.00440 removed=0.0 (0.000)
+[2026-03-19 12:19:32] SKIP 118/180 (65.6%) kc1 randomforest ZScore
+[2026-03-19 12:19:32] SKIP 119/180 (66.1%) kc1 randomforest IsolationForest
+[2026-03-19 12:19:32] SKIP 120/180 (66.7%) kc1 randomforest IQR
+[2026-03-19 12:19:32] ==== DATASET kc1 DONE ====
+[2026-03-19 12:19:32] ==== DATASET phoneme ====
+[2026-03-19 12:19:32] RUN 121/180 (67.2%) phoneme mlp None
+[2026-03-19 12:19:33] phoneme mlp None run=0 score=0.83719 removed=0 (0.000)
+[2026-03-19 12:19:35] phoneme mlp None run=1 score=0.84921 removed=0 (0.000)
+[2026-03-19 12:19:37] phoneme mlp None run=2 score=0.85014 removed=0 (0.000)
+[2026-03-19 12:19:39] phoneme mlp None run=3 score=0.83811 removed=0 (0.000)
+[2026-03-19 12:19:41] phoneme mlp None run=4 score=0.83811 removed=0 (0.000)
+[2026-03-19 12:19:41] RESULT phoneme mlp None mean=0.84255 std=0.00583 removed=0.0 (0.000)
+[2026-03-19 12:19:41] SKIP 122/180 (67.8%) phoneme mlp ZScore
+[2026-03-19 12:19:41] SKIP 123/180 (68.3%) phoneme mlp IsolationForest
+[2026-03-19 12:19:41] SKIP 124/180 (68.9%) phoneme mlp IQR
+[2026-03-19 12:19:41] RUN 125/180 (69.4%) phoneme xgboost None
+[2026-03-19 12:19:41] phoneme xgboost None run=0 score=0.87789 removed=0 (0.000)
+[2026-03-19 12:19:41] phoneme xgboost None run=1 score=0.87789 removed=0 (0.000)
+[2026-03-19 12:19:41] phoneme xgboost None run=2 score=0.87789 removed=0 (0.000)
+[2026-03-19 12:19:41] phoneme xgboost None run=3 score=0.87789 removed=0 (0.000)
+[2026-03-19 12:19:41] phoneme xgboost None run=4 score=0.87789 removed=0 (0.000)
+[2026-03-19 12:19:41] RESULT phoneme xgboost None mean=0.87789 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:19:41] SKIP 126/180 (70.0%) phoneme xgboost ZScore
+[2026-03-19 12:19:41] SKIP 127/180 (70.6%) phoneme xgboost IsolationForest
+[2026-03-19 12:19:41] SKIP 128/180 (71.1%) phoneme xgboost IQR
+[2026-03-19 12:19:41] RUN 129/180 (71.7%) phoneme randomforest None
+[2026-03-19 12:19:42] phoneme randomforest None run=0 score=0.88529 removed=0 (0.000)
+[2026-03-19 12:19:42] phoneme randomforest None run=1 score=0.88437 removed=0 (0.000)
+[2026-03-19 12:19:43] phoneme randomforest None run=2 score=0.88529 removed=0 (0.000)
+[2026-03-19 12:19:43] phoneme randomforest None run=3 score=0.88252 removed=0 (0.000)
+[2026-03-19 12:19:43] phoneme randomforest None run=4 score=0.89177 removed=0 (0.000)
+[2026-03-19 12:19:43] RESULT phoneme randomforest None mean=0.88585 std=0.00313 removed=0.0 (0.000)
+[2026-03-19 12:19:43] SKIP 130/180 (72.2%) phoneme randomforest ZScore
+[2026-03-19 12:19:43] SKIP 131/180 (72.8%) phoneme randomforest IsolationForest
+[2026-03-19 12:19:43] SKIP 132/180 (73.3%) phoneme randomforest IQR
+[2026-03-19 12:19:43] ==== DATASET phoneme DONE ====
+[2026-03-19 12:19:43] ==== DATASET pol ====
+[2026-03-19 12:19:43] RUN 133/180 (73.9%) pol mlp None
+[2026-03-19 12:19:46] pol mlp None run=0 score=0.98860 removed=0 (0.000)
+[2026-03-19 12:19:48] pol mlp None run=1 score=0.98711 removed=0 (0.000)
+[2026-03-19 12:19:51] pol mlp None run=2 score=0.98364 removed=0 (0.000)
+[2026-03-19 12:19:54] pol mlp None run=3 score=0.98612 removed=0 (0.000)
+[2026-03-19 12:19:56] pol mlp None run=4 score=0.98661 removed=0 (0.000)
+[2026-03-19 12:19:56] RESULT pol mlp None mean=0.98642 std=0.00162 removed=0.0 (0.000)
+[2026-03-19 12:19:56] SKIP 134/180 (74.4%) pol mlp ZScore
+[2026-03-19 12:19:56] SKIP 135/180 (75.0%) pol mlp IsolationForest
+[2026-03-19 12:19:56] SKIP 136/180 (75.6%) pol mlp IQR
+[2026-03-19 12:19:56] RUN 137/180 (76.1%) pol xgboost None
+[2026-03-19 12:19:56] pol xgboost None run=0 score=0.98413 removed=0 (0.000)
+[2026-03-19 12:19:56] pol xgboost None run=1 score=0.98413 removed=0 (0.000)
+[2026-03-19 12:19:57] pol xgboost None run=2 score=0.98413 removed=0 (0.000)
+[2026-03-19 12:19:57] pol xgboost None run=3 score=0.98413 removed=0 (0.000)
+[2026-03-19 12:19:57] pol xgboost None run=4 score=0.98413 removed=0 (0.000)
+[2026-03-19 12:19:57] RESULT pol xgboost None mean=0.98413 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:19:57] SKIP 138/180 (76.7%) pol xgboost ZScore
+[2026-03-19 12:19:57] SKIP 139/180 (77.2%) pol xgboost IsolationForest
+[2026-03-19 12:19:57] SKIP 140/180 (77.8%) pol xgboost IQR
+[2026-03-19 12:19:57] RUN 141/180 (78.3%) pol randomforest None
+[2026-03-19 12:19:57] pol randomforest None run=0 score=0.98265 removed=0 (0.000)
+[2026-03-19 12:19:58] pol randomforest None run=1 score=0.98066 removed=0 (0.000)
+[2026-03-19 12:19:58] pol randomforest None run=2 score=0.98215 removed=0 (0.000)
+[2026-03-19 12:19:59] pol randomforest None run=3 score=0.98265 removed=0 (0.000)
+[2026-03-19 12:19:59] pol randomforest None run=4 score=0.98364 removed=0 (0.000)
+[2026-03-19 12:19:59] RESULT pol randomforest None mean=0.98235 std=0.00097 removed=0.0 (0.000)
+[2026-03-19 12:19:59] SKIP 142/180 (78.9%) pol randomforest ZScore
+[2026-03-19 12:19:59] SKIP 143/180 (79.4%) pol randomforest IsolationForest
+[2026-03-19 12:19:59] SKIP 144/180 (80.0%) pol randomforest IQR
+[2026-03-19 12:19:59] ==== DATASET pol DONE ====
+[2026-03-19 12:19:59] ==== DATASET socmob ====
+[2026-03-19 12:19:59] RUN 145/180 (80.6%) socmob mlp None
+[2026-03-19 12:20:00] socmob mlp None run=0 score=1154.33836 removed=0 (0.000)
+[2026-03-19 12:20:02] socmob mlp None run=1 score=1153.10014 removed=0 (0.000)
+[2026-03-19 12:20:02] socmob mlp None run=2 score=1145.62456 removed=0 (0.000)
+[2026-03-19 12:20:03] socmob mlp None run=3 score=1143.39541 removed=0 (0.000)
+[2026-03-19 12:20:03] socmob mlp None run=4 score=1150.58942 removed=0 (0.000)
+[2026-03-19 12:20:03] RESULT socmob mlp None mean=1149.40958 std=4.23796 removed=0.0 (0.000)
+[2026-03-19 12:20:03] RUN 146/180 (81.1%) socmob mlp ZScore
+[2026-03-19 12:20:04] socmob mlp ZScore run=0 score=1226.01371 removed=10 (0.014)
+[2026-03-19 12:20:04] socmob mlp ZScore run=1 score=1225.65815 removed=10 (0.014)
+[2026-03-19 12:20:05] socmob mlp ZScore run=2 score=1225.42234 removed=10 (0.014)
+[2026-03-19 12:20:05] socmob mlp ZScore run=3 score=1217.62017 removed=10 (0.014)
+[2026-03-19 12:20:06] socmob mlp ZScore run=4 score=1223.32449 removed=10 (0.014)
+[2026-03-19 12:20:06] RESULT socmob mlp ZScore mean=1223.60777 std=3.13742 removed=10.0 (0.014)
+[2026-03-19 12:20:06] RUN 147/180 (81.7%) socmob mlp IsolationForest
+[2026-03-19 12:20:07] socmob mlp IsolationForest run=0 score=1613.99340 removed=37 (0.050)
+[2026-03-19 12:20:07] socmob mlp IsolationForest run=1 score=1527.32354 removed=37 (0.050)
+[2026-03-19 12:20:08] socmob mlp IsolationForest run=2 score=1598.15617 removed=36 (0.049)
+[2026-03-19 12:20:09] socmob mlp IsolationForest run=3 score=1551.77022 removed=37 (0.050)
+[2026-03-19 12:20:09] socmob mlp IsolationForest run=4 score=1587.56148 removed=37 (0.050)
+[2026-03-19 12:20:09] RESULT socmob mlp IsolationForest mean=1575.76096 std=31.69939 removed=36.8 (0.050)
+[2026-03-19 12:20:09] RUN 148/180 (82.2%) socmob mlp IQR
+[2026-03-19 12:20:10] socmob mlp IQR run=0 score=1636.10045 removed=104 (0.141)
+[2026-03-19 12:20:10] socmob mlp IQR run=1 score=1644.31794 removed=104 (0.141)
+[2026-03-19 12:20:11] socmob mlp IQR run=2 score=1678.98204 removed=104 (0.141)
+[2026-03-19 12:20:11] socmob mlp IQR run=3 score=1643.45781 removed=104 (0.141)
+[2026-03-19 12:20:12] socmob mlp IQR run=4 score=1711.72850 removed=104 (0.141)
+[2026-03-19 12:20:12] RESULT socmob mlp IQR mean=1662.91735 std=28.58098 removed=104.0 (0.141)
+[2026-03-19 12:20:12] RUN 149/180 (82.8%) socmob xgboost None
+[2026-03-19 12:20:12] socmob xgboost None run=0 score=1395.63895 removed=0 (0.000)
+[2026-03-19 12:20:12] socmob xgboost None run=1 score=1395.63895 removed=0 (0.000)
+[2026-03-19 12:20:12] socmob xgboost None run=2 score=1395.63895 removed=0 (0.000)
+[2026-03-19 12:20:12] socmob xgboost None run=3 score=1395.63895 removed=0 (0.000)
+[2026-03-19 12:20:12] socmob xgboost None run=4 score=1395.63895 removed=0 (0.000)
+[2026-03-19 12:20:12] RESULT socmob xgboost None mean=1395.63895 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:20:12] RUN 150/180 (83.3%) socmob xgboost ZScore
+[2026-03-19 12:20:12] socmob xgboost ZScore run=0 score=1604.19365 removed=10 (0.014)
+[2026-03-19 12:20:12] socmob xgboost ZScore run=1 score=1604.19365 removed=10 (0.014)
+[2026-03-19 12:20:13] socmob xgboost ZScore run=2 score=1604.19365 removed=10 (0.014)
+[2026-03-19 12:20:13] socmob xgboost ZScore run=3 score=1604.19365 removed=10 (0.014)
+[2026-03-19 12:20:13] socmob xgboost ZScore run=4 score=1604.19365 removed=10 (0.014)
+[2026-03-19 12:20:13] RESULT socmob xgboost ZScore mean=1604.19365 std=0.00000 removed=10.0 (0.014)
+[2026-03-19 12:20:13] RUN 151/180 (83.9%) socmob xgboost IsolationForest
+[2026-03-19 12:20:13] socmob xgboost IsolationForest run=0 score=1722.10609 removed=37 (0.050)
+[2026-03-19 12:20:13] socmob xgboost IsolationForest run=1 score=1722.10609 removed=37 (0.050)
+[2026-03-19 12:20:14] socmob xgboost IsolationForest run=2 score=1629.93856 removed=36 (0.049)
+[2026-03-19 12:20:14] socmob xgboost IsolationForest run=3 score=1722.10609 removed=37 (0.050)
+[2026-03-19 12:20:14] socmob xgboost IsolationForest run=4 score=1680.41491 removed=37 (0.050)
+[2026-03-19 12:20:14] RESULT socmob xgboost IsolationForest mean=1695.33435 std=36.46746 removed=36.8 (0.050)
+[2026-03-19 12:20:14] RUN 152/180 (84.4%) socmob xgboost IQR
+[2026-03-19 12:20:14] socmob xgboost IQR run=0 score=1781.26181 removed=104 (0.141)
+[2026-03-19 12:20:14] socmob xgboost IQR run=1 score=1781.26181 removed=104 (0.141)
+[2026-03-19 12:20:15] socmob xgboost IQR run=2 score=1781.26181 removed=104 (0.141)
+[2026-03-19 12:20:15] socmob xgboost IQR run=3 score=1781.26181 removed=104 (0.141)
+[2026-03-19 12:20:15] socmob xgboost IQR run=4 score=1781.26181 removed=104 (0.141)
+[2026-03-19 12:20:15] RESULT socmob xgboost IQR mean=1781.26181 std=0.00000 removed=104.0 (0.141)
+[2026-03-19 12:20:15] RUN 153/180 (85.0%) socmob randomforest None
+[2026-03-19 12:20:15] socmob randomforest None run=0 score=1643.21876 removed=0 (0.000)
+[2026-03-19 12:20:15] socmob randomforest None run=1 score=1702.66258 removed=0 (0.000)
+[2026-03-19 12:20:15] socmob randomforest None run=2 score=1682.35802 removed=0 (0.000)
+[2026-03-19 12:20:16] socmob randomforest None run=3 score=1728.43936 removed=0 (0.000)
+[2026-03-19 12:20:16] socmob randomforest None run=4 score=1648.82728 removed=0 (0.000)
+[2026-03-19 12:20:16] RESULT socmob randomforest None mean=1681.10120 std=32.19956 removed=0.0 (0.000)
+[2026-03-19 12:20:16] RUN 154/180 (85.6%) socmob randomforest ZScore
+[2026-03-19 12:20:16] socmob randomforest ZScore run=0 score=1881.69554 removed=10 (0.014)
+[2026-03-19 12:20:16] socmob randomforest ZScore run=1 score=1786.24392 removed=10 (0.014)
+[2026-03-19 12:20:16] socmob randomforest ZScore run=2 score=1849.65433 removed=10 (0.014)
+[2026-03-19 12:20:17] socmob randomforest ZScore run=3 score=1874.21616 removed=10 (0.014)
+[2026-03-19 12:20:17] socmob randomforest ZScore run=4 score=1816.00065 removed=10 (0.014)
+[2026-03-19 12:20:17] RESULT socmob randomforest ZScore mean=1841.56212 std=35.93314 removed=10.0 (0.014)
+[2026-03-19 12:20:17] RUN 155/180 (86.1%) socmob randomforest IsolationForest
+[2026-03-19 12:20:17] socmob randomforest IsolationForest run=0 score=1891.39166 removed=37 (0.050)
+[2026-03-19 12:20:17] socmob randomforest IsolationForest run=1 score=1873.30820 removed=37 (0.050)
+[2026-03-19 12:20:18] socmob randomforest IsolationForest run=2 score=1893.66008 removed=36 (0.049)
+[2026-03-19 12:20:18] socmob randomforest IsolationForest run=3 score=1875.68889 removed=37 (0.050)
+[2026-03-19 12:20:19] socmob randomforest IsolationForest run=4 score=1894.63595 removed=37 (0.050)
+[2026-03-19 12:20:19] RESULT socmob randomforest IsolationForest mean=1885.73696 std=9.26695 removed=36.8 (0.050)
+[2026-03-19 12:20:19] RUN 156/180 (86.7%) socmob randomforest IQR
+[2026-03-19 12:20:19] socmob randomforest IQR run=0 score=1827.62684 removed=104 (0.141)
+[2026-03-19 12:20:19] socmob randomforest IQR run=1 score=1834.60834 removed=104 (0.141)
+[2026-03-19 12:20:19] socmob randomforest IQR run=2 score=1831.78417 removed=104 (0.141)
+[2026-03-19 12:20:19] socmob randomforest IQR run=3 score=1846.39349 removed=104 (0.141)
+[2026-03-19 12:20:19] socmob randomforest IQR run=4 score=1842.81893 removed=104 (0.141)
+[2026-03-19 12:20:19] RESULT socmob randomforest IQR mean=1836.64635 std=6.96065 removed=104.0 (0.141)
+[2026-03-19 12:20:19] ==== DATASET socmob DONE ====
+[2026-03-19 12:20:19] ==== DATASET splice ====
+[2026-03-19 12:20:19] RUN 157/180 (87.2%) splice mlp None
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice mlp None
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 158/180 (87.8%) splice mlp ZScore
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice mlp ZScore
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 159/180 (88.3%) splice mlp IsolationForest
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice mlp IsolationForest
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 160/180 (88.9%) splice mlp IQR
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice mlp IQR
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 161/180 (89.4%) splice xgboost None
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice xgboost None
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 162/180 (90.0%) splice xgboost ZScore
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice xgboost ZScore
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 163/180 (90.6%) splice xgboost IsolationForest
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice xgboost IsolationForest
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 164/180 (91.1%) splice xgboost IQR
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice xgboost IQR
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 165/180 (91.7%) splice randomforest None
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice randomforest None
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 166/180 (92.2%) splice randomforest ZScore
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice randomforest ZScore
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 167/180 (92.8%) splice randomforest IsolationForest
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice randomforest IsolationForest
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] RUN 168/180 (93.3%) splice randomforest IQR
+[2026-03-19 12:20:19] EXPERIMENT FAILED splice randomforest IQR
+[2026-03-19 12:20:19] 'NoneType' object is not subscriptable
+[2026-03-19 12:20:19] ==== DATASET splice DONE ====
+[2026-03-19 12:20:19] ==== DATASET vehicle ====
+[2026-03-19 12:20:19] RUN 169/180 (93.9%) vehicle mlp None
+[2026-03-19 12:20:20] vehicle mlp None run=0 score=0.82941 removed=0 (0.000)
+[2026-03-19 12:20:20] vehicle mlp None run=1 score=0.81765 removed=0 (0.000)
+[2026-03-19 12:20:21] vehicle mlp None run=2 score=0.84706 removed=0 (0.000)
+[2026-03-19 12:20:21] vehicle mlp None run=3 score=0.84118 removed=0 (0.000)
+[2026-03-19 12:20:22] vehicle mlp None run=4 score=0.84706 removed=0 (0.000)
+[2026-03-19 12:20:22] RESULT vehicle mlp None mean=0.83647 std=0.01141 removed=0.0 (0.000)
+[2026-03-19 12:20:22] SKIP 170/180 (94.4%) vehicle mlp ZScore
+[2026-03-19 12:20:22] SKIP 171/180 (95.0%) vehicle mlp IsolationForest
+[2026-03-19 12:20:22] SKIP 172/180 (95.6%) vehicle mlp IQR
+[2026-03-19 12:20:22] RUN 173/180 (96.1%) vehicle xgboost None
+[2026-03-19 12:20:22] vehicle xgboost None run=0 score=0.77647 removed=0 (0.000)
+[2026-03-19 12:20:22] vehicle xgboost None run=1 score=0.77647 removed=0 (0.000)
+[2026-03-19 12:20:22] vehicle xgboost None run=2 score=0.77647 removed=0 (0.000)
+[2026-03-19 12:20:22] vehicle xgboost None run=3 score=0.77647 removed=0 (0.000)
+[2026-03-19 12:20:23] vehicle xgboost None run=4 score=0.77647 removed=0 (0.000)
+[2026-03-19 12:20:23] RESULT vehicle xgboost None mean=0.77647 std=0.00000 removed=0.0 (0.000)
+[2026-03-19 12:20:23] SKIP 174/180 (96.7%) vehicle xgboost ZScore
+[2026-03-19 12:20:23] SKIP 175/180 (97.2%) vehicle xgboost IsolationForest
+[2026-03-19 12:20:23] SKIP 176/180 (97.8%) vehicle xgboost IQR
+[2026-03-19 12:20:23] RUN 177/180 (98.3%) vehicle randomforest None
+[2026-03-19 12:20:23] vehicle randomforest None run=0 score=0.72941 removed=0 (0.000)
+[2026-03-19 12:20:23] vehicle randomforest None run=1 score=0.71765 removed=0 (0.000)
+[2026-03-19 12:20:23] vehicle randomforest None run=2 score=0.73529 removed=0 (0.000)
+[2026-03-19 12:20:23] vehicle randomforest None run=3 score=0.75294 removed=0 (0.000)
+[2026-03-19 12:20:23] vehicle randomforest None run=4 score=0.72941 removed=0 (0.000)
+[2026-03-19 12:20:23] RESULT vehicle randomforest None mean=0.73294 std=0.01153 removed=0.0 (0.000)
+[2026-03-19 12:20:23] SKIP 178/180 (98.9%) vehicle randomforest ZScore
+[2026-03-19 12:20:23] SKIP 179/180 (99.4%) vehicle randomforest IsolationForest
+[2026-03-19 12:20:23] SKIP 180/180 (100.0%) vehicle randomforest IQR
+[2026-03-19 12:20:23] ==== DATASET vehicle DONE ====
+[2026-03-19 12:20:23] Experiment finished
+[2026-03-19 14:04:27] eucalyptus xgboost None run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:29] eucalyptus xgboost None run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:30] eucalyptus xgboost None run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:31] eucalyptus xgboost None run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:32] eucalyptus xgboost None run=4 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:33] eucalyptus xgboost ZScore run=0 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:33] eucalyptus xgboost ZScore run=1 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:34] eucalyptus xgboost ZScore run=2 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:35] eucalyptus xgboost ZScore run=3 score=0.24324 removed=0 (0.000)
+[2026-03-19 14:04:36] eucalyptus xgboost ZScore run=4 score=0.24324 removed=0 (0.000)
