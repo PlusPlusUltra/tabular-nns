@@ -1,0 +1,952 @@
+[2026-03-19 20:17:46] Experiment started
+[2026-03-19 20:17:46] RUN 1/360 Bank_Customer_Churn_Dataset mlp None remove
+[2026-03-19 20:17:52] Bank_Customer_Churn_Dataset mlp None remove run=0 score=0.84050 outliers=0.0000
+[2026-03-19 20:18:01] Bank_Customer_Churn_Dataset mlp None remove run=1 score=0.83400 outliers=0.0000
+[2026-03-19 20:18:07] Bank_Customer_Churn_Dataset mlp None remove run=2 score=0.80900 outliers=0.0000
+[2026-03-19 20:18:13] Bank_Customer_Churn_Dataset mlp None remove run=3 score=0.82950 outliers=0.0000
+[2026-03-19 20:18:20] Bank_Customer_Churn_Dataset mlp None remove run=4 score=0.82100 outliers=0.0000
+[2026-03-19 20:18:20] RESULT Bank_Customer_Churn_Dataset mlp None remove 0.8268 outliers=0.0000
+[2026-03-19 20:18:20] RUN 2/360 Bank_Customer_Churn_Dataset mlp ZScore remove
+[2026-03-19 20:18:26] Bank_Customer_Churn_Dataset mlp ZScore remove run=0 score=0.83800 outliers=0.0202
+[2026-03-19 20:18:34] Bank_Customer_Churn_Dataset mlp ZScore remove run=1 score=0.82650 outliers=0.0230
+[2026-03-19 20:18:40] Bank_Customer_Churn_Dataset mlp ZScore remove run=2 score=0.81900 outliers=0.0214
+[2026-03-19 20:18:46] Bank_Customer_Churn_Dataset mlp ZScore remove run=3 score=0.83450 outliers=0.0241
+[2026-03-19 20:18:53] Bank_Customer_Churn_Dataset mlp ZScore remove run=4 score=0.82200 outliers=0.0213
+[2026-03-19 20:18:53] RESULT Bank_Customer_Churn_Dataset mlp ZScore remove 0.8280 outliers=0.0220
+[2026-03-19 20:18:53] RUN 3/360 Bank_Customer_Churn_Dataset mlp ZScore clip
+[2026-03-19 20:18:59] Bank_Customer_Churn_Dataset mlp ZScore clip run=0 score=0.84450 outliers=0.0202
+[2026-03-19 20:19:07] Bank_Customer_Churn_Dataset mlp ZScore clip run=1 score=0.82450 outliers=0.0230
+[2026-03-19 20:19:14] Bank_Customer_Churn_Dataset mlp ZScore clip run=2 score=0.80050 outliers=0.0214
+[2026-03-19 20:19:20] Bank_Customer_Churn_Dataset mlp ZScore clip run=3 score=0.82550 outliers=0.0241
+[2026-03-19 20:19:26] Bank_Customer_Churn_Dataset mlp ZScore clip run=4 score=0.81650 outliers=0.0213
+[2026-03-19 20:19:26] RESULT Bank_Customer_Churn_Dataset mlp ZScore clip 0.8223 outliers=0.0220
+[2026-03-19 20:19:26] RUN 4/360 Bank_Customer_Churn_Dataset mlp Percentile remove
+[2026-03-19 20:19:30] Bank_Customer_Churn_Dataset mlp Percentile remove run=0 score=0.82450 outliers=0.3894
+[2026-03-19 20:19:35] Bank_Customer_Churn_Dataset mlp Percentile remove run=1 score=0.81000 outliers=0.3870
+[2026-03-19 20:19:39] Bank_Customer_Churn_Dataset mlp Percentile remove run=2 score=0.80750 outliers=0.3591
+[2026-03-19 20:19:45] Bank_Customer_Churn_Dataset mlp Percentile remove run=3 score=0.81800 outliers=0.3873
+[2026-03-19 20:19:49] Bank_Customer_Churn_Dataset mlp Percentile remove run=4 score=0.81550 outliers=0.3847
+[2026-03-19 20:19:49] RESULT Bank_Customer_Churn_Dataset mlp Percentile remove 0.8151 outliers=0.3815
+[2026-03-19 20:19:49] RUN 5/360 Bank_Customer_Churn_Dataset mlp Percentile clip
+[2026-03-19 20:19:55] Bank_Customer_Churn_Dataset mlp Percentile clip run=0 score=0.82000 outliers=0.3894
+[2026-03-19 20:20:01] Bank_Customer_Churn_Dataset mlp Percentile clip run=1 score=0.80450 outliers=0.3870
+[2026-03-19 20:20:07] Bank_Customer_Churn_Dataset mlp Percentile clip run=2 score=0.80550 outliers=0.3591
+[2026-03-19 20:20:13] Bank_Customer_Churn_Dataset mlp Percentile clip run=3 score=0.81300 outliers=0.3873
+[2026-03-19 20:20:21] Bank_Customer_Churn_Dataset mlp Percentile clip run=4 score=0.80500 outliers=0.3847
+[2026-03-19 20:20:21] RESULT Bank_Customer_Churn_Dataset mlp Percentile clip 0.8096 outliers=0.3815
+[2026-03-19 20:20:21] RUN 6/360 Bank_Customer_Churn_Dataset mlp IsolationForest remove
+[2026-03-19 20:20:27] Bank_Customer_Churn_Dataset mlp IsolationForest remove run=0 score=0.84400 outliers=0.0497
+[2026-03-19 20:20:33] Bank_Customer_Churn_Dataset mlp IsolationForest remove run=1 score=0.81200 outliers=0.0500
+[2026-03-19 20:20:39] Bank_Customer_Churn_Dataset mlp IsolationForest remove run=2 score=0.82000 outliers=0.0500
+[2026-03-19 20:20:46] Bank_Customer_Churn_Dataset mlp IsolationForest remove run=3 score=0.83350 outliers=0.0495
+[2026-03-19 20:20:56] Bank_Customer_Churn_Dataset mlp IsolationForest remove run=4 score=0.82300 outliers=0.0500
+[2026-03-19 20:20:56] RESULT Bank_Customer_Churn_Dataset mlp IsolationForest remove 0.8265 outliers=0.0498
+[2026-03-19 20:20:56] RUN 7/360 Bank_Customer_Churn_Dataset mlp LOF remove
+[2026-03-19 20:21:02] Bank_Customer_Churn_Dataset mlp LOF remove run=0 score=0.85300 outliers=0.0500
+[2026-03-19 20:21:09] Bank_Customer_Churn_Dataset mlp LOF remove run=1 score=0.83500 outliers=0.0500
+[2026-03-19 20:21:15] Bank_Customer_Churn_Dataset mlp LOF remove run=2 score=0.82300 outliers=0.0500
+[2026-03-19 20:21:21] Bank_Customer_Churn_Dataset mlp LOF remove run=3 score=0.83050 outliers=0.0497
+[2026-03-19 20:21:30] Bank_Customer_Churn_Dataset mlp LOF remove run=4 score=0.82250 outliers=0.0500
+[2026-03-19 20:21:30] RESULT Bank_Customer_Churn_Dataset mlp LOF remove 0.8328 outliers=0.0499
+[2026-03-19 20:21:30] RUN 8/360 Bank_Customer_Churn_Dataset mlp Autoencoder remove
+[2026-03-19 20:21:36] Bank_Customer_Churn_Dataset mlp Autoencoder remove run=0 score=0.84550 outliers=0.0500
+[2026-03-19 20:21:42] Bank_Customer_Churn_Dataset mlp Autoencoder remove run=1 score=0.83800 outliers=0.0500
+[2026-03-19 20:21:49] Bank_Customer_Churn_Dataset mlp Autoencoder remove run=2 score=0.81250 outliers=0.0503
+[2026-03-19 20:21:55] Bank_Customer_Churn_Dataset mlp Autoencoder remove run=3 score=0.81400 outliers=0.0503
+[2026-03-19 20:22:04] Bank_Customer_Churn_Dataset mlp Autoencoder remove run=4 score=0.83100 outliers=0.0500
+[2026-03-19 20:22:04] RESULT Bank_Customer_Churn_Dataset mlp Autoencoder remove 0.8282 outliers=0.0501
+[2026-03-19 20:22:04] RUN 9/360 Bank_Customer_Churn_Dataset xgboost None remove
+[2026-03-19 20:22:06] Bank_Customer_Churn_Dataset xgboost None remove run=0 score=0.82200 outliers=0.0000
+[2026-03-19 20:22:08] Bank_Customer_Churn_Dataset xgboost None remove run=1 score=0.81850 outliers=0.0000
+[2026-03-19 20:22:10] Bank_Customer_Churn_Dataset xgboost None remove run=2 score=0.80400 outliers=0.0000
+[2026-03-19 20:22:12] Bank_Customer_Churn_Dataset xgboost None remove run=3 score=0.82150 outliers=0.0000
+[2026-03-19 20:22:14] Bank_Customer_Churn_Dataset xgboost None remove run=4 score=0.75400 outliers=0.0000
+[2026-03-19 20:22:14] RESULT Bank_Customer_Churn_Dataset xgboost None remove 0.8040 outliers=0.0000
+[2026-03-19 20:22:14] RUN 10/360 Bank_Customer_Churn_Dataset xgboost ZScore remove
+[2026-03-19 20:22:16] Bank_Customer_Churn_Dataset xgboost ZScore remove run=0 score=0.82400 outliers=0.0202
+[2026-03-19 20:22:18] Bank_Customer_Churn_Dataset xgboost ZScore remove run=1 score=0.81500 outliers=0.0230
+[2026-03-19 20:22:20] Bank_Customer_Churn_Dataset xgboost ZScore remove run=2 score=0.79750 outliers=0.0214
+[2026-03-19 20:22:21] Bank_Customer_Churn_Dataset xgboost ZScore remove run=3 score=0.82000 outliers=0.0241
+[2026-03-19 20:22:23] Bank_Customer_Churn_Dataset xgboost ZScore remove run=4 score=0.79200 outliers=0.0213
+[2026-03-19 20:22:23] RESULT Bank_Customer_Churn_Dataset xgboost ZScore remove 0.8097 outliers=0.0220
+[2026-03-19 20:22:23] RUN 11/360 Bank_Customer_Churn_Dataset xgboost ZScore clip
+[2026-03-19 20:22:25] Bank_Customer_Churn_Dataset xgboost ZScore clip run=0 score=0.82300 outliers=0.0202
+[2026-03-19 20:22:28] Bank_Customer_Churn_Dataset xgboost ZScore clip run=1 score=0.81500 outliers=0.0230
+[2026-03-19 20:22:30] Bank_Customer_Churn_Dataset xgboost ZScore clip run=2 score=0.80000 outliers=0.0214
+[2026-03-19 20:22:34] Bank_Customer_Churn_Dataset xgboost ZScore clip run=3 score=0.81650 outliers=0.0241
+[2026-03-19 20:22:36] Bank_Customer_Churn_Dataset xgboost ZScore clip run=4 score=0.68800 outliers=0.0213
+[2026-03-19 20:22:36] RESULT Bank_Customer_Churn_Dataset xgboost ZScore clip 0.7885 outliers=0.0220
+[2026-03-19 20:22:36] RUN 12/360 Bank_Customer_Churn_Dataset xgboost Percentile remove
+[2026-03-19 20:22:37] Bank_Customer_Churn_Dataset xgboost Percentile remove run=0 score=0.82150 outliers=0.3894
+[2026-03-19 20:22:39] Bank_Customer_Churn_Dataset xgboost Percentile remove run=1 score=0.78800 outliers=0.3870
+[2026-03-19 20:22:41] Bank_Customer_Churn_Dataset xgboost Percentile remove run=2 score=0.78200 outliers=0.3591
+[2026-03-19 20:22:42] Bank_Customer_Churn_Dataset xgboost Percentile remove run=3 score=0.79800 outliers=0.3873
+[2026-03-19 20:22:44] Bank_Customer_Churn_Dataset xgboost Percentile remove run=4 score=0.76900 outliers=0.3847
+[2026-03-19 20:22:44] RESULT Bank_Customer_Churn_Dataset xgboost Percentile remove 0.7917 outliers=0.3815
+[2026-03-19 20:22:44] RUN 13/360 Bank_Customer_Churn_Dataset xgboost Percentile clip
+[2026-03-19 20:22:45] Bank_Customer_Churn_Dataset xgboost Percentile clip run=0 score=0.82250 outliers=0.3894
+[2026-03-19 20:22:47] Bank_Customer_Churn_Dataset xgboost Percentile clip run=1 score=0.79000 outliers=0.3870
+[2026-03-19 20:22:49] Bank_Customer_Churn_Dataset xgboost Percentile clip run=2 score=0.80600 outliers=0.3591
+[2026-03-19 20:22:51] Bank_Customer_Churn_Dataset xgboost Percentile clip run=3 score=0.80500 outliers=0.3873
+[2026-03-19 20:22:53] Bank_Customer_Churn_Dataset xgboost Percentile clip run=4 score=0.74900 outliers=0.3847
+[2026-03-19 20:22:53] RESULT Bank_Customer_Churn_Dataset xgboost Percentile clip 0.7945 outliers=0.3815
+[2026-03-19 20:22:53] RUN 14/360 Bank_Customer_Churn_Dataset xgboost IsolationForest remove
+[2026-03-19 20:22:55] Bank_Customer_Churn_Dataset xgboost IsolationForest remove run=0 score=0.81950 outliers=0.0497
+[2026-03-19 20:22:57] Bank_Customer_Churn_Dataset xgboost IsolationForest remove run=1 score=0.80700 outliers=0.0500
+[2026-03-19 20:22:59] Bank_Customer_Churn_Dataset xgboost IsolationForest remove run=2 score=0.80650 outliers=0.0500
+[2026-03-19 20:23:02] Bank_Customer_Churn_Dataset xgboost IsolationForest remove run=3 score=0.80600 outliers=0.0495
+[2026-03-19 20:23:04] Bank_Customer_Churn_Dataset xgboost IsolationForest remove run=4 score=0.79400 outliers=0.0500
+[2026-03-19 20:23:04] RESULT Bank_Customer_Churn_Dataset xgboost IsolationForest remove 0.8066 outliers=0.0498
+[2026-03-19 20:23:04] RUN 15/360 Bank_Customer_Churn_Dataset xgboost LOF remove
+[2026-03-19 20:23:08] Bank_Customer_Churn_Dataset xgboost LOF remove run=0 score=0.83850 outliers=0.0500
+[2026-03-19 20:23:10] Bank_Customer_Churn_Dataset xgboost LOF remove run=1 score=0.80400 outliers=0.0500
+[2026-03-19 20:23:12] Bank_Customer_Churn_Dataset xgboost LOF remove run=2 score=0.79200 outliers=0.0500
+[2026-03-19 20:23:14] Bank_Customer_Churn_Dataset xgboost LOF remove run=3 score=0.82100 outliers=0.0497
+[2026-03-19 20:23:16] Bank_Customer_Churn_Dataset xgboost LOF remove run=4 score=0.78700 outliers=0.0500
+[2026-03-19 20:23:16] RESULT Bank_Customer_Churn_Dataset xgboost LOF remove 0.8085 outliers=0.0499
+[2026-03-19 20:23:16] RUN 16/360 Bank_Customer_Churn_Dataset xgboost Autoencoder remove
+[2026-03-19 20:23:18] Bank_Customer_Churn_Dataset xgboost Autoencoder remove run=0 score=0.83250 outliers=0.0500
+[2026-03-19 20:23:20] Bank_Customer_Churn_Dataset xgboost Autoencoder remove run=1 score=0.81500 outliers=0.0500
+[2026-03-19 20:23:22] Bank_Customer_Churn_Dataset xgboost Autoencoder remove run=2 score=0.79650 outliers=0.0503
+[2026-03-19 20:23:24] Bank_Customer_Churn_Dataset xgboost Autoencoder remove run=3 score=0.81500 outliers=0.0503
+[2026-03-19 20:23:27] Bank_Customer_Churn_Dataset xgboost Autoencoder remove run=4 score=0.73400 outliers=0.0500
+[2026-03-19 20:23:27] RESULT Bank_Customer_Churn_Dataset xgboost Autoencoder remove 0.7986 outliers=0.0501
+[2026-03-19 20:23:27] RUN 17/360 Bank_Customer_Churn_Dataset randomforest None remove
+[2026-03-19 20:23:29] Bank_Customer_Churn_Dataset randomforest None remove run=0 score=0.84250 outliers=0.0000
+[2026-03-19 20:23:33] Bank_Customer_Churn_Dataset randomforest None remove run=1 score=0.79900 outliers=0.0000
+[2026-03-19 20:23:36] Bank_Customer_Churn_Dataset randomforest None remove run=2 score=0.80250 outliers=0.0000
+[2026-03-19 20:23:39] Bank_Customer_Churn_Dataset randomforest None remove run=3 score=0.83800 outliers=0.0000
+[2026-03-19 20:23:44] Bank_Customer_Churn_Dataset randomforest None remove run=4 score=0.80850 outliers=0.0000
+[2026-03-19 20:23:44] RESULT Bank_Customer_Churn_Dataset randomforest None remove 0.8181 outliers=0.0000
+[2026-03-19 20:23:44] RUN 18/360 Bank_Customer_Churn_Dataset randomforest ZScore remove
+[2026-03-19 20:23:47] Bank_Customer_Churn_Dataset randomforest ZScore remove run=0 score=0.84650 outliers=0.0202
+[2026-03-19 20:23:50] Bank_Customer_Churn_Dataset randomforest ZScore remove run=1 score=0.80150 outliers=0.0230
+[2026-03-19 20:23:53] Bank_Customer_Churn_Dataset randomforest ZScore remove run=2 score=0.79200 outliers=0.0214
+[2026-03-19 20:23:56] Bank_Customer_Churn_Dataset randomforest ZScore remove run=3 score=0.82900 outliers=0.0241
+[2026-03-19 20:23:59] Bank_Customer_Churn_Dataset randomforest ZScore remove run=4 score=0.81300 outliers=0.0213
+[2026-03-19 20:23:59] RESULT Bank_Customer_Churn_Dataset randomforest ZScore remove 0.8164 outliers=0.0220
+[2026-03-19 20:23:59] RUN 19/360 Bank_Customer_Churn_Dataset randomforest ZScore clip
+[2026-03-19 20:24:01] Bank_Customer_Churn_Dataset randomforest ZScore clip run=0 score=0.83950 outliers=0.0202
+[2026-03-19 20:24:04] Bank_Customer_Churn_Dataset randomforest ZScore clip run=1 score=0.79600 outliers=0.0230
+[2026-03-19 20:24:08] Bank_Customer_Churn_Dataset randomforest ZScore clip run=2 score=0.79650 outliers=0.0214
+[2026-03-19 20:24:11] Bank_Customer_Churn_Dataset randomforest ZScore clip run=3 score=0.83800 outliers=0.0241
+[2026-03-19 20:24:16] Bank_Customer_Churn_Dataset randomforest ZScore clip run=4 score=0.80500 outliers=0.0213
+[2026-03-19 20:24:16] RESULT Bank_Customer_Churn_Dataset randomforest ZScore clip 0.8150 outliers=0.0220
+[2026-03-19 20:24:16] RUN 20/360 Bank_Customer_Churn_Dataset randomforest Percentile remove
+[2026-03-19 20:24:18] Bank_Customer_Churn_Dataset randomforest Percentile remove run=0 score=0.83500 outliers=0.3894
+[2026-03-19 20:24:21] Bank_Customer_Churn_Dataset randomforest Percentile remove run=1 score=0.77400 outliers=0.3870
+[2026-03-19 20:24:23] Bank_Customer_Churn_Dataset randomforest Percentile remove run=2 score=0.73800 outliers=0.3591
+[2026-03-19 20:24:25] Bank_Customer_Churn_Dataset randomforest Percentile remove run=3 score=0.82100 outliers=0.3873
+[2026-03-19 20:24:27] Bank_Customer_Churn_Dataset randomforest Percentile remove run=4 score=0.81250 outliers=0.3847
+[2026-03-19 20:24:27] RESULT Bank_Customer_Churn_Dataset randomforest Percentile remove 0.7961 outliers=0.3815
+[2026-03-19 20:24:27] RUN 21/360 Bank_Customer_Churn_Dataset randomforest Percentile clip
+[2026-03-19 20:24:29] Bank_Customer_Churn_Dataset randomforest Percentile clip run=0 score=0.83700 outliers=0.3894
+[2026-03-19 20:24:32] Bank_Customer_Churn_Dataset randomforest Percentile clip run=1 score=0.80950 outliers=0.3870
+[2026-03-19 20:24:35] Bank_Customer_Churn_Dataset randomforest Percentile clip run=2 score=0.78750 outliers=0.3591
+[2026-03-19 20:24:37] Bank_Customer_Churn_Dataset randomforest Percentile clip run=3 score=0.82500 outliers=0.3873
+[2026-03-19 20:24:40] Bank_Customer_Churn_Dataset randomforest Percentile clip run=4 score=0.81400 outliers=0.3847
+[2026-03-19 20:24:40] RESULT Bank_Customer_Churn_Dataset randomforest Percentile clip 0.8146 outliers=0.3815
+[2026-03-19 20:24:40] RUN 22/360 Bank_Customer_Churn_Dataset randomforest IsolationForest remove
+[2026-03-19 20:24:43] Bank_Customer_Churn_Dataset randomforest IsolationForest remove run=0 score=0.84200 outliers=0.0497
+[2026-03-19 20:24:46] Bank_Customer_Churn_Dataset randomforest IsolationForest remove run=1 score=0.79450 outliers=0.0500
+[2026-03-19 20:24:52] Bank_Customer_Churn_Dataset randomforest IsolationForest remove run=2 score=0.77050 outliers=0.0500
+[2026-03-19 20:24:55] Bank_Customer_Churn_Dataset randomforest IsolationForest remove run=3 score=0.82350 outliers=0.0495
+[2026-03-19 20:24:58] Bank_Customer_Churn_Dataset randomforest IsolationForest remove run=4 score=0.80650 outliers=0.0500
+[2026-03-19 20:24:58] RESULT Bank_Customer_Churn_Dataset randomforest IsolationForest remove 0.8074 outliers=0.0498
+[2026-03-19 20:24:58] RUN 23/360 Bank_Customer_Churn_Dataset randomforest LOF remove
+[2026-03-19 20:25:01] Bank_Customer_Churn_Dataset randomforest LOF remove run=0 score=0.85300 outliers=0.0500
+[2026-03-19 20:25:04] Bank_Customer_Churn_Dataset randomforest LOF remove run=1 score=0.82800 outliers=0.0500
+[2026-03-19 20:25:06] Bank_Customer_Churn_Dataset randomforest LOF remove run=2 score=0.80200 outliers=0.0500
+[2026-03-19 20:25:09] Bank_Customer_Churn_Dataset randomforest LOF remove run=3 score=0.83950 outliers=0.0497
+[2026-03-19 20:25:12] Bank_Customer_Churn_Dataset randomforest LOF remove run=4 score=0.82900 outliers=0.0500
+[2026-03-19 20:25:12] RESULT Bank_Customer_Churn_Dataset randomforest LOF remove 0.8303 outliers=0.0499
+[2026-03-19 20:25:12] RUN 24/360 Bank_Customer_Churn_Dataset randomforest Autoencoder remove
+[2026-03-19 20:25:15] Bank_Customer_Churn_Dataset randomforest Autoencoder remove run=0 score=0.85050 outliers=0.0500
+[2026-03-19 20:25:19] Bank_Customer_Churn_Dataset randomforest Autoencoder remove run=1 score=0.81250 outliers=0.0500
+[2026-03-19 20:25:24] Bank_Customer_Churn_Dataset randomforest Autoencoder remove run=2 score=0.80450 outliers=0.0503
+[2026-03-19 20:25:27] Bank_Customer_Churn_Dataset randomforest Autoencoder remove run=3 score=0.83500 outliers=0.0503
+[2026-03-19 20:25:30] Bank_Customer_Churn_Dataset randomforest Autoencoder remove run=4 score=0.82900 outliers=0.0500
+[2026-03-19 20:25:30] RESULT Bank_Customer_Churn_Dataset randomforest Autoencoder remove 0.8263 outliers=0.0501
+[2026-03-19 20:25:30] RUN 25/360 cmc mlp None remove
+[2026-03-19 20:25:31] cmc mlp None remove run=0 score=0.51864 outliers=0.0000
+[2026-03-19 20:25:32] cmc mlp None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-19 20:25:32] cmc mlp None remove run=2 score=0.48136 outliers=0.0000
+[2026-03-19 20:25:33] cmc mlp None remove run=3 score=0.50169 outliers=0.0000
+[2026-03-19 20:25:34] cmc mlp None remove run=4 score=0.51864 outliers=0.0000
+[2026-03-19 20:25:34] RESULT cmc mlp None remove 0.5064 outliers=0.0000
+[2026-03-19 20:25:34] RUN 26/360 cmc mlp ZScore remove
+[2026-03-19 20:25:35] cmc mlp ZScore remove run=0 score=0.52203 outliers=0.0149
+[2026-03-19 20:25:35] cmc mlp ZScore remove run=1 score=0.52542 outliers=0.0138
+[2026-03-19 20:25:36] cmc mlp ZScore remove run=2 score=0.50847 outliers=0.0170
+[2026-03-19 20:25:37] cmc mlp ZScore remove run=3 score=0.53559 outliers=0.0127
+[2026-03-19 20:25:38] cmc mlp ZScore remove run=4 score=0.47458 outliers=0.0138
+[2026-03-19 20:25:38] RESULT cmc mlp ZScore remove 0.5132 outliers=0.0144
+[2026-03-19 20:25:38] RUN 27/360 cmc mlp ZScore clip
+[2026-03-19 20:25:39] cmc mlp ZScore clip run=0 score=0.51864 outliers=0.0149
+[2026-03-19 20:25:39] cmc mlp ZScore clip run=1 score=0.52881 outliers=0.0138
+[2026-03-19 20:25:40] cmc mlp ZScore clip run=2 score=0.49153 outliers=0.0170
+[2026-03-19 20:25:41] cmc mlp ZScore clip run=3 score=0.51525 outliers=0.0127
+[2026-03-19 20:25:42] cmc mlp ZScore clip run=4 score=0.46441 outliers=0.0138
+[2026-03-19 20:25:42] RESULT cmc mlp ZScore clip 0.5037 outliers=0.0144
+[2026-03-19 20:25:42] RUN 28/360 cmc mlp Percentile remove
+[2026-03-19 20:25:43] cmc mlp Percentile remove run=0 score=0.49153 outliers=0.1051
+[2026-03-19 20:25:44] cmc mlp Percentile remove run=1 score=0.49492 outliers=0.0817
+[2026-03-19 20:25:44] cmc mlp Percentile remove run=2 score=0.49831 outliers=0.1040
+[2026-03-19 20:25:45] cmc mlp Percentile remove run=3 score=0.50847 outliers=0.1008
+[2026-03-19 20:25:46] cmc mlp Percentile remove run=4 score=0.51864 outliers=0.0924
+[2026-03-19 20:25:46] RESULT cmc mlp Percentile remove 0.5024 outliers=0.0968
+[2026-03-19 20:25:46] RUN 29/360 cmc mlp Percentile clip
+[2026-03-19 20:25:47] cmc mlp Percentile clip run=0 score=0.50169 outliers=0.1051
+[2026-03-19 20:25:48] cmc mlp Percentile clip run=1 score=0.52203 outliers=0.0817
+[2026-03-19 20:25:48] cmc mlp Percentile clip run=2 score=0.50508 outliers=0.1040
+[2026-03-19 20:25:49] cmc mlp Percentile clip run=3 score=0.52203 outliers=0.1008
+[2026-03-19 20:25:50] cmc mlp Percentile clip run=4 score=0.48475 outliers=0.0924
+[2026-03-19 20:25:50] RESULT cmc mlp Percentile clip 0.5071 outliers=0.0968
+[2026-03-19 20:25:50] RUN 30/360 cmc mlp IsolationForest remove
+[2026-03-19 20:25:51] cmc mlp IsolationForest remove run=0 score=0.52203 outliers=0.0510
+[2026-03-19 20:25:52] cmc mlp IsolationForest remove run=1 score=0.52203 outliers=0.0467
+[2026-03-19 20:25:53] cmc mlp IsolationForest remove run=2 score=0.51864 outliers=0.0499
+[2026-03-19 20:25:54] cmc mlp IsolationForest remove run=3 score=0.51864 outliers=0.0510
+[2026-03-19 20:25:55] cmc mlp IsolationForest remove run=4 score=0.47797 outliers=0.0488
+[2026-03-19 20:25:55] RESULT cmc mlp IsolationForest remove 0.5119 outliers=0.0495
+[2026-03-19 20:25:55] RUN 31/360 cmc mlp LOF remove
+[2026-03-19 20:25:58] cmc mlp LOF remove run=0 score=0.50847 outliers=0.0510
+[2026-03-19 20:25:59] cmc mlp LOF remove run=1 score=0.51864 outliers=0.0499
+[2026-03-19 20:26:00] cmc mlp LOF remove run=2 score=0.48136 outliers=0.0488
+[2026-03-19 20:26:00] cmc mlp LOF remove run=3 score=0.51525 outliers=0.0510
+[2026-03-19 20:26:01] cmc mlp LOF remove run=4 score=0.48475 outliers=0.0510
+[2026-03-19 20:26:01] RESULT cmc mlp LOF remove 0.5017 outliers=0.0503
+[2026-03-19 20:26:01] RUN 32/360 cmc mlp Autoencoder remove
+[2026-03-19 20:26:02] cmc mlp Autoencoder remove run=0 score=0.49153 outliers=0.0541
+[2026-03-19 20:26:03] cmc mlp Autoencoder remove run=1 score=0.49831 outliers=0.0531
+[2026-03-19 20:26:04] cmc mlp Autoencoder remove run=2 score=0.48475 outliers=0.0552
+[2026-03-19 20:26:05] cmc mlp Autoencoder remove run=3 score=0.49153 outliers=0.0552
+[2026-03-19 20:26:05] cmc mlp Autoencoder remove run=4 score=0.52203 outliers=0.0531
+[2026-03-19 20:26:05] RESULT cmc mlp Autoencoder remove 0.4976 outliers=0.0541
+[2026-03-19 20:26:05] RUN 33/360 cmc xgboost None remove
+[2026-03-19 20:26:06] cmc xgboost None remove run=0 score=0.55254 outliers=0.0000
+[2026-03-19 20:26:06] cmc xgboost None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-19 20:26:06] cmc xgboost None remove run=2 score=0.50847 outliers=0.0000
+[2026-03-19 20:26:06] cmc xgboost None remove run=3 score=0.49492 outliers=0.0000
+[2026-03-19 20:26:06] cmc xgboost None remove run=4 score=0.51525 outliers=0.0000
+[2026-03-19 20:26:06] RESULT cmc xgboost None remove 0.5166 outliers=0.0000
+[2026-03-19 20:26:06] RUN 34/360 cmc xgboost ZScore remove
+[2026-03-19 20:26:07] cmc xgboost ZScore remove run=0 score=0.53559 outliers=0.0149
+[2026-03-19 20:26:07] cmc xgboost ZScore remove run=1 score=0.48814 outliers=0.0138
+[2026-03-19 20:26:07] cmc xgboost ZScore remove run=2 score=0.49153 outliers=0.0170
+[2026-03-19 20:26:07] cmc xgboost ZScore remove run=3 score=0.48475 outliers=0.0127
+[2026-03-19 20:26:07] cmc xgboost ZScore remove run=4 score=0.50847 outliers=0.0138
+[2026-03-19 20:26:07] RESULT cmc xgboost ZScore remove 0.5017 outliers=0.0144
+[2026-03-19 20:26:07] RUN 35/360 cmc xgboost ZScore clip
+[2026-03-19 20:26:08] cmc xgboost ZScore clip run=0 score=0.54915 outliers=0.0149
+[2026-03-19 20:26:08] cmc xgboost ZScore clip run=1 score=0.48814 outliers=0.0138
+[2026-03-19 20:26:08] cmc xgboost ZScore clip run=2 score=0.51186 outliers=0.0170
+[2026-03-19 20:26:08] cmc xgboost ZScore clip run=3 score=0.50169 outliers=0.0127
+[2026-03-19 20:26:08] cmc xgboost ZScore clip run=4 score=0.51186 outliers=0.0138
+[2026-03-19 20:26:08] RESULT cmc xgboost ZScore clip 0.5125 outliers=0.0144
+[2026-03-19 20:26:08] RUN 36/360 cmc xgboost Percentile remove
+[2026-03-19 20:26:09] cmc xgboost Percentile remove run=0 score=0.49492 outliers=0.1051
+[2026-03-19 20:26:09] cmc xgboost Percentile remove run=1 score=0.46441 outliers=0.0817
+[2026-03-19 20:26:09] cmc xgboost Percentile remove run=2 score=0.48814 outliers=0.1040
+[2026-03-19 20:26:09] cmc xgboost Percentile remove run=3 score=0.48475 outliers=0.1008
+[2026-03-19 20:26:10] cmc xgboost Percentile remove run=4 score=0.51525 outliers=0.0924
+[2026-03-19 20:26:10] RESULT cmc xgboost Percentile remove 0.4895 outliers=0.0968
+[2026-03-19 20:26:10] RUN 37/360 cmc xgboost Percentile clip
+[2026-03-19 20:26:10] cmc xgboost Percentile clip run=0 score=0.51186 outliers=0.1051
+[2026-03-19 20:26:10] cmc xgboost Percentile clip run=1 score=0.50169 outliers=0.0817
+[2026-03-19 20:26:10] cmc xgboost Percentile clip run=2 score=0.49831 outliers=0.1040
+[2026-03-19 20:26:10] cmc xgboost Percentile clip run=3 score=0.49492 outliers=0.1008
+[2026-03-19 20:26:11] cmc xgboost Percentile clip run=4 score=0.49492 outliers=0.0924
+[2026-03-19 20:26:11] RESULT cmc xgboost Percentile clip 0.5003 outliers=0.0968
+[2026-03-19 20:26:11] RUN 38/360 cmc xgboost IsolationForest remove
+[2026-03-19 20:26:11] cmc xgboost IsolationForest remove run=0 score=0.53220 outliers=0.0510
+[2026-03-19 20:26:11] cmc xgboost IsolationForest remove run=1 score=0.49153 outliers=0.0467
+[2026-03-19 20:26:12] cmc xgboost IsolationForest remove run=2 score=0.51864 outliers=0.0499
+[2026-03-19 20:26:12] cmc xgboost IsolationForest remove run=3 score=0.48475 outliers=0.0510
+[2026-03-19 20:26:12] cmc xgboost IsolationForest remove run=4 score=0.51525 outliers=0.0488
+[2026-03-19 20:26:12] RESULT cmc xgboost IsolationForest remove 0.5085 outliers=0.0495
+[2026-03-19 20:26:12] RUN 39/360 cmc xgboost LOF remove
+[2026-03-19 20:26:13] cmc xgboost LOF remove run=0 score=0.52542 outliers=0.0510
+[2026-03-19 20:26:13] cmc xgboost LOF remove run=1 score=0.50508 outliers=0.0499
+[2026-03-19 20:26:13] cmc xgboost LOF remove run=2 score=0.50169 outliers=0.0488
+[2026-03-19 20:26:13] cmc xgboost LOF remove run=3 score=0.47458 outliers=0.0510
+[2026-03-19 20:26:14] cmc xgboost LOF remove run=4 score=0.50508 outliers=0.0510
+[2026-03-19 20:26:14] RESULT cmc xgboost LOF remove 0.5024 outliers=0.0503
+[2026-03-19 20:26:14] RUN 40/360 cmc xgboost Autoencoder remove
+[2026-03-19 20:26:14] cmc xgboost Autoencoder remove run=0 score=0.51864 outliers=0.0541
+[2026-03-19 20:26:14] cmc xgboost Autoencoder remove run=1 score=0.49831 outliers=0.0531
+[2026-03-19 20:26:14] cmc xgboost Autoencoder remove run=2 score=0.50508 outliers=0.0552
+[2026-03-19 20:26:15] cmc xgboost Autoencoder remove run=3 score=0.47797 outliers=0.0552
+[2026-03-19 20:26:15] cmc xgboost Autoencoder remove run=4 score=0.49831 outliers=0.0531
+[2026-03-19 20:26:15] RESULT cmc xgboost Autoencoder remove 0.4997 outliers=0.0541
+[2026-03-19 20:26:15] RUN 41/360 cmc randomforest None remove
+[2026-03-19 20:26:15] cmc randomforest None remove run=0 score=0.53220 outliers=0.0000
+[2026-03-19 20:26:15] cmc randomforest None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-19 20:26:16] cmc randomforest None remove run=2 score=0.50508 outliers=0.0000
+[2026-03-19 20:26:16] cmc randomforest None remove run=3 score=0.50847 outliers=0.0000
+[2026-03-19 20:26:16] cmc randomforest None remove run=4 score=0.53220 outliers=0.0000
+[2026-03-19 20:26:16] RESULT cmc randomforest None remove 0.5180 outliers=0.0000
+[2026-03-19 20:26:16] RUN 42/360 cmc randomforest ZScore remove
+[2026-03-19 20:26:17] cmc randomforest ZScore remove run=0 score=0.52203 outliers=0.0149
+[2026-03-19 20:26:17] cmc randomforest ZScore remove run=1 score=0.51525 outliers=0.0138
+[2026-03-19 20:26:17] cmc randomforest ZScore remove run=2 score=0.50847 outliers=0.0170
+[2026-03-19 20:26:18] cmc randomforest ZScore remove run=3 score=0.48814 outliers=0.0127
+[2026-03-19 20:26:18] cmc randomforest ZScore remove run=4 score=0.51525 outliers=0.0138
+[2026-03-19 20:26:18] RESULT cmc randomforest ZScore remove 0.5098 outliers=0.0144
+[2026-03-19 20:26:18] RUN 43/360 cmc randomforest ZScore clip
+[2026-03-19 20:26:18] cmc randomforest ZScore clip run=0 score=0.54237 outliers=0.0149
+[2026-03-19 20:26:19] cmc randomforest ZScore clip run=1 score=0.50169 outliers=0.0138
+[2026-03-19 20:26:19] cmc randomforest ZScore clip run=2 score=0.50847 outliers=0.0170
+[2026-03-19 20:26:19] cmc randomforest ZScore clip run=3 score=0.51186 outliers=0.0127
+[2026-03-19 20:26:20] cmc randomforest ZScore clip run=4 score=0.52881 outliers=0.0138
+[2026-03-19 20:26:20] RESULT cmc randomforest ZScore clip 0.5186 outliers=0.0144
+[2026-03-19 20:26:20] RUN 44/360 cmc randomforest Percentile remove
+[2026-03-19 20:26:20] cmc randomforest Percentile remove run=0 score=0.48814 outliers=0.1051
+[2026-03-19 20:26:20] cmc randomforest Percentile remove run=1 score=0.44746 outliers=0.0817
+[2026-03-19 20:26:21] cmc randomforest Percentile remove run=2 score=0.48136 outliers=0.1040
+[2026-03-19 20:26:21] cmc randomforest Percentile remove run=3 score=0.49153 outliers=0.1008
+[2026-03-19 20:26:21] cmc randomforest Percentile remove run=4 score=0.51525 outliers=0.0924
+[2026-03-19 20:26:21] RESULT cmc randomforest Percentile remove 0.4847 outliers=0.0968
+[2026-03-19 20:26:21] RUN 45/360 cmc randomforest Percentile clip
+[2026-03-19 20:26:22] cmc randomforest Percentile clip run=0 score=0.49831 outliers=0.1051
+[2026-03-19 20:26:22] cmc randomforest Percentile clip run=1 score=0.50169 outliers=0.0817
+[2026-03-19 20:26:22] cmc randomforest Percentile clip run=2 score=0.47797 outliers=0.1040
+[2026-03-19 20:26:23] cmc randomforest Percentile clip run=3 score=0.50169 outliers=0.1008
+[2026-03-19 20:26:23] cmc randomforest Percentile clip run=4 score=0.51525 outliers=0.0924
+[2026-03-19 20:26:23] RESULT cmc randomforest Percentile clip 0.4990 outliers=0.0968
+[2026-03-19 20:26:23] RUN 46/360 cmc randomforest IsolationForest remove
+[2026-03-19 20:26:23] cmc randomforest IsolationForest remove run=0 score=0.50847 outliers=0.0510
+[2026-03-19 20:26:24] cmc randomforest IsolationForest remove run=1 score=0.48136 outliers=0.0467
+[2026-03-19 20:26:24] cmc randomforest IsolationForest remove run=2 score=0.51864 outliers=0.0499
+[2026-03-19 20:26:25] cmc randomforest IsolationForest remove run=3 score=0.49831 outliers=0.0510
+[2026-03-19 20:26:25] cmc randomforest IsolationForest remove run=4 score=0.51525 outliers=0.0488
+[2026-03-19 20:26:25] RESULT cmc randomforest IsolationForest remove 0.5044 outliers=0.0495
+[2026-03-19 20:26:25] RUN 47/360 cmc randomforest LOF remove
+[2026-03-19 20:26:26] cmc randomforest LOF remove run=0 score=0.51186 outliers=0.0510
+[2026-03-19 20:26:26] cmc randomforest LOF remove run=1 score=0.52542 outliers=0.0499
+[2026-03-19 20:26:26] cmc randomforest LOF remove run=2 score=0.50169 outliers=0.0488
+[2026-03-19 20:26:27] cmc randomforest LOF remove run=3 score=0.48814 outliers=0.0510
+[2026-03-19 20:26:27] cmc randomforest LOF remove run=4 score=0.53559 outliers=0.0510
+[2026-03-19 20:26:27] RESULT cmc randomforest LOF remove 0.5125 outliers=0.0503
+[2026-03-19 20:26:27] RUN 48/360 cmc randomforest Autoencoder remove
+[2026-03-19 20:26:27] cmc randomforest Autoencoder remove run=0 score=0.49153 outliers=0.0541
+[2026-03-19 20:26:28] cmc randomforest Autoencoder remove run=1 score=0.48814 outliers=0.0531
+[2026-03-19 20:26:28] cmc randomforest Autoencoder remove run=2 score=0.50508 outliers=0.0552
+[2026-03-19 20:26:28] cmc randomforest Autoencoder remove run=3 score=0.47797 outliers=0.0552
+[2026-03-19 20:26:29] cmc randomforest Autoencoder remove run=4 score=0.51186 outliers=0.0531
+[2026-03-19 20:26:29] RESULT cmc randomforest Autoencoder remove 0.4949 outliers=0.0541
+[2026-03-19 20:26:29] RUN 49/360 connect-4 mlp None remove
+[2026-03-19 20:27:18] connect-4 mlp None remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:28:08] connect-4 mlp None remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:29:06] connect-4 mlp None remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:29:51] connect-4 mlp None remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:30:41] connect-4 mlp None remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:30:41] RESULT connect-4 mlp None remove 0.7786 outliers=0.0000
+[2026-03-19 20:30:41] RUN 50/360 connect-4 mlp ZScore remove
+[2026-03-19 20:31:29] connect-4 mlp ZScore remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:32:25] connect-4 mlp ZScore remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:33:23] connect-4 mlp ZScore remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:34:08] connect-4 mlp ZScore remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:34:56] connect-4 mlp ZScore remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:34:56] RESULT connect-4 mlp ZScore remove 0.7786 outliers=0.0000
+[2026-03-19 20:34:56] RUN 51/360 connect-4 mlp ZScore clip
+[2026-03-19 20:35:46] connect-4 mlp ZScore clip run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:36:38] connect-4 mlp ZScore clip run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:37:35] connect-4 mlp ZScore clip run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:38:21] connect-4 mlp ZScore clip run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:39:11] connect-4 mlp ZScore clip run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:39:11] RESULT connect-4 mlp ZScore clip 0.7786 outliers=0.0000
+[2026-03-19 20:39:11] RUN 52/360 connect-4 mlp Percentile remove
+[2026-03-19 20:39:58] connect-4 mlp Percentile remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:40:51] connect-4 mlp Percentile remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:42:04] connect-4 mlp Percentile remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:42:58] connect-4 mlp Percentile remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:43:56] connect-4 mlp Percentile remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:43:56] RESULT connect-4 mlp Percentile remove 0.7786 outliers=0.0000
+[2026-03-19 20:43:56] RUN 53/360 connect-4 mlp Percentile clip
+[2026-03-19 20:44:52] connect-4 mlp Percentile clip run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:45:48] connect-4 mlp Percentile clip run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:46:52] connect-4 mlp Percentile clip run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:47:44] connect-4 mlp Percentile clip run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:48:37] connect-4 mlp Percentile clip run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:48:37] RESULT connect-4 mlp Percentile clip 0.7786 outliers=0.0000
+[2026-03-19 20:48:37] RUN 54/360 connect-4 mlp IsolationForest remove
+[2026-03-19 20:49:32] connect-4 mlp IsolationForest remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:50:30] connect-4 mlp IsolationForest remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:51:33] connect-4 mlp IsolationForest remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:52:22] connect-4 mlp IsolationForest remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:53:17] connect-4 mlp IsolationForest remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:53:17] RESULT connect-4 mlp IsolationForest remove 0.7786 outliers=0.0000
+[2026-03-19 20:53:17] RUN 55/360 connect-4 mlp LOF remove
+[2026-03-19 20:54:10] connect-4 mlp LOF remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:55:06] connect-4 mlp LOF remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 20:56:10] connect-4 mlp LOF remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 20:56:59] connect-4 mlp LOF remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 20:57:53] connect-4 mlp LOF remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 20:57:53] RESULT connect-4 mlp LOF remove 0.7786 outliers=0.0000
+[2026-03-19 20:57:53] RUN 56/360 connect-4 mlp Autoencoder remove
+[2026-03-19 20:58:45] connect-4 mlp Autoencoder remove run=0 score=0.77331 outliers=0.0000
+[2026-03-19 20:59:43] connect-4 mlp Autoencoder remove run=1 score=0.78094 outliers=0.0000
+[2026-03-19 21:00:45] connect-4 mlp Autoencoder remove run=2 score=0.77879 outliers=0.0000
+[2026-03-19 21:01:34] connect-4 mlp Autoencoder remove run=3 score=0.77457 outliers=0.0000
+[2026-03-19 21:02:27] connect-4 mlp Autoencoder remove run=4 score=0.78560 outliers=0.0000
+[2026-03-19 21:02:27] RESULT connect-4 mlp Autoencoder remove 0.7786 outliers=0.0000
+[2026-03-19 21:02:27] RUN 57/360 connect-4 xgboost None remove
+[2026-03-19 21:02:53] connect-4 xgboost None remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:03:18] connect-4 xgboost None remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:03:43] connect-4 xgboost None remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:04:07] connect-4 xgboost None remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:04:32] connect-4 xgboost None remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:04:32] RESULT connect-4 xgboost None remove 0.8281 outliers=0.0000
+[2026-03-19 21:04:32] RUN 58/360 connect-4 xgboost ZScore remove
+[2026-03-19 21:04:57] connect-4 xgboost ZScore remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:05:20] connect-4 xgboost ZScore remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:05:45] connect-4 xgboost ZScore remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:06:11] connect-4 xgboost ZScore remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:06:36] connect-4 xgboost ZScore remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:06:36] RESULT connect-4 xgboost ZScore remove 0.8281 outliers=0.0000
+[2026-03-19 21:06:36] RUN 59/360 connect-4 xgboost ZScore clip
+[2026-03-19 21:07:00] connect-4 xgboost ZScore clip run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:07:24] connect-4 xgboost ZScore clip run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:07:50] connect-4 xgboost ZScore clip run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:08:15] connect-4 xgboost ZScore clip run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:08:38] connect-4 xgboost ZScore clip run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:08:38] RESULT connect-4 xgboost ZScore clip 0.8281 outliers=0.0000
+[2026-03-19 21:08:38] RUN 60/360 connect-4 xgboost Percentile remove
+[2026-03-19 21:09:03] connect-4 xgboost Percentile remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:09:29] connect-4 xgboost Percentile remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:09:52] connect-4 xgboost Percentile remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:10:17] connect-4 xgboost Percentile remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:10:42] connect-4 xgboost Percentile remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:10:42] RESULT connect-4 xgboost Percentile remove 0.8281 outliers=0.0000
+[2026-03-19 21:10:42] RUN 61/360 connect-4 xgboost Percentile clip
+[2026-03-19 21:11:07] connect-4 xgboost Percentile clip run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:11:31] connect-4 xgboost Percentile clip run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:11:57] connect-4 xgboost Percentile clip run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:12:22] connect-4 xgboost Percentile clip run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:12:48] connect-4 xgboost Percentile clip run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:12:48] RESULT connect-4 xgboost Percentile clip 0.8281 outliers=0.0000
+[2026-03-19 21:12:48] RUN 62/360 connect-4 xgboost IsolationForest remove
+[2026-03-19 21:13:11] connect-4 xgboost IsolationForest remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:13:37] connect-4 xgboost IsolationForest remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:14:02] connect-4 xgboost IsolationForest remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:14:27] connect-4 xgboost IsolationForest remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:14:51] connect-4 xgboost IsolationForest remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:14:51] RESULT connect-4 xgboost IsolationForest remove 0.8281 outliers=0.0000
+[2026-03-19 21:14:51] RUN 63/360 connect-4 xgboost LOF remove
+[2026-03-19 21:15:16] connect-4 xgboost LOF remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:15:42] connect-4 xgboost LOF remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:16:04] connect-4 xgboost LOF remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:16:30] connect-4 xgboost LOF remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:16:55] connect-4 xgboost LOF remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:16:55] RESULT connect-4 xgboost LOF remove 0.8281 outliers=0.0000
+[2026-03-19 21:16:55] RUN 64/360 connect-4 xgboost Autoencoder remove
+[2026-03-19 21:17:20] connect-4 xgboost Autoencoder remove run=0 score=0.82889 outliers=0.0000
+[2026-03-19 21:17:44] connect-4 xgboost Autoencoder remove run=1 score=0.82786 outliers=0.0000
+[2026-03-19 21:18:09] connect-4 xgboost Autoencoder remove run=2 score=0.82652 outliers=0.0000
+[2026-03-19 21:18:34] connect-4 xgboost Autoencoder remove run=3 score=0.83000 outliers=0.0000
+[2026-03-19 21:19:00] connect-4 xgboost Autoencoder remove run=4 score=0.82712 outliers=0.0000
+[2026-03-19 21:19:00] RESULT connect-4 xgboost Autoencoder remove 0.8281 outliers=0.0000
+[2026-03-19 21:19:00] RUN 65/360 connect-4 randomforest None remove
+[2026-03-19 21:19:29] connect-4 randomforest None remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:19:58] connect-4 randomforest None remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:20:28] connect-4 randomforest None remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:20:58] connect-4 randomforest None remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:21:28] connect-4 randomforest None remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:21:28] RESULT connect-4 randomforest None remove 0.7969 outliers=0.0000
+[2026-03-19 21:21:28] RUN 66/360 connect-4 randomforest ZScore remove
+[2026-03-19 21:21:59] connect-4 randomforest ZScore remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:22:30] connect-4 randomforest ZScore remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:23:00] connect-4 randomforest ZScore remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:23:28] connect-4 randomforest ZScore remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:23:58] connect-4 randomforest ZScore remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:23:58] RESULT connect-4 randomforest ZScore remove 0.7969 outliers=0.0000
+[2026-03-19 21:23:58] RUN 67/360 connect-4 randomforest ZScore clip
+[2026-03-19 21:24:28] connect-4 randomforest ZScore clip run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:24:58] connect-4 randomforest ZScore clip run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:25:28] connect-4 randomforest ZScore clip run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:25:58] connect-4 randomforest ZScore clip run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:26:28] connect-4 randomforest ZScore clip run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:26:28] RESULT connect-4 randomforest ZScore clip 0.7969 outliers=0.0000
+[2026-03-19 21:26:28] RUN 68/360 connect-4 randomforest Percentile remove
+[2026-03-19 21:26:56] connect-4 randomforest Percentile remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:27:25] connect-4 randomforest Percentile remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:27:57] connect-4 randomforest Percentile remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:28:28] connect-4 randomforest Percentile remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:28:59] connect-4 randomforest Percentile remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:28:59] RESULT connect-4 randomforest Percentile remove 0.7969 outliers=0.0000
+[2026-03-19 21:28:59] RUN 69/360 connect-4 randomforest Percentile clip
+[2026-03-19 21:29:32] connect-4 randomforest Percentile clip run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:30:03] connect-4 randomforest Percentile clip run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:30:34] connect-4 randomforest Percentile clip run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:31:04] connect-4 randomforest Percentile clip run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:31:35] connect-4 randomforest Percentile clip run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:31:35] RESULT connect-4 randomforest Percentile clip 0.7969 outliers=0.0000
+[2026-03-19 21:31:35] RUN 70/360 connect-4 randomforest IsolationForest remove
+[2026-03-19 21:32:06] connect-4 randomforest IsolationForest remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:32:37] connect-4 randomforest IsolationForest remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:33:08] connect-4 randomforest IsolationForest remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:33:40] connect-4 randomforest IsolationForest remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:34:13] connect-4 randomforest IsolationForest remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:34:13] RESULT connect-4 randomforest IsolationForest remove 0.7969 outliers=0.0000
+[2026-03-19 21:34:13] RUN 71/360 connect-4 randomforest LOF remove
+[2026-03-19 21:34:44] connect-4 randomforest LOF remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:35:15] connect-4 randomforest LOF remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:35:46] connect-4 randomforest LOF remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:36:17] connect-4 randomforest LOF remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:36:47] connect-4 randomforest LOF remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:36:47] RESULT connect-4 randomforest LOF remove 0.7969 outliers=0.0000
+[2026-03-19 21:36:47] RUN 72/360 connect-4 randomforest Autoencoder remove
+[2026-03-19 21:37:18] connect-4 randomforest Autoencoder remove run=0 score=0.79552 outliers=0.0000
+[2026-03-19 21:37:48] connect-4 randomforest Autoencoder remove run=1 score=0.80033 outliers=0.0000
+[2026-03-19 21:38:18] connect-4 randomforest Autoencoder remove run=2 score=0.79751 outliers=0.0000
+[2026-03-19 21:38:46] connect-4 randomforest Autoencoder remove run=3 score=0.79455 outliers=0.0000
+[2026-03-19 21:39:17] connect-4 randomforest Autoencoder remove run=4 score=0.79670 outliers=0.0000
+[2026-03-19 21:39:17] RESULT connect-4 randomforest Autoencoder remove 0.7969 outliers=0.0000
+[2026-03-19 21:39:17] RUN 73/360 credit-g mlp None remove
+[2026-03-19 21:39:17] credit-g mlp None remove run=0 score=0.67500 outliers=0.0000
+[2026-03-19 21:39:18] credit-g mlp None remove run=1 score=0.69500 outliers=0.0000
+[2026-03-19 21:39:19] credit-g mlp None remove run=2 score=0.72000 outliers=0.0000
+[2026-03-19 21:39:20] credit-g mlp None remove run=3 score=0.65000 outliers=0.0000
+[2026-03-19 21:39:21] credit-g mlp None remove run=4 score=0.70000 outliers=0.0000
+[2026-03-19 21:39:21] RESULT credit-g mlp None remove 0.6880 outliers=0.0000
+[2026-03-19 21:39:21] RUN 74/360 credit-g mlp ZScore remove
+[2026-03-19 21:39:21] credit-g mlp ZScore remove run=0 score=0.66500 outliers=0.0453
+[2026-03-19 21:39:22] credit-g mlp ZScore remove run=1 score=0.68500 outliers=0.0641
+[2026-03-19 21:39:23] credit-g mlp ZScore remove run=2 score=0.71500 outliers=0.0500
+[2026-03-19 21:39:23] credit-g mlp ZScore remove run=3 score=0.70500 outliers=0.0625
+[2026-03-19 21:39:24] credit-g mlp ZScore remove run=4 score=0.66500 outliers=0.0297
+[2026-03-19 21:39:24] RESULT credit-g mlp ZScore remove 0.6870 outliers=0.0503
+[2026-03-19 21:39:24] RUN 75/360 credit-g mlp ZScore clip
+[2026-03-19 21:39:25] credit-g mlp ZScore clip run=0 score=0.69000 outliers=0.0453
+[2026-03-19 21:39:26] credit-g mlp ZScore clip run=1 score=0.68500 outliers=0.0641
+[2026-03-19 21:39:26] credit-g mlp ZScore clip run=2 score=0.73000 outliers=0.0500
+[2026-03-19 21:39:27] credit-g mlp ZScore clip run=3 score=0.65500 outliers=0.0625
+[2026-03-19 21:39:28] credit-g mlp ZScore clip run=4 score=0.72000 outliers=0.0297
+[2026-03-19 21:39:28] RESULT credit-g mlp ZScore clip 0.6960 outliers=0.0503
+[2026-03-19 21:39:28] RUN 76/360 credit-g mlp Percentile remove
+[2026-03-19 21:39:28] credit-g mlp Percentile remove run=0 score=0.69000 outliers=0.2266
+[2026-03-19 21:39:29] credit-g mlp Percentile remove run=1 score=0.66500 outliers=0.2234
+[2026-03-19 21:39:30] credit-g mlp Percentile remove run=2 score=0.69500 outliers=0.2109
+[2026-03-19 21:39:30] credit-g mlp Percentile remove run=3 score=0.70000 outliers=0.2016
+[2026-03-19 21:39:31] credit-g mlp Percentile remove run=4 score=0.63000 outliers=0.2797
+[2026-03-19 21:39:31] RESULT credit-g mlp Percentile remove 0.6760 outliers=0.2284
+[2026-03-19 21:39:31] RUN 77/360 credit-g mlp Percentile clip
+[2026-03-19 21:39:31] credit-g mlp Percentile clip run=0 score=0.68500 outliers=0.2266
+[2026-03-19 21:39:32] credit-g mlp Percentile clip run=1 score=0.66500 outliers=0.2234
+[2026-03-19 21:39:33] credit-g mlp Percentile clip run=2 score=0.72000 outliers=0.2109
+[2026-03-19 21:39:34] credit-g mlp Percentile clip run=3 score=0.70500 outliers=0.2016
+[2026-03-19 21:39:35] credit-g mlp Percentile clip run=4 score=0.66000 outliers=0.2797
+[2026-03-19 21:39:35] RESULT credit-g mlp Percentile clip 0.6870 outliers=0.2284
+[2026-03-19 21:39:35] RUN 78/360 credit-g mlp IsolationForest remove
+[2026-03-19 21:39:36] credit-g mlp IsolationForest remove run=0 score=0.69000 outliers=0.0484
+[2026-03-19 21:39:39] credit-g mlp IsolationForest remove run=1 score=0.69000 outliers=0.0500
+[2026-03-19 21:39:40] credit-g mlp IsolationForest remove run=2 score=0.73000 outliers=0.0484
+[2026-03-19 21:39:41] credit-g mlp IsolationForest remove run=3 score=0.67500 outliers=0.0500
+[2026-03-19 21:39:42] credit-g mlp IsolationForest remove run=4 score=0.70500 outliers=0.0484
+[2026-03-19 21:39:42] RESULT credit-g mlp IsolationForest remove 0.6980 outliers=0.0491
+[2026-03-19 21:39:42] RUN 79/360 credit-g mlp LOF remove
+[2026-03-19 21:39:42] credit-g mlp LOF remove run=0 score=0.68500 outliers=0.0484
+[2026-03-19 21:39:43] credit-g mlp LOF remove run=1 score=0.68500 outliers=0.0469
+[2026-03-19 21:39:44] credit-g mlp LOF remove run=2 score=0.72000 outliers=0.0484
+[2026-03-19 21:39:44] credit-g mlp LOF remove run=3 score=0.69000 outliers=0.0484
+[2026-03-19 21:39:45] credit-g mlp LOF remove run=4 score=0.69000 outliers=0.0484
+[2026-03-19 21:39:45] RESULT credit-g mlp LOF remove 0.6940 outliers=0.0481
+[2026-03-19 21:39:45] RUN 80/360 credit-g mlp Autoencoder remove
+[2026-03-19 21:39:46] credit-g mlp Autoencoder remove run=0 score=0.69000 outliers=0.0500
+[2026-03-19 21:39:47] credit-g mlp Autoencoder remove run=1 score=0.67500 outliers=0.0500
+[2026-03-19 21:39:48] credit-g mlp Autoencoder remove run=2 score=0.70000 outliers=0.0500
+[2026-03-19 21:39:48] credit-g mlp Autoencoder remove run=3 score=0.68500 outliers=0.0500
+[2026-03-19 21:39:49] credit-g mlp Autoencoder remove run=4 score=0.66000 outliers=0.0500
+[2026-03-19 21:39:49] RESULT credit-g mlp Autoencoder remove 0.6820 outliers=0.0500
+[2026-03-19 21:39:49] RUN 81/360 credit-g xgboost None remove
+[2026-03-19 21:39:49] credit-g xgboost None remove run=0 score=0.73000 outliers=0.0000
+[2026-03-19 21:39:50] credit-g xgboost None remove run=1 score=0.72500 outliers=0.0000
+[2026-03-19 21:39:50] credit-g xgboost None remove run=2 score=0.72000 outliers=0.0000
+[2026-03-19 21:39:50] credit-g xgboost None remove run=3 score=0.72000 outliers=0.0000
+[2026-03-19 21:39:50] credit-g xgboost None remove run=4 score=0.73500 outliers=0.0000
+[2026-03-19 21:39:50] RESULT credit-g xgboost None remove 0.7260 outliers=0.0000
+[2026-03-19 21:39:50] RUN 82/360 credit-g xgboost ZScore remove
+[2026-03-19 21:39:51] credit-g xgboost ZScore remove run=0 score=0.75500 outliers=0.0453
+[2026-03-19 21:39:51] credit-g xgboost ZScore remove run=1 score=0.72500 outliers=0.0641
+[2026-03-19 21:39:51] credit-g xgboost ZScore remove run=2 score=0.77000 outliers=0.0500
+[2026-03-19 21:39:52] credit-g xgboost ZScore remove run=3 score=0.75500 outliers=0.0625
+[2026-03-19 21:39:52] credit-g xgboost ZScore remove run=4 score=0.70500 outliers=0.0297
+[2026-03-19 21:39:52] RESULT credit-g xgboost ZScore remove 0.7420 outliers=0.0503
+[2026-03-19 21:39:52] RUN 83/360 credit-g xgboost ZScore clip
+[2026-03-19 21:39:52] credit-g xgboost ZScore clip run=0 score=0.72000 outliers=0.0453
+[2026-03-19 21:39:52] credit-g xgboost ZScore clip run=1 score=0.67500 outliers=0.0641
+[2026-03-19 21:39:52] credit-g xgboost ZScore clip run=2 score=0.71500 outliers=0.0500
+[2026-03-19 21:39:53] credit-g xgboost ZScore clip run=3 score=0.70000 outliers=0.0625
+[2026-03-19 21:39:53] credit-g xgboost ZScore clip run=4 score=0.71000 outliers=0.0297
+[2026-03-19 21:39:53] RESULT credit-g xgboost ZScore clip 0.7040 outliers=0.0503
+[2026-03-19 21:39:53] RUN 84/360 credit-g xgboost Percentile remove
+[2026-03-19 21:39:53] credit-g xgboost Percentile remove run=0 score=0.70500 outliers=0.2266
+[2026-03-19 21:39:53] credit-g xgboost Percentile remove run=1 score=0.73000 outliers=0.2234
+[2026-03-19 21:39:54] credit-g xgboost Percentile remove run=2 score=0.75500 outliers=0.2109
+[2026-03-19 21:39:54] credit-g xgboost Percentile remove run=3 score=0.72000 outliers=0.2016
+[2026-03-19 21:39:54] credit-g xgboost Percentile remove run=4 score=0.71500 outliers=0.2797
+[2026-03-19 21:39:54] RESULT credit-g xgboost Percentile remove 0.7250 outliers=0.2284
+[2026-03-19 21:39:54] RUN 85/360 credit-g xgboost Percentile clip
+[2026-03-19 21:39:54] credit-g xgboost Percentile clip run=0 score=0.75000 outliers=0.2266
+[2026-03-19 21:39:55] credit-g xgboost Percentile clip run=1 score=0.76500 outliers=0.2234
+[2026-03-19 21:39:55] credit-g xgboost Percentile clip run=2 score=0.75500 outliers=0.2109
+[2026-03-19 21:39:55] credit-g xgboost Percentile clip run=3 score=0.72000 outliers=0.2016
+[2026-03-19 21:39:55] credit-g xgboost Percentile clip run=4 score=0.69500 outliers=0.2797
+[2026-03-19 21:39:55] RESULT credit-g xgboost Percentile clip 0.7370 outliers=0.2284
+[2026-03-19 21:39:55] RUN 86/360 credit-g xgboost IsolationForest remove
+[2026-03-19 21:39:56] credit-g xgboost IsolationForest remove run=0 score=0.70500 outliers=0.0484
+[2026-03-19 21:39:56] credit-g xgboost IsolationForest remove run=1 score=0.74000 outliers=0.0500
+[2026-03-19 21:39:57] credit-g xgboost IsolationForest remove run=2 score=0.75500 outliers=0.0484
+[2026-03-19 21:39:57] credit-g xgboost IsolationForest remove run=3 score=0.75000 outliers=0.0500
+[2026-03-19 21:39:57] credit-g xgboost IsolationForest remove run=4 score=0.72500 outliers=0.0484
+[2026-03-19 21:39:57] RESULT credit-g xgboost IsolationForest remove 0.7350 outliers=0.0491
+[2026-03-19 21:39:57] RUN 87/360 credit-g xgboost LOF remove
+[2026-03-19 21:39:58] credit-g xgboost LOF remove run=0 score=0.71000 outliers=0.0484
+[2026-03-19 21:39:58] credit-g xgboost LOF remove run=1 score=0.72000 outliers=0.0469
+[2026-03-19 21:39:58] credit-g xgboost LOF remove run=2 score=0.74500 outliers=0.0484
+[2026-03-19 21:39:58] credit-g xgboost LOF remove run=3 score=0.69500 outliers=0.0484
+[2026-03-19 21:39:59] credit-g xgboost LOF remove run=4 score=0.72500 outliers=0.0484
+[2026-03-19 21:39:59] RESULT credit-g xgboost LOF remove 0.7190 outliers=0.0481
+[2026-03-19 21:39:59] RUN 88/360 credit-g xgboost Autoencoder remove
+[2026-03-19 21:39:59] credit-g xgboost Autoencoder remove run=0 score=0.72500 outliers=0.0500
+[2026-03-19 21:39:59] credit-g xgboost Autoencoder remove run=1 score=0.72500 outliers=0.0500
+[2026-03-19 21:40:00] credit-g xgboost Autoencoder remove run=2 score=0.73500 outliers=0.0500
+[2026-03-19 21:40:00] credit-g xgboost Autoencoder remove run=3 score=0.71500 outliers=0.0500
+[2026-03-19 21:40:00] credit-g xgboost Autoencoder remove run=4 score=0.72500 outliers=0.0500
+[2026-03-19 21:40:00] RESULT credit-g xgboost Autoencoder remove 0.7250 outliers=0.0500
+[2026-03-19 21:40:00] RUN 89/360 credit-g randomforest None remove
+[2026-03-19 21:40:01] credit-g randomforest None remove run=0 score=0.72500 outliers=0.0000
+[2026-03-19 21:40:01] credit-g randomforest None remove run=1 score=0.72000 outliers=0.0000
+[2026-03-19 21:40:01] credit-g randomforest None remove run=2 score=0.77000 outliers=0.0000
+[2026-03-19 21:40:02] credit-g randomforest None remove run=3 score=0.71500 outliers=0.0000
+[2026-03-19 21:40:02] credit-g randomforest None remove run=4 score=0.75500 outliers=0.0000
+[2026-03-19 21:40:02] RESULT credit-g randomforest None remove 0.7370 outliers=0.0000
+[2026-03-19 21:40:02] RUN 90/360 credit-g randomforest ZScore remove
+[2026-03-19 21:40:02] credit-g randomforest ZScore remove run=0 score=0.74000 outliers=0.0453
+[2026-03-19 21:40:03] credit-g randomforest ZScore remove run=1 score=0.73500 outliers=0.0641
+[2026-03-19 21:40:03] credit-g randomforest ZScore remove run=2 score=0.71000 outliers=0.0500
+[2026-03-19 21:40:04] credit-g randomforest ZScore remove run=3 score=0.72500 outliers=0.0625
+[2026-03-19 21:40:04] credit-g randomforest ZScore remove run=4 score=0.69500 outliers=0.0297
+[2026-03-19 21:40:04] RESULT credit-g randomforest ZScore remove 0.7210 outliers=0.0503
+[2026-03-19 21:40:04] RUN 91/360 credit-g randomforest ZScore clip
+[2026-03-19 21:40:04] credit-g randomforest ZScore clip run=0 score=0.74000 outliers=0.0453
+[2026-03-19 21:40:05] credit-g randomforest ZScore clip run=1 score=0.70500 outliers=0.0641
+[2026-03-19 21:40:05] credit-g randomforest ZScore clip run=2 score=0.76000 outliers=0.0500
+[2026-03-19 21:40:06] credit-g randomforest ZScore clip run=3 score=0.72500 outliers=0.0625
+[2026-03-19 21:40:06] credit-g randomforest ZScore clip run=4 score=0.75000 outliers=0.0297
+[2026-03-19 21:40:06] RESULT credit-g randomforest ZScore clip 0.7360 outliers=0.0503
+[2026-03-19 21:40:06] RUN 92/360 credit-g randomforest Percentile remove
+[2026-03-19 21:40:06] credit-g randomforest Percentile remove run=0 score=0.75000 outliers=0.2266
+[2026-03-19 21:40:07] credit-g randomforest Percentile remove run=1 score=0.74000 outliers=0.2234
+[2026-03-19 21:40:07] credit-g randomforest Percentile remove run=2 score=0.76000 outliers=0.2109
+[2026-03-19 21:40:08] credit-g randomforest Percentile remove run=3 score=0.70500 outliers=0.2016
+[2026-03-19 21:40:08] credit-g randomforest Percentile remove run=4 score=0.68500 outliers=0.2797
+[2026-03-19 21:40:08] RESULT credit-g randomforest Percentile remove 0.7280 outliers=0.2284
+[2026-03-19 21:40:08] RUN 93/360 credit-g randomforest Percentile clip
+[2026-03-19 21:40:08] credit-g randomforest Percentile clip run=0 score=0.73000 outliers=0.2266
+[2026-03-19 21:40:09] credit-g randomforest Percentile clip run=1 score=0.72500 outliers=0.2234
+[2026-03-19 21:40:09] credit-g randomforest Percentile clip run=2 score=0.75500 outliers=0.2109
+[2026-03-19 21:40:10] credit-g randomforest Percentile clip run=3 score=0.72500 outliers=0.2016
+[2026-03-19 21:40:10] credit-g randomforest Percentile clip run=4 score=0.72500 outliers=0.2797
+[2026-03-19 21:40:10] RESULT credit-g randomforest Percentile clip 0.7320 outliers=0.2284
+[2026-03-19 21:40:10] RUN 94/360 credit-g randomforest IsolationForest remove
+[2026-03-19 21:40:11] credit-g randomforest IsolationForest remove run=0 score=0.74500 outliers=0.0484
+[2026-03-19 21:40:13] credit-g randomforest IsolationForest remove run=1 score=0.73000 outliers=0.0500
+[2026-03-19 21:40:13] credit-g randomforest IsolationForest remove run=2 score=0.69500 outliers=0.0484
+[2026-03-19 21:40:14] credit-g randomforest IsolationForest remove run=3 score=0.72000 outliers=0.0500
+[2026-03-19 21:40:15] credit-g randomforest IsolationForest remove run=4 score=0.73500 outliers=0.0484
+[2026-03-19 21:40:15] RESULT credit-g randomforest IsolationForest remove 0.7250 outliers=0.0491
+[2026-03-19 21:40:15] RUN 95/360 credit-g randomforest LOF remove
+[2026-03-19 21:40:15] credit-g randomforest LOF remove run=0 score=0.72000 outliers=0.0484
+[2026-03-19 21:40:15] credit-g randomforest LOF remove run=1 score=0.73000 outliers=0.0469
+[2026-03-19 21:40:16] credit-g randomforest LOF remove run=2 score=0.73000 outliers=0.0484
+[2026-03-19 21:40:16] credit-g randomforest LOF remove run=3 score=0.70000 outliers=0.0484
+[2026-03-19 21:40:17] credit-g randomforest LOF remove run=4 score=0.73000 outliers=0.0484
+[2026-03-19 21:40:17] RESULT credit-g randomforest LOF remove 0.7220 outliers=0.0481
+[2026-03-19 21:40:17] RUN 96/360 credit-g randomforest Autoencoder remove
+[2026-03-19 21:40:17] credit-g randomforest Autoencoder remove run=0 score=0.77500 outliers=0.0500
+[2026-03-19 21:40:18] credit-g randomforest Autoencoder remove run=1 score=0.75000 outliers=0.0500
+[2026-03-19 21:40:18] credit-g randomforest Autoencoder remove run=2 score=0.73500 outliers=0.0500
+[2026-03-19 21:40:18] credit-g randomforest Autoencoder remove run=3 score=0.70000 outliers=0.0500
+[2026-03-19 21:40:19] credit-g randomforest Autoencoder remove run=4 score=0.74500 outliers=0.0500
+[2026-03-19 21:40:19] RESULT credit-g randomforest Autoencoder remove 0.7410 outliers=0.0500
+[2026-03-19 21:40:19] RUN 97/360 electricity mlp None remove
+[2026-03-19 21:41:40] electricity mlp None remove run=0 score=0.78870 outliers=0.0000
+[2026-03-19 21:43:00] electricity mlp None remove run=1 score=0.79025 outliers=0.0000
+[2026-03-19 21:44:21] electricity mlp None remove run=2 score=0.78451 outliers=0.0000
+[2026-03-19 21:45:45] electricity mlp None remove run=3 score=0.79179 outliers=0.0000
+[2026-03-19 21:47:02] electricity mlp None remove run=4 score=0.78561 outliers=0.0000
+[2026-03-19 21:47:02] RESULT electricity mlp None remove 0.7882 outliers=0.0000
+[2026-03-19 21:47:02] RUN 98/360 electricity mlp ZScore remove
+[2026-03-19 21:48:19] electricity mlp ZScore remove run=0 score=0.78219 outliers=0.0118
+[2026-03-19 21:49:40] electricity mlp ZScore remove run=1 score=0.78594 outliers=0.0112
+[2026-03-19 21:50:58] electricity mlp ZScore remove run=2 score=0.78407 outliers=0.0115
+[2026-03-19 21:52:24] electricity mlp ZScore remove run=3 score=0.79256 outliers=0.0122
+[2026-03-19 21:53:50] electricity mlp ZScore remove run=4 score=0.78208 outliers=0.0126
+[2026-03-19 21:53:50] RESULT electricity mlp ZScore remove 0.7854 outliers=0.0119
+[2026-03-19 21:53:50] RUN 99/360 electricity mlp ZScore clip
+[2026-03-19 21:55:24] electricity mlp ZScore clip run=0 score=0.78440 outliers=0.0118
+[2026-03-19 21:57:00] electricity mlp ZScore clip run=1 score=0.78363 outliers=0.0112
+[2026-03-19 21:58:31] electricity mlp ZScore clip run=2 score=0.78385 outliers=0.0115
+[2026-03-19 22:00:01] electricity mlp ZScore clip run=3 score=0.79069 outliers=0.0122
+[2026-03-19 22:01:31] electricity mlp ZScore clip run=4 score=0.78329 outliers=0.0126
+[2026-03-19 22:01:31] RESULT electricity mlp ZScore clip 0.7852 outliers=0.0119
+[2026-03-19 22:01:31] RUN 100/360 electricity mlp Percentile remove
+[2026-03-19 22:02:27] electricity mlp Percentile remove run=0 score=0.71157 outliers=0.4493
+[2026-03-19 22:03:22] electricity mlp Percentile remove run=1 score=0.71555 outliers=0.4471
+[2026-03-19 22:04:22] electricity mlp Percentile remove run=2 score=0.70948 outliers=0.4492
+[2026-03-19 22:05:18] electricity mlp Percentile remove run=3 score=0.71665 outliers=0.4494
+[2026-03-19 22:06:16] electricity mlp Percentile remove run=4 score=0.70584 outliers=0.4512
+[2026-03-19 22:06:16] RESULT electricity mlp Percentile remove 0.7118 outliers=0.4492
+[2026-03-19 22:06:16] RUN 101/360 electricity mlp Percentile clip
+[2026-03-19 22:07:22] electricity mlp Percentile clip run=0 score=0.73993 outliers=0.4493
+[2026-03-19 22:08:33] electricity mlp Percentile clip run=1 score=0.74269 outliers=0.4471
+[2026-03-19 22:09:39] electricity mlp Percentile clip run=2 score=0.74699 outliers=0.4492
+[2026-03-19 22:10:40] electricity mlp Percentile clip run=3 score=0.74843 outliers=0.4494
+[2026-03-19 22:11:41] electricity mlp Percentile clip run=4 score=0.74534 outliers=0.4512
+[2026-03-19 22:11:41] RESULT electricity mlp Percentile clip 0.7447 outliers=0.4492
+[2026-03-19 22:11:41] RUN 102/360 electricity mlp IsolationForest remove
+[2026-03-19 22:13:03] electricity mlp IsolationForest remove run=0 score=0.77601 outliers=0.0500
+[2026-03-19 22:14:29] electricity mlp IsolationForest remove run=1 score=0.77480 outliers=0.0500
+[2026-03-19 22:15:53] electricity mlp IsolationForest remove run=2 score=0.78274 outliers=0.0500
+[2026-03-19 22:17:17] electricity mlp IsolationForest remove run=3 score=0.78021 outliers=0.0500
+[2026-03-19 22:18:45] electricity mlp IsolationForest remove run=4 score=0.77987 outliers=0.0500
+[2026-03-19 22:18:45] RESULT electricity mlp IsolationForest remove 0.7787 outliers=0.0500
+[2026-03-19 22:18:45] RUN 103/360 electricity mlp LOF remove
+[2026-03-19 22:20:09] electricity mlp LOF remove run=0 score=0.77899 outliers=0.0500
+[2026-03-19 22:21:39] electricity mlp LOF remove run=1 score=0.78230 outliers=0.0500
+[2026-03-19 22:22:56] electricity mlp LOF remove run=2 score=0.77965 outliers=0.0500
+[2026-03-19 22:24:16] electricity mlp LOF remove run=3 score=0.78782 outliers=0.0500
+[2026-03-19 22:25:29] electricity mlp LOF remove run=4 score=0.78142 outliers=0.0500
+[2026-03-19 22:25:29] RESULT electricity mlp LOF remove 0.7820 outliers=0.0500
+[2026-03-19 22:25:29] RUN 104/360 electricity mlp Autoencoder remove
+[2026-03-19 22:26:54] electricity mlp Autoencoder remove run=0 score=0.78341 outliers=0.0500
+[2026-03-19 22:28:23] electricity mlp Autoencoder remove run=1 score=0.78142 outliers=0.0501
+[2026-03-19 22:29:53] electricity mlp Autoencoder remove run=2 score=0.78418 outliers=0.0500
+[2026-03-19 22:31:24] electricity mlp Autoencoder remove run=3 score=0.78087 outliers=0.0500
+[2026-03-19 22:32:40] electricity mlp Autoencoder remove run=4 score=0.78341 outliers=0.0500
+[2026-03-19 22:32:40] RESULT electricity mlp Autoencoder remove 0.7827 outliers=0.0500
+[2026-03-19 22:32:40] RUN 105/360 electricity xgboost None remove
+[2026-03-19 22:33:43] electricity xgboost None remove run=0 score=0.86263 outliers=0.0000
+[2026-03-20 06:50:03] Experiment started
+[2026-03-20 06:50:03] RUN 1/360 Bank_Customer_Churn_Dataset mlp None remove
+[2026-03-20 06:50:10] Bank_Customer_Churn_Dataset mlp None remove run=0 score=0.84050 outliers=0.0000
+[2026-03-20 06:50:17] Bank_Customer_Churn_Dataset mlp None remove run=1 score=0.83400 outliers=0.0000
+[2026-03-20 06:50:24] Bank_Customer_Churn_Dataset mlp None remove run=2 score=0.80900 outliers=0.0000
+[2026-03-20 06:50:30] Bank_Customer_Churn_Dataset mlp None remove run=3 score=0.82950 outliers=0.0000
+[2026-03-20 06:50:39] Bank_Customer_Churn_Dataset mlp None remove run=4 score=0.82100 outliers=0.0000
+[2026-03-20 06:50:39] RESULT Bank_Customer_Churn_Dataset mlp None remove 0.8268 outliers=0.0000
+[2026-03-20 06:50:39] SKIP 2/360 Bank_Customer_Churn_Dataset mlp ZScore remove
+[2026-03-20 06:50:39] SKIP 3/360 Bank_Customer_Churn_Dataset mlp ZScore clip
+[2026-03-20 06:50:39] SKIP 4/360 Bank_Customer_Churn_Dataset mlp Percentile remove
+[2026-03-20 06:50:39] SKIP 5/360 Bank_Customer_Churn_Dataset mlp Percentile clip
+[2026-03-20 06:50:39] SKIP 6/360 Bank_Customer_Churn_Dataset mlp IsolationForest remove
+[2026-03-20 06:50:40] SKIP 7/360 Bank_Customer_Churn_Dataset mlp LOF remove
+[2026-03-20 06:50:40] SKIP 8/360 Bank_Customer_Churn_Dataset mlp Autoencoder remove
+[2026-03-20 06:50:40] RUN 9/360 Bank_Customer_Churn_Dataset xgboost None remove
+[2026-03-20 06:50:42] Bank_Customer_Churn_Dataset xgboost None remove run=0 score=0.82200 outliers=0.0000
+[2026-03-20 06:50:44] Bank_Customer_Churn_Dataset xgboost None remove run=1 score=0.81850 outliers=0.0000
+[2026-03-20 06:50:46] Bank_Customer_Churn_Dataset xgboost None remove run=2 score=0.80400 outliers=0.0000
+[2026-03-20 06:50:47] Bank_Customer_Churn_Dataset xgboost None remove run=3 score=0.82150 outliers=0.0000
+[2026-03-20 06:50:49] Bank_Customer_Churn_Dataset xgboost None remove run=4 score=0.75400 outliers=0.0000
+[2026-03-20 06:50:49] RESULT Bank_Customer_Churn_Dataset xgboost None remove 0.8040 outliers=0.0000
+[2026-03-20 06:50:49] SKIP 10/360 Bank_Customer_Churn_Dataset xgboost ZScore remove
+[2026-03-20 06:50:49] SKIP 11/360 Bank_Customer_Churn_Dataset xgboost ZScore clip
+[2026-03-20 06:50:49] SKIP 12/360 Bank_Customer_Churn_Dataset xgboost Percentile remove
+[2026-03-20 06:50:49] SKIP 13/360 Bank_Customer_Churn_Dataset xgboost Percentile clip
+[2026-03-20 06:50:49] SKIP 14/360 Bank_Customer_Churn_Dataset xgboost IsolationForest remove
+[2026-03-20 06:50:49] SKIP 15/360 Bank_Customer_Churn_Dataset xgboost LOF remove
+[2026-03-20 06:50:49] SKIP 16/360 Bank_Customer_Churn_Dataset xgboost Autoencoder remove
+[2026-03-20 06:50:49] RUN 17/360 Bank_Customer_Churn_Dataset randomforest None remove
+[2026-03-20 06:50:52] Bank_Customer_Churn_Dataset randomforest None remove run=0 score=0.84250 outliers=0.0000
+[2026-03-20 06:50:55] Bank_Customer_Churn_Dataset randomforest None remove run=1 score=0.79900 outliers=0.0000
+[2026-03-20 06:50:58] Bank_Customer_Churn_Dataset randomforest None remove run=2 score=0.80250 outliers=0.0000
+[2026-03-20 06:51:01] Bank_Customer_Churn_Dataset randomforest None remove run=3 score=0.83800 outliers=0.0000
+[2026-03-20 06:51:04] Bank_Customer_Churn_Dataset randomforest None remove run=4 score=0.80850 outliers=0.0000
+[2026-03-20 06:51:04] RESULT Bank_Customer_Churn_Dataset randomforest None remove 0.8181 outliers=0.0000
+[2026-03-20 06:51:04] SKIP 18/360 Bank_Customer_Churn_Dataset randomforest ZScore remove
+[2026-03-20 06:51:04] SKIP 19/360 Bank_Customer_Churn_Dataset randomforest ZScore clip
+[2026-03-20 06:51:04] SKIP 20/360 Bank_Customer_Churn_Dataset randomforest Percentile remove
+[2026-03-20 06:51:04] SKIP 21/360 Bank_Customer_Churn_Dataset randomforest Percentile clip
+[2026-03-20 06:51:04] SKIP 22/360 Bank_Customer_Churn_Dataset randomforest IsolationForest remove
+[2026-03-20 06:51:04] SKIP 23/360 Bank_Customer_Churn_Dataset randomforest LOF remove
+[2026-03-20 06:51:04] SKIP 24/360 Bank_Customer_Churn_Dataset randomforest Autoencoder remove
+[2026-03-20 06:51:04] RUN 25/360 cmc mlp None remove
+[2026-03-20 06:51:05] cmc mlp None remove run=0 score=0.51864 outliers=0.0000
+[2026-03-20 06:51:06] cmc mlp None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-20 06:51:10] cmc mlp None remove run=2 score=0.48136 outliers=0.0000
+[2026-03-20 06:51:11] cmc mlp None remove run=3 score=0.50169 outliers=0.0000
+[2026-03-20 06:51:11] cmc mlp None remove run=4 score=0.51864 outliers=0.0000
+[2026-03-20 06:51:11] RESULT cmc mlp None remove 0.5064 outliers=0.0000
+[2026-03-20 06:51:11] SKIP 26/360 cmc mlp ZScore remove
+[2026-03-20 06:51:12] SKIP 27/360 cmc mlp ZScore clip
+[2026-03-20 06:51:12] SKIP 28/360 cmc mlp Percentile remove
+[2026-03-20 06:51:12] SKIP 29/360 cmc mlp Percentile clip
+[2026-03-20 06:51:12] SKIP 30/360 cmc mlp IsolationForest remove
+[2026-03-20 06:51:12] SKIP 31/360 cmc mlp LOF remove
+[2026-03-20 06:51:12] SKIP 32/360 cmc mlp Autoencoder remove
+[2026-03-20 06:51:12] RUN 33/360 cmc xgboost None remove
+[2026-03-20 06:51:12] cmc xgboost None remove run=0 score=0.55254 outliers=0.0000
+[2026-03-20 06:51:12] cmc xgboost None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-20 06:51:12] cmc xgboost None remove run=2 score=0.50847 outliers=0.0000
+[2026-03-20 06:51:12] cmc xgboost None remove run=3 score=0.49492 outliers=0.0000
+[2026-03-20 06:51:13] cmc xgboost None remove run=4 score=0.51525 outliers=0.0000
+[2026-03-20 06:51:13] RESULT cmc xgboost None remove 0.5166 outliers=0.0000
+[2026-03-20 06:51:13] SKIP 34/360 cmc xgboost ZScore remove
+[2026-03-20 06:51:13] SKIP 35/360 cmc xgboost ZScore clip
+[2026-03-20 06:51:13] SKIP 36/360 cmc xgboost Percentile remove
+[2026-03-20 06:51:13] SKIP 37/360 cmc xgboost Percentile clip
+[2026-03-20 06:51:13] SKIP 38/360 cmc xgboost IsolationForest remove
+[2026-03-20 06:51:13] SKIP 39/360 cmc xgboost LOF remove
+[2026-03-20 06:51:13] SKIP 40/360 cmc xgboost Autoencoder remove
+[2026-03-20 06:51:13] RUN 41/360 cmc randomforest None remove
+[2026-03-20 06:51:13] cmc randomforest None remove run=0 score=0.53220 outliers=0.0000
+[2026-03-20 06:51:13] cmc randomforest None remove run=1 score=0.51186 outliers=0.0000
+[2026-03-20 06:51:14] cmc randomforest None remove run=2 score=0.50508 outliers=0.0000
+[2026-03-20 06:51:14] cmc randomforest None remove run=3 score=0.50847 outliers=0.0000
+[2026-03-20 06:51:14] cmc randomforest None remove run=4 score=0.53220 outliers=0.0000
+[2026-03-20 06:51:14] RESULT cmc randomforest None remove 0.5180 outliers=0.0000
+[2026-03-20 06:51:14] SKIP 42/360 cmc randomforest ZScore remove
+[2026-03-20 06:51:14] SKIP 43/360 cmc randomforest ZScore clip
+[2026-03-20 06:51:14] SKIP 44/360 cmc randomforest Percentile remove
+[2026-03-20 06:51:14] SKIP 45/360 cmc randomforest Percentile clip
+[2026-03-20 06:51:14] SKIP 46/360 cmc randomforest IsolationForest remove
+[2026-03-20 06:51:14] SKIP 47/360 cmc randomforest LOF remove
+[2026-03-20 06:51:14] SKIP 48/360 cmc randomforest Autoencoder remove
+[2026-03-20 06:51:14] RUN 49/360 connect-4 mlp None remove
+[2026-03-20 06:52:03] connect-4 mlp None remove run=0 score=0.77331 outliers=0.0000
+[2026-03-20 06:52:58] connect-4 mlp None remove run=1 score=0.78094 outliers=0.0000
+[2026-03-20 06:53:53] connect-4 mlp None remove run=2 score=0.77879 outliers=0.0000
+[2026-03-20 06:54:43] connect-4 mlp None remove run=3 score=0.77457 outliers=0.0000
+[2026-03-20 06:55:31] connect-4 mlp None remove run=4 score=0.78560 outliers=0.0000
+[2026-03-20 06:55:31] RESULT connect-4 mlp None remove 0.7786 outliers=0.0000
+[2026-03-20 06:55:31] SKIP 50/360 connect-4 mlp ZScore remove
+[2026-03-20 06:55:31] SKIP 51/360 connect-4 mlp ZScore clip
+[2026-03-20 06:55:31] SKIP 52/360 connect-4 mlp Percentile remove
+[2026-03-20 06:55:31] SKIP 53/360 connect-4 mlp Percentile clip
+[2026-03-20 06:55:31] SKIP 54/360 connect-4 mlp IsolationForest remove
+[2026-03-20 06:55:31] SKIP 55/360 connect-4 mlp LOF remove
+[2026-03-20 06:55:31] SKIP 56/360 connect-4 mlp Autoencoder remove
+[2026-03-20 06:55:31] RUN 57/360 connect-4 xgboost None remove
+[2026-03-20 06:55:55] connect-4 xgboost None remove run=0 score=0.82889 outliers=0.0000
+[2026-03-20 06:56:15] connect-4 xgboost None remove run=1 score=0.82786 outliers=0.0000
+[2026-03-20 06:56:39] connect-4 xgboost None remove run=2 score=0.82652 outliers=0.0000
+[2026-03-20 06:57:02] connect-4 xgboost None remove run=3 score=0.83000 outliers=0.0000
+[2026-03-20 06:57:23] connect-4 xgboost None remove run=4 score=0.82712 outliers=0.0000
+[2026-03-20 06:57:23] RESULT connect-4 xgboost None remove 0.8281 outliers=0.0000
+[2026-03-20 06:57:23] SKIP 58/360 connect-4 xgboost ZScore remove
+[2026-03-20 06:57:23] SKIP 59/360 connect-4 xgboost ZScore clip
+[2026-03-20 06:57:23] SKIP 60/360 connect-4 xgboost Percentile remove
+[2026-03-20 06:57:23] SKIP 61/360 connect-4 xgboost Percentile clip
+[2026-03-20 06:57:23] SKIP 62/360 connect-4 xgboost IsolationForest remove
+[2026-03-20 06:57:23] SKIP 63/360 connect-4 xgboost LOF remove
+[2026-03-20 06:57:23] SKIP 64/360 connect-4 xgboost Autoencoder remove
+[2026-03-20 06:57:23] RUN 65/360 connect-4 randomforest None remove
+[2026-03-20 06:57:52] connect-4 randomforest None remove run=0 score=0.79552 outliers=0.0000
+[2026-03-20 06:58:21] connect-4 randomforest None remove run=1 score=0.80033 outliers=0.0000
+[2026-03-20 06:58:50] connect-4 randomforest None remove run=2 score=0.79751 outliers=0.0000
+[2026-03-20 06:59:16] connect-4 randomforest None remove run=3 score=0.79455 outliers=0.0000
+[2026-03-20 06:59:45] connect-4 randomforest None remove run=4 score=0.79670 outliers=0.0000
+[2026-03-20 06:59:45] RESULT connect-4 randomforest None remove 0.7969 outliers=0.0000
+[2026-03-20 06:59:45] SKIP 66/360 connect-4 randomforest ZScore remove
+[2026-03-20 06:59:45] SKIP 67/360 connect-4 randomforest ZScore clip
+[2026-03-20 06:59:45] SKIP 68/360 connect-4 randomforest Percentile remove
+[2026-03-20 06:59:45] SKIP 69/360 connect-4 randomforest Percentile clip
+[2026-03-20 06:59:45] SKIP 70/360 connect-4 randomforest IsolationForest remove
+[2026-03-20 06:59:45] SKIP 71/360 connect-4 randomforest LOF remove
+[2026-03-20 06:59:45] SKIP 72/360 connect-4 randomforest Autoencoder remove
+[2026-03-20 06:59:45] RUN 73/360 credit-g mlp None remove
+[2026-03-20 06:59:46] credit-g mlp None remove run=0 score=0.67500 outliers=0.0000
+[2026-03-20 06:59:46] credit-g mlp None remove run=1 score=0.69500 outliers=0.0000
+[2026-03-20 06:59:47] credit-g mlp None remove run=2 score=0.72000 outliers=0.0000
+[2026-03-20 06:59:48] credit-g mlp None remove run=3 score=0.65000 outliers=0.0000
+[2026-03-20 06:59:48] credit-g mlp None remove run=4 score=0.70000 outliers=0.0000
+[2026-03-20 06:59:48] RESULT credit-g mlp None remove 0.6880 outliers=0.0000
+[2026-03-20 06:59:48] SKIP 74/360 credit-g mlp ZScore remove
+[2026-03-20 06:59:48] SKIP 75/360 credit-g mlp ZScore clip
+[2026-03-20 06:59:48] SKIP 76/360 credit-g mlp Percentile remove
+[2026-03-20 06:59:48] SKIP 77/360 credit-g mlp Percentile clip
+[2026-03-20 06:59:48] SKIP 78/360 credit-g mlp IsolationForest remove
+[2026-03-20 06:59:48] SKIP 79/360 credit-g mlp LOF remove
+[2026-03-20 06:59:48] SKIP 80/360 credit-g mlp Autoencoder remove
+[2026-03-20 06:59:48] RUN 81/360 credit-g xgboost None remove
+[2026-03-20 06:59:49] credit-g xgboost None remove run=0 score=0.73000 outliers=0.0000
+[2026-03-20 06:59:49] credit-g xgboost None remove run=1 score=0.72500 outliers=0.0000
+[2026-03-20 06:59:49] credit-g xgboost None remove run=2 score=0.72000 outliers=0.0000
+[2026-03-20 06:59:49] credit-g xgboost None remove run=3 score=0.72000 outliers=0.0000
+[2026-03-20 06:59:49] credit-g xgboost None remove run=4 score=0.73500 outliers=0.0000
+[2026-03-20 06:59:49] RESULT credit-g xgboost None remove 0.7260 outliers=0.0000
+[2026-03-20 06:59:49] SKIP 82/360 credit-g xgboost ZScore remove
+[2026-03-20 06:59:49] SKIP 83/360 credit-g xgboost ZScore clip
+[2026-03-20 06:59:49] SKIP 84/360 credit-g xgboost Percentile remove
+[2026-03-20 06:59:49] SKIP 85/360 credit-g xgboost Percentile clip
+[2026-03-20 06:59:49] SKIP 86/360 credit-g xgboost IsolationForest remove
+[2026-03-20 06:59:49] SKIP 87/360 credit-g xgboost LOF remove
+[2026-03-20 06:59:49] SKIP 88/360 credit-g xgboost Autoencoder remove
+[2026-03-20 06:59:49] RUN 89/360 credit-g randomforest None remove
+[2026-03-20 06:59:50] credit-g randomforest None remove run=0 score=0.72500 outliers=0.0000
+[2026-03-20 06:59:50] credit-g randomforest None remove run=1 score=0.72000 outliers=0.0000
+[2026-03-20 06:59:51] credit-g randomforest None remove run=2 score=0.77000 outliers=0.0000
+[2026-03-20 06:59:51] credit-g randomforest None remove run=3 score=0.71500 outliers=0.0000
+[2026-03-20 06:59:51] credit-g randomforest None remove run=4 score=0.75500 outliers=0.0000
+[2026-03-20 06:59:51] RESULT credit-g randomforest None remove 0.7370 outliers=0.0000
+[2026-03-20 06:59:51] SKIP 90/360 credit-g randomforest ZScore remove
+[2026-03-20 06:59:51] SKIP 91/360 credit-g randomforest ZScore clip
+[2026-03-20 06:59:51] SKIP 92/360 credit-g randomforest Percentile remove
+[2026-03-20 06:59:51] SKIP 93/360 credit-g randomforest Percentile clip
+[2026-03-20 06:59:51] SKIP 94/360 credit-g randomforest IsolationForest remove
+[2026-03-20 06:59:51] SKIP 95/360 credit-g randomforest LOF remove
+[2026-03-20 06:59:51] SKIP 96/360 credit-g randomforest Autoencoder remove
+[2026-03-20 06:59:51] RUN 97/360 electricity mlp None remove
+[2026-03-20 07:01:09] electricity mlp None remove run=0 score=0.78870 outliers=0.0000
+[2026-03-20 07:02:26] electricity mlp None remove run=1 score=0.79025 outliers=0.0000
+[2026-03-20 07:03:41] electricity mlp None remove run=2 score=0.78451 outliers=0.0000
+[2026-03-20 07:04:59] electricity mlp None remove run=3 score=0.79179 outliers=0.0000
+[2026-03-20 07:06:09] electricity mlp None remove run=4 score=0.78561 outliers=0.0000
+[2026-03-20 07:06:09] RESULT electricity mlp None remove 0.7882 outliers=0.0000
+[2026-03-20 07:06:09] SKIP 98/360 electricity mlp ZScore remove
+[2026-03-20 07:06:09] SKIP 99/360 electricity mlp ZScore clip
+[2026-03-20 07:06:09] SKIP 100/360 electricity mlp Percentile remove
+[2026-03-20 07:06:09] SKIP 101/360 electricity mlp Percentile clip
+[2026-03-20 07:06:09] SKIP 102/360 electricity mlp IsolationForest remove
+[2026-03-20 07:06:09] SKIP 103/360 electricity mlp LOF remove
+[2026-03-20 07:06:09] SKIP 104/360 electricity mlp Autoencoder remove
+[2026-03-20 07:06:09] RUN 105/360 electricity xgboost None remove
+[2026-03-20 07:07:11] electricity xgboost None remove run=0 score=0.86263 outliers=0.0000
+[2026-03-20 07:08:11] electricity xgboost None remove run=1 score=0.86285 outliers=0.0000
+[2026-03-20 07:09:09] electricity xgboost None remove run=2 score=0.86528 outliers=0.0000
+[2026-03-20 07:10:09] electricity xgboost None remove run=3 score=0.86759 outliers=0.0000
+[2026-03-20 07:11:10] electricity xgboost None remove run=4 score=0.85888 outliers=0.0000
+[2026-03-20 07:11:10] RESULT electricity xgboost None remove 0.8634 outliers=0.0000
+[2026-03-20 07:11:10] RUN 106/360 electricity xgboost ZScore remove
+[2026-03-20 07:12:08] electricity xgboost ZScore remove run=0 score=0.85910 outliers=0.0118
+[2026-03-20 07:13:04] electricity xgboost ZScore remove run=1 score=0.86406 outliers=0.0112
+[2026-03-20 07:14:04] electricity xgboost ZScore remove run=2 score=0.86384 outliers=0.0115
+[2026-03-20 07:15:02] electricity xgboost ZScore remove run=3 score=0.86197 outliers=0.0122
+[2026-03-20 07:15:58] electricity xgboost ZScore remove run=4 score=0.85888 outliers=0.0126
+[2026-03-20 07:15:58] RESULT electricity xgboost ZScore remove 0.8616 outliers=0.0119
+[2026-03-20 07:15:58] RUN 107/360 electricity xgboost ZScore clip
+[2026-03-20 07:16:58] electricity xgboost ZScore clip run=0 score=0.86373 outliers=0.0118
+[2026-03-20 07:17:57] electricity xgboost ZScore clip run=1 score=0.86737 outliers=0.0112
+[2026-03-20 07:18:54] electricity xgboost ZScore clip run=2 score=0.86340 outliers=0.0115
+[2026-03-20 07:19:54] electricity xgboost ZScore clip run=3 score=0.86472 outliers=0.0122
+[2026-03-20 07:20:54] electricity xgboost ZScore clip run=4 score=0.85777 outliers=0.0126
+[2026-03-20 07:20:54] RESULT electricity xgboost ZScore clip 0.8634 outliers=0.0119
+[2026-03-20 07:20:54] RUN 108/360 electricity xgboost Percentile remove
+[2026-03-20 07:21:29] electricity xgboost Percentile remove run=0 score=0.77623 outliers=0.4493
+[2026-03-20 07:22:05] electricity xgboost Percentile remove run=1 score=0.77347 outliers=0.4471
+[2026-03-20 07:22:40] electricity xgboost Percentile remove run=2 score=0.77701 outliers=0.4492
+[2026-03-20 07:23:16] electricity xgboost Percentile remove run=3 score=0.78120 outliers=0.4494
+[2026-03-20 07:23:51] electricity xgboost Percentile remove run=4 score=0.76950 outliers=0.4512
+[2026-03-20 07:23:51] RESULT electricity xgboost Percentile remove 0.7755 outliers=0.4492
+[2026-03-20 07:23:51] RUN 109/360 electricity xgboost Percentile clip
+[2026-03-20 07:24:31] electricity xgboost Percentile clip run=0 score=0.81209 outliers=0.4493
+[2026-03-20 07:25:11] electricity xgboost Percentile clip run=1 score=0.82202 outliers=0.4471
+[2026-03-20 07:25:51] electricity xgboost Percentile clip run=2 score=0.82191 outliers=0.4492
+[2026-03-20 07:26:31] electricity xgboost Percentile clip run=3 score=0.81794 outliers=0.4494
+[2026-03-20 07:27:11] electricity xgboost Percentile clip run=4 score=0.81364 outliers=0.4512
+[2026-03-20 07:27:11] RESULT electricity xgboost Percentile clip 0.8175 outliers=0.4492
+[2026-03-20 07:27:11] RUN 110/360 electricity xgboost IsolationForest remove
+[2026-03-20 07:28:06] electricity xgboost IsolationForest remove run=0 score=0.84961 outliers=0.0500
+[2026-03-20 07:28:59] electricity xgboost IsolationForest remove run=1 score=0.85866 outliers=0.0500
