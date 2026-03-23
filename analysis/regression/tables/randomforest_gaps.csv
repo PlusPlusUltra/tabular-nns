@@ -1,0 +1,4 @@
+,Autoencoder_remove,IsolationForest_remove,LOF_remove,None_remove,Percentile_clip,Percentile_remove,ZScore_clip,ZScore_remove
+elevators,0.00139,0.00117,0.00116,0.00091,0.01286,0.04152,0.00126,0.00181
+socmob,-298.00124,-295.25165,-377.30818,-337.66853,-48.44934,-295.15147,-425.73938,-336.12292
+GAP_REDUCED,1/2,1/2,0/2,-,1/2,1/2,0/2,1/2

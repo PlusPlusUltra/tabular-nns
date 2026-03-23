@@ -1,0 +1,4 @@
+,mlp,randomforest,xgboost,outlier_pct
+elevators,0.00092,1e-05,1e-05,52.6819
+socmob,1183.38808,1521.05661,1394.04323,4.8444
+PEARSON_CORR,,,,

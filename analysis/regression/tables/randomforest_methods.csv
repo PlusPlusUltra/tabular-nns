@@ -1,0 +1,4 @@
+dataset,Autoencoder_remove,IsolationForest_remove,LOF_remove,None_remove,Percentile_clip,Percentile_remove,ZScore_clip,ZScore_remove
+elevators,1e-05,1e-05,1e-05,1e-05,1e-05,2e-05,1e-05,1e-05
+socmob,1897.52622,1909.12502,1740.9387,1521.05661,1914.0618,1894.64262,1664.54631,1607.88916
+IMPROVED,0/2,0/2,0/2,-,0/2,0/2,0/2,0/2
