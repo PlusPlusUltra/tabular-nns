@@ -1,0 +1,10 @@
+{
+    "name": "cpu_act",
+    "n_num_features": 12,
+    "n_cat_features": 0,
+    "train_size": 5242,
+    "val_size": 1311,
+    "test_size": 1639,
+    "task_type": "regression",
+    "openml_id": 562
+}

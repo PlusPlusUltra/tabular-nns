@@ -1,0 +1,10 @@
+{
+    "name": "Bike_Sharing_Demand",
+    "n_num_features": 10,
+    "n_cat_features": 2,
+    "train_size": 11122,
+    "val_size": 2781,
+    "test_size": 3476,
+    "task_type": "regression",
+    "openml_id": 42712
+}
