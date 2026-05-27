@@ -1,9 +1,0 @@
-cmc,mlp,None,0.54102,0.01019
-cmc,mlp,ZScore,0.54915,0.00643
-cmc,mlp,IsolationForest,0.47729,0.00920
-cmc,xgboost,None,0.47119,0.00000
-cmc,xgboost,ZScore,0.50508,0.00000
-cmc,xgboost,IsolationForest,0.39661,0.00000
-cmc,randomforest,None,0.46508,0.01257
-cmc,randomforest,ZScore,0.46576,0.01166
-cmc,randomforest,IsolationForest,0.40271,0.01379

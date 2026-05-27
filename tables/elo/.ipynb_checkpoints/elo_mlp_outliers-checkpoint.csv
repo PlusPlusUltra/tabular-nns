@@ -1,0 +1,9 @@
+method,elo
+mlp_ZScore_clip,1149.4688163461303
+mlp_Percentile_clip,1123.5926032446837
+mlp_LOF_remove,1030.1811025572592
+mlp_None_remove,1000.0
+mlp_Autoencoder_remove,961.7247058586609
+mlp_ZScore_remove,950.8252426873607
+mlp_IsolationForest_remove,877.4284012185714
+mlp_Percentile_remove,777.1242134049266
