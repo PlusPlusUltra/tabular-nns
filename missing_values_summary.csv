@@ -1,0 +1,15 @@
+dataset,rows,cols,missing_values,missing_pct,cols_with_missing,max_missing_in_one_col
+eucalyptus,470,19,333,3.729,9,71
+Bank_Customer_Churn_Dataset,6400,10,0,0.0,0,0
+cmc,942,9,0,0.0,0,0
+connect-4,43236,42,0,0.0,0,0
+credit-g,640,20,0,0.0,0,0
+elevators,10623,18,0,0.0,0,0
+eye_movements,6998,27,0,0.0,0,0
+house_16H,8632,16,0,0.0,0,0
+kc1,1349,21,0,0.0,0,0
+phoneme,3458,5,0,0.0,0,0
+pol,6452,26,0,0.0,0,0
+socmob,739,5,0,0.0,0,0
+splice,2041,60,0,0.0,0,0
+vehicle,540,18,0,0.0,0,0
